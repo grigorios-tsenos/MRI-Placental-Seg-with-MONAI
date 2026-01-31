@@ -149,46 +149,47 @@
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
-\contentsline {section}{\numberline {5.3}Προεπεξεργασία}{50}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Δειγματοληψία \foreignlanguage {english}{patches} και επαύξηση δεδομένων}{50}{section.5.4}%
+\contentsline {section}{\numberline {5.3}Αρχιτεκτονικές και πειραματικά σενάρια}{50}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Σχεδιασμός πειραμάτων και σενάρια}{50}{section.5.4}%
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
-\contentsline {section}{\numberline {5.5}Πρωτόκολλο εκπαίδευσης}{51}{section.5.5}%
-\contentsline {section}{\numberline {5.6}Διαδικασία αξιολόγησης και μετρικές}{51}{section.5.6}%
+\contentsline {section}{\numberline {5.5}Παρουσίαση αποτελεσμάτων}{51}{section.5.5}%
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
-\babel@toc {greek}{}\relax 
-\babel@toc {greek}{}\relax 
-\contentsline {section}{\numberline {5.7}Αρχιτεκτονικές και πειραματικά σενάρια}{52}{section.5.7}%
-\contentsline {section}{\numberline {5.8}Παρουσίαση αποτελεσμάτων}{52}{section.5.8}%
-\babel@toc {greek}{}\relax 
-\babel@toc {greek}{}\relax 
-\babel@toc {greek}{}\relax 
-\babel@toc {greek}{}\relax 
-\contentsline {chapter}{\numberline {6}Ανάλυση Αποτελεσμάτων και Συζήτηση}{55}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Συνοπτική κατάταξη μοντέλων και κύρια ευρήματα}{55}{section.6.1}%
-\contentsline {paragraph}{Τι να γράψεις εδώ (με 2--3 παραγράφους).}{55}{section.6.1}%
+\contentsline {chapter}{\numberline {6}Ανάλυση Αποτελεσμάτων και Συζήτηση}{53}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Συνοπτική κατάταξη μοντέλων και κύρια ευρήματα}{53}{section.6.1}%
+\contentsline {paragraph}{Τι να γράψεις εδώ (με 2--3 παραγράφους).}{53}{section.6.1}%
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
-\contentsline {section}{\numberline {6.2}Σταθερότητα εκπαίδευσης και σύγκλιση}{56}{section.6.2}%
-\contentsline {paragraph}{Προτεινόμενα σχήματα.}{56}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Επίδραση κατωφλίου και μετα-επεξεργασίας}{56}{section.6.3}%
-\contentsline {paragraph}{Προτεινόμενος πίνακας.}{56}{section.6.3}%
-\contentsline {section}{\numberline {6.4}Ποιοτική αξιολόγηση και \foreignlanguage {english}{error analysis}}{56}{section.6.4}%
+\contentsline {section}{\numberline {6.2}Σταθερότητα εκπαίδευσης και σύγκλιση}{54}{section.6.2}%
+\contentsline {paragraph}{Προτεινόμενα σχήματα.}{54}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Επίδραση κατωφλίου και μετα-επεξεργασίας}{54}{section.6.3}%
+\contentsline {paragraph}{Προτεινόμενος πίνακας.}{54}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Ποιοτική αξιολόγηση και \foreignlanguage {english}{error analysis}}{54}{section.6.4}%
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
-\contentsline {paragraph}{Τυπικά σφάλματα που αξίζει να σχολιάσεις.}{57}{section.6.4}%
-\contentsline {paragraph}{Προτεινόμενα σχήματα.}{57}{section.6.4}%
-\contentsline {section}{\numberline {6.5}Υπολογιστικό κόστος και πρακτικοί συμβιβασμοί}{57}{section.6.5}%
+\contentsline {paragraph}{Τυπικά σφάλματα που αξίζει να σχολιάσεις.}{55}{section.6.4}%
+\contentsline {paragraph}{Προτεινόμενα σχήματα.}{55}{section.6.4}%
+\contentsline {section}{\numberline {6.5}Υπολογιστικό κόστος και πρακτικοί συμβιβασμοί}{55}{section.6.5}%
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
-\contentsline {section}{\numberline {6.6}Σύγκριση με σχετικές εργασίες και περιορισμοί}{58}{section.6.6}%
-\contentsline {paragraph}{Περιορισμοί που αξίζει να δηλώσεις καθαρά.}{58}{section.6.6}%
-\contentsline {section}{\numberline {6.7}Σύνοψη}{58}{section.6.7}%
+\contentsline {section}{\numberline {6.6}Σύγκριση με σχετικές εργασίες και περιορισμοί}{56}{section.6.6}%
+\contentsline {paragraph}{Περιορισμοί που αξίζει να δηλώσεις καθαρά.}{56}{section.6.6}%
+\contentsline {section}{\numberline {6.7}Σύνοψη}{56}{section.6.7}%
+\contentsline {section}{\numberline {6.8}Προεπεξεργασία}{56}{section.6.8}%
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\contentsline {section}{\numberline {6.9}Δειγματοληψία \foreignlanguage {english}{patches} και επαύξηση δεδομένων}{57}{section.6.9}%
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\contentsline {section}{\numberline {6.10}Πρωτόκολλο εκπαίδευσης}{58}{section.6.10}%
+\contentsline {section}{\numberline {6.11}Διαδικασία αξιολόγησης και μετρικές}{58}{section.6.11}%
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
 \contentsline {chapter}{\numberline {7}Παράδειγμα Πίνακα}{59}{chapter.7}%

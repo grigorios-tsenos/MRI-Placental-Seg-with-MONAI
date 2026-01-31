@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Homebrew) (preloaded format=pdflatex 2025.11.7)  31 JAN 2026 16:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Homebrew) (preloaded format=pdflatex 2025.11.7)  31 JAN 2026 16:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1530,9 +1530,9 @@ Overfull \hbox (5.39873pt too wide) in paragraph at lines 77--77
 [9]
 
 LaTeX Font Info:    Font shape `LGR/mak/m/n' will be
-(Font)              scaled to size 8.09995pt on input line 179.
+(Font)              scaled to size 8.09995pt on input line 182.
 LaTeX Font Info:    Font shape `T1/mak/m/n' will be
-(Font)              scaled to size 8.09995pt on input line 179.
+(Font)              scaled to size 8.09995pt on input line 182.
 [10])
 \tf@toc=\write4
 \openout4 = `main.toc'.
@@ -1649,17 +1649,17 @@ Overfull \hbox (2.48936pt too wide) in paragraph at lines 31--35
 
 
 [28{/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/enc/dvips/kerkis/kmath.enc}{/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/enc/dvips/base/8r.enc}]
-<figures/First Slice along segmentation and 3D view.png, id=431, 1187.43625pt x 431.6125pt>
+<figures/First Slice along segmentation and 3D view.png, id=433, 1187.43625pt x 431.6125pt>
 File: figures/First Slice along segmentation and 3D view.png Graphic file (type png)
 <use figures/First Slice along segmentation and 3D view.png>
 Package pdftex.def Info: figures/First Slice along segmentation and 3D view.png  used on input line 88.
 (pdftex.def)             Requested size: 341.43436pt x 124.10408pt.
-<figures/Second Slice along segmentation and 3D view.png, id=432, 1187.43625pt x 431.6125pt>
+<figures/Second Slice along segmentation and 3D view.png, id=434, 1187.43625pt x 431.6125pt>
 File: figures/Second Slice along segmentation and 3D view.png Graphic file (type png)
 <use figures/Second Slice along segmentation and 3D view.png>
 Package pdftex.def Info: figures/Second Slice along segmentation and 3D view.png  used on input line 89.
 (pdftex.def)             Requested size: 341.43436pt x 124.10408pt.
-<figures/Third Slice along segmentation and 3D view.png, id=433, 1187.43625pt x 431.6125pt>
+<figures/Third Slice along segmentation and 3D view.png, id=435, 1187.43625pt x 431.6125pt>
 File: figures/Third Slice along segmentation and 3D view.png Graphic file (type png)
 <use figures/Third Slice along segmentation and 3D view.png>
 Package pdftex.def Info: figures/Third Slice along segmentation and 3D view.png  used on input line 90.
@@ -1763,7 +1763,7 @@ Package lettrine.sty Info: Targeted height = 21.27205pt
 [41]
 
 [42]
-<../Images and data for diploma/Screenshot 2026-01-26 at 19.02.46.png, id=601, 221.82875pt x 139.52126pt>
+<../Images and data for diploma/Screenshot 2026-01-26 at 19.02.46.png, id=603, 221.82875pt x 139.52126pt>
 File: ../Images and data for diploma/Screenshot 2026-01-26 at 19.02.46.png Graphic file (type png)
 <use ../Images and data for diploma/Screenshot 2026-01-26 at 19.02.46.png>
 Package pdftex.def Info: ../Images and data for diploma/Screenshot 2026-01-26 at 19.02.46.png  used on input line 101.
@@ -1821,37 +1821,22 @@ LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
 
 
 ]
-Overfull \hbox (1.5514pt too wide) in paragraph at lines 61--65
-[]\LGR/mak/m/n/10.95 Oi me-ta-sqh-ma-ti-smo-Ð gia thn pro-e-pe-xer-ga-sÐa e-pi-lèqjh-kan a-po thn bi-blio-j kh thc []\T1/mak/m/n/10.95 MONAI
- []
+
+LaTeX Warning: Reference `ch:protocol' on page 50 undefined on input line 88.
 
 
-Overfull \hbox (9.97374pt too wide) in paragraph at lines 77--81
-[][]\T1/mak/b/n/10.95 Padding []\LGR/mak/m/n/10.95 se sta-je-rì []\T1/mak/m/n/10.95 roi_-size $\OT1/txr/m/n/10.95 (\T1/mak/m/n/10.95 96\OML/mak/m/it/10.95 ; \T1/mak/m/n/10.95 96\OML/mak/m/it/10.95 ; \T1/mak/m/n/10.95 64\OT1/txr/m/n/10.95 )$ []\LGR/mak/m/n/10.95 kai e-pi-plèon []\T1/mak/b/n/10.95 di-vis-i-ble padding []\LGR/mak/m/n/10.95 (se $\OT1/txr/m/n/10.95 (\T1/mak/m/n/10.95 32\OML/mak/m/it/10.95 ; \T1/mak/m/n/10.95 32\OML/mak/m/it/10.95 ; \T1/mak/m/n/10.95 16\OT1/txr/m/n/10.95 )$\LGR/mak/m/n/10.95 )
- []
-
-LaTeX Font Info:    Trying to load font information for OT1+mak on input line 108.
-(/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/kerkis/ot1mak.fd)
-LaTeX Font Info:    Font shape `OT1/mak/m/n' will be
-(Font)              scaled to size 9.85492pt on input line 108.
-
-
-[50]
-
-LaTeX Warning: Citation `smith2017cyclical' on page 51 undefined on input line 142.
+LaTeX Warning: Reference `ch:protocol' on page 50 undefined on input line 97.
 
 
 
-[51{/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/enc/dvips/kerkis/kerkis.enc}]
+[50])
 
-[52])
-
-[53]
+[51]
 \openout2 = `body_matter/chap6.aux'.
 
  (./body_matter/chap6.tex
 
-[54
+[52
 
 
 
@@ -1859,28 +1844,50 @@ LaTeX Warning: Citation `smith2017cyclical' on page 51 undefined on input line 1
 ]
 \textKappa \textepsilon \textphi \acctonos \textalpha \textlambda \textalpha \textiota \textomicron  6.
 
-LaTeX Warning: Citation `morgese2024imbalance' on page 55 undefined on input line 28.
+LaTeX Warning: Citation `morgese2024imbalance' on page 53 undefined on input line 28.
+
+
+
+[53]
+
+LaTeX Warning: Citation `morgese2024imbalance' on page 54 undefined on input line 88.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+[54]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 
 [55]
 
-LaTeX Warning: Citation `morgese2024imbalance' on page 56 undefined on input line 88.
+LaTeX Warning: Citation `morgese2024imbalance' on page 56 undefined on input line 222.
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Overfull \hbox (1.5514pt too wide) in paragraph at lines 238--242
+[]\LGR/mak/m/n/10.95 Oi me-ta-sqh-ma-ti-smo-Ð gia thn pro-e-pe-xer-ga-sÐa e-pi-lèqjh-kan a-po thn bi-blio-j kh thc []\T1/mak/m/n/10.95 MONAI
+ []
 
 
 
 [56]
+Overfull \hbox (9.97374pt too wide) in paragraph at lines 254--258
+[][]\T1/mak/b/n/10.95 Padding []\LGR/mak/m/n/10.95 se sta-je-rì []\T1/mak/m/n/10.95 roi_-size $\OT1/txr/m/n/10.95 (\T1/mak/m/n/10.95 96\OML/mak/m/it/10.95 ; \T1/mak/m/n/10.95 96\OML/mak/m/it/10.95 ; \T1/mak/m/n/10.95 64\OT1/txr/m/n/10.95 )$ []\LGR/mak/m/n/10.95 kai e-pi-plèon []\T1/mak/b/n/10.95 di-vis-i-ble padding []\LGR/mak/m/n/10.95 (se $\OT1/txr/m/n/10.95 (\T1/mak/m/n/10.95 32\OML/mak/m/it/10.95 ; \T1/mak/m/n/10.95 32\OML/mak/m/it/10.95 ; \T1/mak/m/n/10.95 16\OT1/txr/m/n/10.95 )$\LGR/mak/m/n/10.95 )
+ []
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+LaTeX Font Info:    Trying to load font information for OT1+mak on input line 285.
+(/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/kerkis/ot1mak.fd)
+LaTeX Font Info:    Font shape `OT1/mak/m/n' will be
+(Font)              scaled to size 9.85492pt on input line 285.
 
 
+[57{/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/enc/dvips/kerkis/kerkis.enc}]
 
-[57]
-
-LaTeX Warning: Citation `morgese2024imbalance' on page 58 undefined on input line 222.
+LaTeX Warning: Citation `smith2017cyclical' on page 58 undefined on input line 319.
 
 )
 
@@ -1991,7 +1998,7 @@ Overfull \hbox (2.0pt too wide) in paragraph at lines 33--33
 
  (./back_matter/appB.tex
 \textPi \textalpha \textrho \acctonos \textalpha \textrho \texttau \texteta \textmu \textalpha  {\greekscript \textBeta \textnumeralsigngreek }.
-<figures/2.png, id=813, 187.70125pt x 119.44624pt>
+<figures/2.png, id=815, 187.70125pt x 119.44624pt>
 File: figures/2.png Graphic file (type png)
 <use figures/2.png>
 Package pdftex.def Info: figures/2.png  used on input line 25.
@@ -2076,7 +2083,7 @@ LaTeX Warning: Citation `MSU-CSE-05-29' on page 73 undefined on input line 28.
 
 ]
 \textPi \textalpha \textrho \acctonos \textalpha \textrho \texttau \texteta \textmu \textalpha  {\greekscript \textEpsilon \textnumeralsigngreek }.
-<figures/frog.jpg, id=841, 748.7975pt x 741.77126pt>
+<figures/frog.jpg, id=843, 748.7975pt x 741.77126pt>
 File: figures/frog.jpg Graphic file (type jpg)
 <use figures/frog.jpg>
 Package pdftex.def Info: figures/frog.jpg  used on input line 6.
@@ -2138,10 +2145,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 32257 strings out of 473190
- 590079 string characters out of 5704335
- 1124486 words of memory out of 5000000
- 54480 multiletter control sequences out of 15000+600000
+ 32261 strings out of 473190
+ 590127 string characters out of 5704335
+ 1124694 words of memory out of 5000000
+ 54483 multiletter control sequences out of 15000+600000
  645263 words of font info for 214 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,13n,107p,1561b,1545s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2149,10 +2156,10 @@ Here is how much of TeX's memory you used:
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
 
 </opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/kerkis/Kerkis-Bold.pfb></opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/kerkis/Kerkis-Italic.pfb></opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/kerkis/Kerkis-SmallCaps.pfb></opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/kerkis/Kerkis.pfb></opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb></opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/txfonts/txex.pfb></opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb></opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on main.pdf (94 pages, 1229482 bytes).
+Output written on main.pdf (94 pages, 1230008 bytes).
 PDF statistics:
- 1309 PDF objects out of 1440 (max. 8388607)
- 1159 compressed objects within 12 object streams
- 282 named destinations out of 1000 (max. 500000)
- 797 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1315 PDF objects out of 1440 (max. 8388607)
+ 1165 compressed objects within 12 object streams
+ 283 named destinations out of 1000 (max. 500000)
+ 805 words of extra memory for PDF output out of 10000 (max. 10000000)
 
