@@ -159,14 +159,12 @@
 \en{sliding window inference} με \en{overlap=0.5} και \en{gaussian blending},
 ώστε να είναι εφικτή η αξιολόγηση υπό περιορισμούς μνήμης.
 
-Η κύρια μετρική αναφοράς είναι ο \textbf{συντελεστής \en{Dice}}
-\cite{dice1945}:
+Η κύρια μετρική αναφοράς είναι ο \textbf{συντελεστής \en{Dice}}:
 \[
 \mathrm{Dice}(P,G) = \frac{2|P\cap G|}{|P|+|G|},
 \]
 όπου $P$ η δυαδική πρόβλεψη και $G$ η δυαδική μάσκα αναφοράς.
-Επιπλέον καταγράφεται το \textbf{\en{Intersection-over-Union (IoU/Jaccard)}}
-\cite{jaccard1912}:
+Επιπλέον καταγράφεται το \textbf{\en{Intersection-over-Union (IoU/Jaccard)}}:
 \[
 \mathrm{IoU}(P,G) = \frac{|P\cap G|}{|P\cup G|}.
 \]
@@ -191,7 +189,7 @@
   \item \en{DynUNet} \cite{isensee2021nnunet}
   \item \en{UNETR} \cite{hatamizadeh2022unetr}
   \item \en{SwinUNETR} \cite{hatamizadeh2022swinunetr}
-  \item \en{SegResNet} \cite{myronenko2018autoencoder}
+  \item \en{SegResNet} \cite{myronenko2018segresnet}
   \item \en{SegMamba} \cite{xing2024segmamba}
 \end{itemize}
 

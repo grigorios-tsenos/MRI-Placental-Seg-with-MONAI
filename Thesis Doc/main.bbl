@@ -241,7 +241,7 @@
 \bibitem{monai_docs}
 {{\latintext { }{Project MONAI}}}.
 \newblock {{\latintext {\color{\colouredtextcolor} {\em MONAI Documentation}}}}.
-\newblock {{\latintext \url{https://docs.monai.io/}}}, 2025.
+\newblock {{\latintext \url{https://monai-dev.readthedocs.io/en/new-doc-theme/api.html}}}, 2025.
 \newblock Accessed: 2026-01-25.
 
 \bibitem{monai_github}

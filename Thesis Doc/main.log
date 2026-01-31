@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Homebrew) (preloaded format=pdflatex 2025.11.7)  31 JAN 2026 16:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Homebrew) (preloaded format=pdflatex 2025.11.7)  31 JAN 2026 16:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1841,18 +1841,8 @@ LaTeX Font Info:    Font shape `OT1/mak/m/n' will be
 LaTeX Warning: Citation `smith2017cyclical' on page 51 undefined on input line 142.
 
 
-LaTeX Warning: Citation `dice1945' on page 51 undefined on input line 163.
-
-
 
 [51{/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/enc/dvips/kerkis/kerkis.enc}]
-
-LaTeX Warning: Citation `jaccard1912' on page 52 undefined on input line 169.
-
-
-LaTeX Warning: Citation `myronenko2018autoencoder' on page 52 undefined on input line 194.
-
-
 
 [52])
 
@@ -2001,7 +1991,7 @@ Overfull \hbox (2.0pt too wide) in paragraph at lines 33--33
 
  (./back_matter/appB.tex
 \textPi \textalpha \textrho \acctonos \textalpha \textrho \texttau \texteta \textmu \textalpha  {\greekscript \textBeta \textnumeralsigngreek }.
-<figures/2.png, id=812, 187.70125pt x 119.44624pt>
+<figures/2.png, id=813, 187.70125pt x 119.44624pt>
 File: figures/2.png Graphic file (type png)
 <use figures/2.png>
 Package pdftex.def Info: figures/2.png  used on input line 25.
@@ -2086,7 +2076,7 @@ LaTeX Warning: Citation `MSU-CSE-05-29' on page 73 undefined on input line 28.
 
 ]
 \textPi \textalpha \textrho \acctonos \textalpha \textrho \texttau \texteta \textmu \textalpha  {\greekscript \textEpsilon \textnumeralsigngreek }.
-<figures/frog.jpg, id=840, 748.7975pt x 741.77126pt>
+<figures/frog.jpg, id=841, 748.7975pt x 741.77126pt>
 File: figures/frog.jpg Graphic file (type jpg)
 <use figures/frog.jpg>
 Package pdftex.def Info: figures/frog.jpg  used on input line 6.
@@ -2159,10 +2149,10 @@ Here is how much of TeX's memory you used:
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
 
 </opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/kerkis/Kerkis-Bold.pfb></opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/kerkis/Kerkis-Italic.pfb></opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/kerkis/Kerkis-SmallCaps.pfb></opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/kerkis/Kerkis.pfb></opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb></opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/txfonts/txex.pfb></opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb></opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on main.pdf (94 pages, 1229524 bytes).
+Output written on main.pdf (94 pages, 1229482 bytes).
 PDF statistics:
- 1307 PDF objects out of 1440 (max. 8388607)
- 1157 compressed objects within 12 object streams
+ 1309 PDF objects out of 1440 (max. 8388607)
+ 1159 compressed objects within 12 object streams
  282 named destinations out of 1000 (max. 500000)
  797 words of extra memory for PDF output out of 10000 (max. 10000000)
 
