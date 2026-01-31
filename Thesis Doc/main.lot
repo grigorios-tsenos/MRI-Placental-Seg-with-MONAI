@@ -66,6 +66,25 @@
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\addvspace {10\p@ }
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
 \addvspace {10\p@ }
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
@@ -79,6 +98,7 @@
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
+\contentsline {table}{\numberline {5.1}{\ignorespaces Σύνοψη αποτελεσμάτων ανά αρχιτεκτονική στο \foreignlanguage {english}{validation set}.}}{53}{table.caption.13}%
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
 \addvspace {10\p@ }
@@ -88,7 +108,12 @@
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
-\addvspace {10\p@ }
+\contentsline {table}{\numberline {6.1}{\ignorespaces Επίδραση κατωφλίου και μετα-επεξεργασίας στο \foreignlanguage {english}{validation set}.}}{57}{table.caption.14}%
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\contentsline {table}{\numberline {6.2}{\ignorespaces Ενδεικτικός πίνακας κόστους (συμπλήρωσε από τα \foreignlanguage {english}{logs}).}}{58}{table.caption.15}%
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
 \addvspace {10\p@ }
@@ -96,7 +121,7 @@
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
-\contentsline {table}{\numberline {7.1}{\ignorespaces Πίνακας αλήθειας της λογικής συνάρτησης \foreignlanguage {english}{F}}}{50}{table.caption.12}%
+\contentsline {table}{\numberline {7.1}{\ignorespaces Πίνακας αλήθειας της λογικής συνάρτησης \foreignlanguage {english}{F}}}{60}{table.caption.16}%
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
 \addvspace {10\p@ }
@@ -122,7 +147,7 @@
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
-\contentsline {table}{\numberline {{\greekscript \textAlpha \textnumeralsigngreek }.1}{\ignorespaces Πίνακας αλήθειας της λογικής συνάρτησης \foreignlanguage {english}{F}}}{60}{table.caption.15}%
+\contentsline {table}{\numberline {{\greekscript \textAlpha \textnumeralsigngreek }.1}{\ignorespaces Πίνακας αλήθειας της λογικής συνάρτησης \foreignlanguage {english}{F}}}{70}{table.caption.19}%
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
 \addvspace {10\p@ }
@@ -139,6 +164,8 @@
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
 \addvspace {10\p@ }
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 

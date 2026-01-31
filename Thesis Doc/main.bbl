@@ -1,5 +1,10 @@
 \begin{thebibliography}{10}
 
+\bibitem{he2016resnet}
+{{\latintext Kaiming{ }He, Xiangyu{ }Zhang, Shaoqing{ }Ren \textgreek{kai} Jian{ }Sun}}.
+\newblock {\color{\colouredtextcolor} {{\latintext {\em Deep Residual Learning for Image Recognition}}}}.
+\newblock {{\latintext  {\em Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)}}}, \textgreek{sel'ides} 770--778, 2016.
+
 \bibitem{alan._2016}
 {{\latintext A{ }Alansary, K{ }Kamnitsas, A{ }Davidson, R{ }Khlebnikov, M{ }Rajchl, C{ }Malamateniou, M{ }Rutherford, JV{ }Hajnal, B{ }Glocker, D{ }Rueckert \textgreek{kai} et{ }al.}}
 \newblock {{\latintext {\color{\colouredtextcolor} {\em Fast Fully Automatic Segmentation of the Human Placenta from Motion Corrupted MRI}}}}.
@@ -139,6 +144,11 @@
 \newblock {{\latintext {\color{\colouredtextcolor} {\em Segmentation of Liver Tumors by Monai and PyTorch in CT Images with Deep Learning Techniques}}}}.
 \newblock {{\latintext {\em Applied Sciences}}}, 14(12), 2024.
 
+\bibitem{litjens2017survey}
+{{\latintext Geert{ }Litjens, Thijs{ }Kooi, Babak Ehteshami{ }Bejnordi, Arnaud Arindra Adiyoso{ }Setio, Francesco{ }Ciompi, Mohsen{ }Ghafoorian, Jeroen A. W. M.van der{ }Laak, Bramvan{ }Ginneken \textgreek{kai} Clara I.{ }S{\'a}nchez}}.
+\newblock {{\latintext {\color{\colouredtextcolor} {\em A survey on deep learning in medical image analysis}}}}.
+\newblock {{\latintext {\em Medical Image Analysis}}}, 42:60--88, 2017.
+
 \bibitem{goodfellow2016deep}
 {{\latintext Ian{ }Goodfellow, Yoshua{ }Bengio \textgreek{kai} Aaron{ }Courville}}.
 \newblock {{\latintext {\color{\colouredtextcolor} {\em Deep Learning}}}}.
@@ -149,30 +159,25 @@
 \newblock {{\latintext {\color{\colouredtextcolor} {\em Pattern Recognition and Machine Learning}}}}.
 \newblock {{\latintext Springer}}, 2006.
 
-\bibitem{litjens2017survey}
-{{\latintext Geert{ }Litjens, Thijs{ }Kooi, Babak Ehteshami{ }Bejnordi, Arnaud Arindra Adiyoso{ }Setio, Francesco{ }Ciompi, Mohsen{ }Ghafoorian, Jeroen A. W. M.van der{ }Laak, Bramvan{ }Ginneken \textgreek{kai} Clara I.{ }S{\'a}nchez}}.
-\newblock {{\latintext {\color{\colouredtextcolor} {\em A survey on deep learning in medical image analysis}}}}.
-\newblock {{\latintext {\em Medical Image Analysis}}}, 42:60--88, 2017.
+\bibitem{sudre2017gdl}
+{{\latintext Carole H.{ }Sudre, Wenqi{ }Li, Tom{ }Vercauteren, Sebastien{ }Ourselin \textgreek{kai} M. Jorge{ }Cardoso}}.
+\newblock {\color{\colouredtextcolor} {{\latintext {\em Generalised Dice Overlap as a Deep Learning Loss Function for Highly Unbalanced Segmentations}}}}.
+\newblock {{\latintext  {\em Deep Learning in Medical Image Analysis and Multimodal Learning for Clinical Decision Support (DLMIA 2017)}}}, \textgreek{t'omos} 10553 \textgreek{sto} {\em {{\latintext Lecture Notes in Computer Science}}}, \textgreek{sel'ides} 240--248. {{\latintext Springer}}, 2017.
 
 \bibitem{milletari2016vnet}
 {{\latintext Fausto{ }Milletari, Nassir{ }Navab \textgreek{kai} Seyed Ahmad{ }Ahmadi}}.
 \newblock {{\latintext {\color{\colouredtextcolor} {\em V-Net: Fully Convolutional Neural Networks for Volumetric Medical Image Segmentation}}}}.
 \newblock {{\latintext arXiv preprint}}, 2016.
 
-\bibitem{lecun1998gradient}
-{{\latintext Yann{ }LeCun, L{\'e}on{ }Bottou, Yoshua{ }Bengio \textgreek{kai} Patrick{ }Haffner}}.
-\newblock {{\latintext {\color{\colouredtextcolor} {\em Gradient-Based Learning Applied to Document Recognition}}}}.
-\newblock {{\latintext {\em Proceedings of the IEEE}}}, 86(11):2278--2324, 1998.
+\bibitem{aggarwal2018neural}
+{{\latintext Charu C{ }Aggarwal \textgreek{kai} { }others}}.
+\newblock {{\latintext {\color{\colouredtextcolor} {\em Neural networks and deep learning}}}}, \textgreek{t'omos}\nobreakspace{}10.
+\newblock {{\latintext Springer}}, 2018.
 
 \bibitem{krizhevsky2012imagenet}
 {{\latintext Alex{ }Krizhevsky, Ilya{ }Sutskever \textgreek{kai} Geoffrey E.{ }Hinton}}.
 \newblock {\color{\colouredtextcolor} {{\latintext {\em ImageNet Classification with Deep Convolutional Neural Networks}}}}.
 \newblock {{\latintext  {\em Advances in Neural Information Processing Systems (NeurIPS)}}}, 2012.
-
-\bibitem{he2016resnet}
-{{\latintext Kaiming{ }He, Xiangyu{ }Zhang, Shaoqing{ }Ren \textgreek{kai} Jian{ }Sun}}.
-\newblock {\color{\colouredtextcolor} {{\latintext {\em Deep Residual Learning for Image Recognition}}}}.
-\newblock {{\latintext  {\em Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)}}}, \textgreek{sel'ides} 770--778, 2016.
 
 \bibitem{long2015fcn}
 {{\latintext Jonathan{ }Long, Evan{ }Shelhamer \textgreek{kai} Trevor{ }Darrell}}.
@@ -214,19 +219,52 @@
 \newblock {{\latintext {\color{\colouredtextcolor} {\em Rethinking Attention with Performers}}}}.
 \newblock 2021.
 
-\bibitem{gu2021s4}
+\bibitem{gu2021efficiently}
 {{\latintext Albert{ }Gu, Karan{ }Goel \textgreek{kai} Christopher{ }R{\'e}}}.
 \newblock {{\latintext {\color{\colouredtextcolor} {\em Efficiently Modeling Long Sequences with Structured State Spaces}}}}.
-\newblock 2021.
+\newblock {{\latintext {\em International Conference on Learning Representations (ICLR)}}}, 2022.
+
+\bibitem{goel2022its}
+{{\latintext Karan{ }Goel, Albert{ }Gu, Chris{ }Donahue \textgreek{kai} Christopher{ }R{\'e}}}.
+\newblock {\color{\colouredtextcolor} {{\latintext {\em It's Raw! Audio Generation with State-Space Models}}}}.
+\newblock {{\latintext  {\em International Conference on Machine Learning (ICML)}}}, 2022.
 
 \bibitem{loshchilov2019adamw}
 {{\latintext Ilya{ }Loshchilov \textgreek{kai} Frank{ }Hutter}}.
 \newblock {{\latintext {\color{\colouredtextcolor} {\em Decoupled Weight Decay Regularization}}}}.
 \newblock {{\latintext arXiv preprint}}, 2019.
 
+\bibitem{lr_schedulers}
+{{\latintext {\color{\colouredtextcolor} {\em Learning Rate Schedulers in PyTorch}}}}.
+\newblock Accessed: 2024-06-10.
+
+\bibitem{monai_docs}
+{{\latintext { }{Project MONAI}}}.
+\newblock {{\latintext {\color{\colouredtextcolor} {\em MONAI Documentation}}}}.
+\newblock {{\latintext \url{https://docs.monai.io/}}}, 2025.
+\newblock Accessed: 2026-01-25.
+
+\bibitem{monai_github}
+{{\latintext { }{Project MONAI}}}.
+\newblock {{\latintext {\color{\colouredtextcolor} {\em Project MONAI: {MONAI} (GitHub Repository)}}}}.
+\newblock {{\latintext \url{https://github.com/Project-MONAI/MONAI}}}, 2025.
+\newblock Accessed: 2026-01-25.
+
+\bibitem{segmamba_github}
+{{\latintext Zhaohu{ }Xing, Tian{ }Ye, Yijun{ }Yang, Guang{ }Liu \textgreek{kai} Lei{ }Zhu}}.
+\newblock {{\latintext {\color{\colouredtextcolor} {\em SegMamba: Official Implementation (GitHub Repository)}}}}.
+\newblock {{\latintext \url{https://github.com/ge-xing/SegMamba}}}, 2024.
+\newblock Accessed: 2026-01-25.
+
 \bibitem{isensee2021nnunet}
 {{\latintext Fabian{ }Isensee, Paul F.{ }Jaeger, Simon A. A.{ }Kohl, Jens{ }Petersen \textgreek{kai} Klaus H.{ }Maier-Hein}}.
 \newblock {{\latintext {\color{\colouredtextcolor} {\em nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation}}}}.
 \newblock {{\latintext {\em Nature Methods}}}, 18(2):203--211, 2021.
+
+\bibitem{monaitransforms}
+{{\latintext { }{Project MONAI}}}.
+\newblock {{\latintext {\color{\colouredtextcolor} {\em MONAI Transforms Documentation}}}}.
+\newblock {{\latintext \url{https://monai-dev.readthedocs.io/en/new-doc-theme/transforms.html#dictionary-transforms}}}, 2024.
+\newblock Accessed: 2024-06-10.
 
 \end{thebibliography}

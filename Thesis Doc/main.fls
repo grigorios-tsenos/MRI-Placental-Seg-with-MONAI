@@ -725,6 +725,11 @@ OUTPUT body_matter/chap4.aux
 INPUT ./body_matter/chap4.tex
 INPUT ./body_matter/chap4.tex
 INPUT body_matter/chap4.tex
+INPUT ../Images and data for diploma/Screenshot 2026-01-26 at 19.02.46.png
+INPUT ../Images and data for diploma/Screenshot 2026-01-26 at 19.02.46.png
+INPUT ../Images and data for diploma/Screenshot 2026-01-26 at 19.02.46.png
+INPUT ../Images and data for diploma/Screenshot 2026-01-26 at 19.02.46.png
+INPUT ../Images and data for diploma/Screenshot 2026-01-26 at 19.02.46.png
 INPUT ./body_matter/chap5.tex
 INPUT ./body_matter/chap5.tex
 OUTPUT body_matter/chap5.aux
@@ -737,6 +742,15 @@ INPUT /opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/bera/t1
 INPUT /opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/tfm/public/bera/fvmr8t.tfm
 INPUT /opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/vf/public/bera/fvmr8t.vf
 INPUT /opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/tfm/public/bera/fvmr8r.tfm
+INPUT /opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/tfm/public/bera/fvmr8t.tfm
+INPUT /opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/tfm/public/bera/fvmr8t.tfm
+INPUT /opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/kerkis/ot1mak.fd
+INPUT /opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/kerkis/ot1mak.fd
+INPUT /opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/kerkis/ot1mak.fd
+INPUT /opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/tfm/public/kerkis/k8a.tfm
+INPUT /opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/vf/public/kerkis/k8a.vf
+INPUT /opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/tfm/public/kerkis/k8r.tfm
+INPUT /opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/enc/dvips/kerkis/kerkis.enc
 INPUT ./body_matter/chap6.tex
 INPUT ./body_matter/chap6.tex
 OUTPUT body_matter/chap6.aux
