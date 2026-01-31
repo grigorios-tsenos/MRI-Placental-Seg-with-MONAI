@@ -23,6 +23,8 @@
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
 \contentsline {chapter}{Πρόλογος}{19}{chapter*.8}%
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
@@ -143,67 +145,62 @@
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
 \contentsline {chapter}{\numberline {5}Πειραματική Αξιολόγηση και Αποτελέσματα}{49}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Υλοποίηση και λογισμικό}{49}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Σύνολο δεδομένων και διαχωρισμός}{49}{section.5.2}%
+\contentsline {section}{\numberline {5.1}Στόχοι αξιολόγησης και αρχές σύγκρισης}{49}{section.5.1}%
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
-\contentsline {section}{\numberline {5.3}Αρχιτεκτονικές και πειραματικά σενάρια}{50}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Σχεδιασμός πειραμάτων και σενάρια}{50}{section.5.4}%
+\contentsline {section}{\numberline {5.2}Υλοποίηση και λογισμικό}{50}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Σύνολο δεδομένων και διαχωρισμός}{50}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Αρχιτεκτονικές και πειραματικά σενάρια}{50}{section.5.4}%
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
+\contentsline {paragraph}{Οικογένειες μοντέλων.}{51}{section.5.4}%
 \contentsline {section}{\numberline {5.5}Παρουσίαση αποτελεσμάτων}{51}{section.5.5}%
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
-\contentsline {chapter}{\numberline {6}Ανάλυση Αποτελεσμάτων και Συζήτηση}{53}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Συνοπτική κατάταξη μοντέλων και κύρια ευρήματα}{53}{section.6.1}%
-\contentsline {paragraph}{Τι να γράψεις εδώ (με 2--3 παραγράφους).}{53}{section.6.1}%
+\contentsline {chapter}{\numberline {6}Πειραματικό Πρωτόκολλο και Υλοποίηση}{53}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Υπολογιστικό περιβάλλον και εκτέλεση πειραμάτων}{53}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Οργάνωση δεδομένων και ροή φόρτωσης}{53}{section.6.2}%
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
-\contentsline {section}{\numberline {6.2}Σταθερότητα εκπαίδευσης και σύγκλιση}{54}{section.6.2}%
-\contentsline {paragraph}{Προτεινόμενα σχήματα.}{54}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Επίδραση κατωφλίου και μετα-επεξεργασίας}{54}{section.6.3}%
-\contentsline {paragraph}{Προτεινόμενος πίνακας.}{54}{section.6.3}%
-\contentsline {section}{\numberline {6.4}Ποιοτική αξιολόγηση και \foreignlanguage {english}{error analysis}}{54}{section.6.4}%
+\contentsline {section}{\numberline {6.3}Ανάλυση στοίβας προεπεξεργασίας}{54}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Γεωμετρική εναρμόνιση και σταθεροποίηση εισόδου}{54}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}Κανονικοποίηση εντάσεων}{54}{subsection.6.3.2}%
+\contentsline {subsection}{\numberline {6.3.3}Περιορισμός πεδίου (ROI) με \foreignlanguage {english}{foreground cropping}}{54}{subsection.6.3.3}%
+\contentsline {subsection}{\numberline {6.3.4}Σταθεροποίηση διαστάσεων για συμβατότητα μοντέλων}{54}{subsection.6.3.4}%
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
-\contentsline {paragraph}{Τυπικά σφάλματα που αξίζει να σχολιάσεις.}{55}{section.6.4}%
-\contentsline {paragraph}{Προτεινόμενα σχήματα.}{55}{section.6.4}%
-\contentsline {section}{\numberline {6.5}Υπολογιστικό κόστος και πρακτικοί συμβιβασμοί}{55}{section.6.5}%
-\babel@toc {greek}{}\relax 
-\babel@toc {greek}{}\relax 
-\babel@toc {greek}{}\relax 
-\babel@toc {greek}{}\relax 
-\contentsline {section}{\numberline {6.6}Σύγκριση με σχετικές εργασίες και περιορισμοί}{56}{section.6.6}%
-\contentsline {paragraph}{Περιορισμοί που αξίζει να δηλώσεις καθαρά.}{56}{section.6.6}%
-\contentsline {section}{\numberline {6.7}Σύνοψη}{56}{section.6.7}%
-\contentsline {section}{\numberline {6.8}Προεπεξεργασία}{56}{section.6.8}%
-\babel@toc {greek}{}\relax 
-\babel@toc {greek}{}\relax 
-\contentsline {section}{\numberline {6.9}Δειγματοληψία \foreignlanguage {english}{patches} και επαύξηση δεδομένων}{57}{section.6.9}%
+\contentsline {section}{\numberline {6.4}Δειγματοληψία \foreignlanguage {english}{patches} και επαύξηση δεδομένων}{55}{section.6.4}%
+\contentsline {section}{\numberline {6.5}Συνάρτηση κόστους και βελτιστοποίηση}{55}{section.6.5}%
+\contentsline {subsection}{\numberline {6.5.1}Κριτήριο εκπαίδευσης}{55}{subsection.6.5.1}%
+\contentsline {subsection}{\numberline {6.5.2}Optimizer}{55}{subsection.6.5.2}%
+\contentsline {subsection}{\numberline {6.5.3}Scheduler}{55}{subsection.6.5.3}%
+\contentsline {section}{\numberline {6.6}Επικύρωση και διαδικασία \foreignlanguage {english}{inference}}{55}{section.6.6}%
+\contentsline {subsection}{\numberline {6.6.1}\foreignlanguage {english}{Sliding Window Inference (SWI)}}{55}{subsection.6.6.1}%
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
-\contentsline {section}{\numberline {6.10}Πρωτόκολλο εκπαίδευσης}{58}{section.6.10}%
-\contentsline {section}{\numberline {6.11}Διαδικασία αξιολόγησης και μετρικές}{58}{section.6.11}%
+\contentsline {subsection}{\numberline {6.6.2}EMA (Exponential Moving Average)}{56}{subsection.6.6.2}%
+\contentsline {subsection}{\numberline {6.6.3}Καταγραφή μετρικών και επιλογή \foreignlanguage {english}{checkpoint}}{56}{subsection.6.6.3}%
+\contentsline {section}{\numberline {6.7}Ρυθμίσεις εκπαίδευσης και σταθεροποίηση σύγκλισης}{56}{section.6.7}%
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
-\contentsline {chapter}{\numberline {7}Παράδειγμα Πίνακα}{59}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Συμπεράσματα}{59}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Μελλοντικές Επεκτάσεις}{59}{section.7.2}%
+\contentsline {chapter}{\numberline {7}Παράδειγμα Πίνακα}{57}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Συμπεράσματα}{57}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Μελλοντικές Επεκτάσεις}{57}{section.7.2}%
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
-\contentsline {chapter}{\numberline {8}Παράδειγμα Μαθηματικών Σχέσεων -- Εκφράσεων και Αλγορίθμων}{61}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Συμπεράσματα}{61}{section.8.1}%
-\contentsline {section}{\numberline {8.2}Μελλοντικές Επεκτάσεις}{61}{section.8.2}%
+\contentsline {chapter}{\numberline {8}Παράδειγμα Μαθηματικών Σχέσεων -- Εκφράσεων και Αλγορίθμων}{59}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Συμπεράσματα}{59}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Μελλοντικές Επεκτάσεις}{59}{section.8.2}%
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
@@ -214,44 +211,44 @@
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
-\contentsline {part}{\EnsureStandardFontEncoding {III}\hspace {1em}Επίλογος}{63}{section*.17}%
+\contentsline {part}{\EnsureStandardFontEncoding {III}\hspace {1em}Επίλογος}{61}{section*.15}%
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
-\contentsline {chapter}{\numberline {9}Επίλογος}{65}{chapter.9}%
-\contentsline {section}{\numberline {9.1}Συμπεράσματα}{65}{section.9.1}%
-\contentsline {section}{\numberline {9.2}Μελλοντικές Επεκτάσεις}{65}{section.9.2}%
+\contentsline {chapter}{\numberline {9}Επίλογος}{63}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Συμπεράσματα}{63}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Μελλοντικές Επεκτάσεις}{63}{section.9.2}%
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
-\contentsline {part}{Παραρτήματα}{67}{section*.18}%
+\contentsline {part}{Παραρτήματα}{65}{section*.16}%
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
-\contentsline {chapter}{\numberline {{\greekscript \textAlpha \textnumeralsigngreek }}Παράδειγμα Παραρτήματος}{69}{appendix.Alph1}%
-\contentsline {section}{\numberline {{\greekscript \textAlpha \textnumeralsigngreek }.1}Πρώτη ενότητα}{69}{section.Alph1.1}%
-\contentsline {section}{\numberline {{\greekscript \textAlpha \textnumeralsigngreek }.2}Μελλοντικές Επεκτάσεις}{69}{section.Alph1.2}%
-\babel@toc {greek}{}\relax 
-\babel@toc {greek}{}\relax 
-\babel@toc {greek}{}\relax 
-\babel@toc {greek}{}\relax 
-\babel@toc {greek}{}\relax 
-\babel@toc {greek}{}\relax 
-\contentsline {chapter}{\numberline {{\greekscript \textBeta \textnumeralsigngreek }}Απόδειξη της σχέσης (8.1)}{71}{appendix.Alph2}%
-\contentsline {section}{\numberline {{\greekscript \textBeta \textnumeralsigngreek }.1}Ανάλυση - περιγραφή αρχιτεκτονικής}{71}{section.Alph2.1}%
-\contentsline {subsection}{\numberline {{\greekscript \textBeta \textnumeralsigngreek }.1.1}Διαχωρισμός υποσυστημάτων}{71}{subsection.Alph2.1.1}%
+\contentsline {chapter}{\numberline {{\greekscript \textAlpha \textnumeralsigngreek }}Παράδειγμα Παραρτήματος}{67}{appendix.Alph1}%
+\contentsline {section}{\numberline {{\greekscript \textAlpha \textnumeralsigngreek }.1}Πρώτη ενότητα}{67}{section.Alph1.1}%
+\contentsline {section}{\numberline {{\greekscript \textAlpha \textnumeralsigngreek }.2}Μελλοντικές Επεκτάσεις}{67}{section.Alph1.2}%
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
-\contentsline {subsection}{\numberline {{\greekscript \textBeta \textnumeralsigngreek }.1.2}Περιγραφή υποσυστημάτων}{72}{subsection.Alph2.1.2}%
-\contentsline {subsubsection}{Υποσύστημα δημιουργίας σχήματος}{72}{subsection.Alph2.1.2}%
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
-\contentsline {chapter}{\numberline {{\greekscript \textGamma \textnumeralsigngreek }}Παραδείγματα Βιβλιογραφικών Αναφορών}{73}{appendix.Alph3}%
+\contentsline {chapter}{\numberline {{\greekscript \textBeta \textnumeralsigngreek }}Απόδειξη της σχέσης (8.1)}{69}{appendix.Alph2}%
+\contentsline {section}{\numberline {{\greekscript \textBeta \textnumeralsigngreek }.1}Ανάλυση - περιγραφή αρχιτεκτονικής}{69}{section.Alph2.1}%
+\contentsline {subsection}{\numberline {{\greekscript \textBeta \textnumeralsigngreek }.1.1}Διαχωρισμός υποσυστημάτων}{69}{subsection.Alph2.1.1}%
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
-\contentsline {chapter}{\numberline {{\greekscript \textDelta \textnumeralsigngreek }}Δημιουργία Ευρετηρίου}{75}{appendix.Alph4}%
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
-\contentsline {chapter}{\numberline {{\greekscript \textEpsilon \textnumeralsigngreek }}Εισαγωγή Εικόνων}{77}{appendix.Alph5}%
+\contentsline {subsection}{\numberline {{\greekscript \textBeta \textnumeralsigngreek }.1.2}Περιγραφή υποσυστημάτων}{70}{subsection.Alph2.1.2}%
+\contentsline {subsubsection}{Υποσύστημα δημιουργίας σχήματος}{70}{subsection.Alph2.1.2}%
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\contentsline {chapter}{\numberline {{\greekscript \textGamma \textnumeralsigngreek }}Παραδείγματα Βιβλιογραφικών Αναφορών}{71}{appendix.Alph3}%
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\contentsline {chapter}{\numberline {{\greekscript \textDelta \textnumeralsigngreek }}Δημιουργία Ευρετηρίου}{73}{appendix.Alph4}%
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\contentsline {chapter}{\numberline {{\greekscript \textEpsilon \textnumeralsigngreek }}Εισαγωγή Εικόνων}{75}{appendix.Alph5}%
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
@@ -263,13 +260,13 @@
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
 \vspace \bigskipamount 
-\contentsline {chapter}{Βιβλιογραφία}{83}{appendix*.22}%
+\contentsline {chapter}{Βιβλιογραφία}{81}{appendix*.20}%
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
-\contentsline {chapter}{Συντομογραφίες - Αρκτικόλεξα - Ακρωνύμια}{85}{appendix*.23}%
+\contentsline {chapter}{Συντομογραφίες - Αρκτικόλεξα - Ακρωνύμια}{83}{appendix*.21}%
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
-\contentsline {chapter}{Απόδοση ξενόγλωσσων όρων}{87}{appendix*.24}%
+\contentsline {chapter}{Απόδοση ξενόγλωσσων όρων}{85}{appendix*.22}%
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
-\contentsline {subparagraph}{}{88}{appendix*.24}%
+\contentsline {subparagraph}{}{86}{appendix*.22}%

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Homebrew) (preloaded format=pdflatex 2025.11.7)  31 JAN 2026 16:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Homebrew) (preloaded format=pdflatex 2025.11.7)  31 JAN 2026 18:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1519,9 +1519,9 @@ l.8 \begin{acknowledgements}
 LaTeX Font Info:    Font shape `T1/mak/b/n' will be
 (Font)              scaled to size 9.85492pt on input line 7.
 LaTeX Font Info:    Font shape `T1/mak/b/n' will be
-(Font)              scaled to size 10.79993pt on input line 41.
+(Font)              scaled to size 10.79993pt on input line 43.
 
-Overfull \hbox (5.39873pt too wide) in paragraph at lines 77--77
+Overfull \hbox (5.39873pt too wide) in paragraph at lines 79--79
  [][] [][][]\LGR/mak/m/n/10.95 Arqitektonikèc pu-kn c prìble-yhc: []\T1/mak/m/n/10.95 FCN[]\LGR/mak/m/n/10.95 , []\T1/mak/m/n/10.95 encoder--decoder []\LGR/mak/m/n/10.95 kai []\T1/mak/m/n/10.95 U-shaped 
  []
 
@@ -1530,26 +1530,29 @@ Overfull \hbox (5.39873pt too wide) in paragraph at lines 77--77
 [9]
 
 LaTeX Font Info:    Font shape `LGR/mak/m/n' will be
-(Font)              scaled to size 8.09995pt on input line 182.
+(Font)              scaled to size 8.09995pt on input line 173.
 LaTeX Font Info:    Font shape `T1/mak/m/n' will be
-(Font)              scaled to size 8.09995pt on input line 182.
-[10])
+(Font)              scaled to size 8.09995pt on input line 173.
+[10]
+Missing character: There is no v in font gk7t!
+Missing character: There is no v in font gk7t!
+
+
+[11])
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
 
 
-[11]
-
-[12
-
-] (./main.lof)
+[12] (./main.lof)
 \tf@lof=\write5
 \openout5 = `main.lof'.
 
 
 
-[13]
+[13
+
+]
 
 [14
 
@@ -1649,17 +1652,17 @@ Overfull \hbox (2.48936pt too wide) in paragraph at lines 31--35
 
 
 [28{/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/enc/dvips/kerkis/kmath.enc}{/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/enc/dvips/base/8r.enc}]
-<figures/First Slice along segmentation and 3D view.png, id=433, 1187.43625pt x 431.6125pt>
+<figures/First Slice along segmentation and 3D view.png, id=441, 1187.43625pt x 431.6125pt>
 File: figures/First Slice along segmentation and 3D view.png Graphic file (type png)
 <use figures/First Slice along segmentation and 3D view.png>
 Package pdftex.def Info: figures/First Slice along segmentation and 3D view.png  used on input line 88.
 (pdftex.def)             Requested size: 341.43436pt x 124.10408pt.
-<figures/Second Slice along segmentation and 3D view.png, id=434, 1187.43625pt x 431.6125pt>
+<figures/Second Slice along segmentation and 3D view.png, id=442, 1187.43625pt x 431.6125pt>
 File: figures/Second Slice along segmentation and 3D view.png Graphic file (type png)
 <use figures/Second Slice along segmentation and 3D view.png>
 Package pdftex.def Info: figures/Second Slice along segmentation and 3D view.png  used on input line 89.
 (pdftex.def)             Requested size: 341.43436pt x 124.10408pt.
-<figures/Third Slice along segmentation and 3D view.png, id=435, 1187.43625pt x 431.6125pt>
+<figures/Third Slice along segmentation and 3D view.png, id=443, 1187.43625pt x 431.6125pt>
 File: figures/Third Slice along segmentation and 3D view.png Graphic file (type png)
 <use figures/Third Slice along segmentation and 3D view.png>
 Package pdftex.def Info: figures/Third Slice along segmentation and 3D view.png  used on input line 90.
@@ -1763,7 +1766,7 @@ Package lettrine.sty Info: Targeted height = 21.27205pt
 [41]
 
 [42]
-<../Images and data for diploma/Screenshot 2026-01-26 at 19.02.46.png, id=603, 221.82875pt x 139.52126pt>
+<../Images and data for diploma/Screenshot 2026-01-26 at 19.02.46.png, id=611, 221.82875pt x 139.52126pt>
 File: ../Images and data for diploma/Screenshot 2026-01-26 at 19.02.46.png Graphic file (type png)
 <use ../Images and data for diploma/Screenshot 2026-01-26 at 19.02.46.png>
 Package pdftex.def Info: ../Images and data for diploma/Screenshot 2026-01-26 at 19.02.46.png  used on input line 101.
@@ -1809,27 +1812,31 @@ Overfull \hbox (12.78792pt too wide) in paragraph at lines 176--177
 
  (./body_matter/chap5.tex
 \textKappa \textepsilon \textphi \acctonos \textalpha \textlambda \textalpha \textiota \textomicron  5.
-LaTeX Font Info:    Trying to load font information for T1+fvm on input line 47.
-(/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/bera/t1fvm.fd
-File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
-)
-LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 8.2125pt on input line 47.
+
+LaTeX Warning: Reference `ch:discussion' on page 49 undefined on input line 43.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 
 
 [49
 
 
 ]
+LaTeX Font Info:    Trying to load font information for T1+fvm on input line 66.
+ (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/bera/t1fvm.fd
+File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
+)
+LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
+(Font)              scaled to size 8.2125pt on input line 66.
 
-LaTeX Warning: Reference `ch:protocol' on page 50 undefined on input line 88.
 
+[50]
 
-LaTeX Warning: Reference `ch:protocol' on page 50 undefined on input line 97.
+LaTeX Warning: Reference `ch:discussion' on page 51 undefined on input line 122.
 
-
-
-[50])
+)
 
 [51]
 \openout2 = `body_matter/chap6.aux'.
@@ -1843,55 +1850,47 @@ LaTeX Warning: Reference `ch:protocol' on page 50 undefined on input line 97.
 
 ]
 \textKappa \textepsilon \textphi \acctonos \textalpha \textlambda \textalpha \textiota \textomicron  6.
-
-LaTeX Warning: Citation `morgese2024imbalance' on page 53 undefined on input line 28.
-
+Missing character: There is no v in font gki7t!
 
 
 [53]
+Overfull \hbox (19.87032pt too wide) in paragraph at lines 61--65
+[]\LGR/mak/b/n/10.95 AnadeigmatolhyÐa ([]\T1/mak/b/n/10.95 Spac-ing[]\LGR/mak/b/n/10.95 ): \LGR/mak/m/n/10.95 me-ta-sqh-ma-ti-smìc se koi-nì []\T1/mak/m/n/10.95 voxel spac-ing []\LGR/mak/m/n/10.95 (p.q. $\OT1/txr/m/n/10.95 (\T1/mak/m/n/10.95 2\OML/mak/m/it/10.95 ; \T1/mak/m/n/10.95 2\OML/mak/m/it/10.95 ; \T1/mak/m/n/10.95 2\OT1/txr/m/n/10.95 )$\LGR/mak/m/n/10.95 mm),
+ []
 
-LaTeX Warning: Citation `morgese2024imbalance' on page 54 undefined on input line 88.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
+Overfull \hbox (8.0085pt too wide) in paragraph at lines 74--79
+[]\LGR/mak/m/n/10.95 Dedomènhc thc me-gˆlhc èkta-shc []\T1/mak/m/n/10.95 back-ground[]\LGR/mak/m/n/10.95 , e-far-mìsth-ke []\T1/mak/m/n/10.95 Crop-Fore-groundd []\LGR/mak/m/n/10.95 me []\T1/mak/m/n/10.95 source_-
+ []
 
 
 
 [54]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-
-[55]
-
-LaTeX Warning: Citation `morgese2024imbalance' on page 56 undefined on input line 222.
-
-
-Overfull \hbox (1.5514pt too wide) in paragraph at lines 238--242
-[]\LGR/mak/m/n/10.95 Oi me-ta-sqh-ma-ti-smo-Ð gia thn pro-e-pe-xer-ga-sÐa e-pi-lèqjh-kan a-po thn bi-blio-j kh thc []\T1/mak/m/n/10.95 MONAI
+Overfull \hbox (1.62119pt too wide) in paragraph at lines 105--109
+\LGR/mak/m/n/10.95 pro-so-moi-¸noun re-a-li-sti-k  me-ta-blh-tìth-ta qw-rÐc na al-loi-¸noun th sh-ma-sio-lo-gÐa thc mˆskac. 
  []
 
 
+LaTeX Warning: Citation `smith2017cyclical' on page 55 undefined on input line 131.
+
+LaTeX Font Info:    Trying to load font information for LGR+fvm on input line 131.
+LaTeX Font Info:    No file LGRfvm.fd. on input line 131.
+
+LaTeX Font Warning: Font shape `LGR/fvm/m/n' undefined
+(Font)              using `LGR/cmr/m/n' instead on input line 131.
+
+
+Overfull \hbox (43.02977pt too wide) in paragraph at lines 130--135
+[]\LGR/mak/m/n/10.95 O ruj-mìc mˆjh-shc me-ta-bal-lìtan me []\T1/mak/m/n/10.95 Cycli-cLR (tri-an-gu-lar2) []\LGR/mak/m/n/10.95 [[]], e-ntìc e-nìc e-Ôrouc $\OT1/txr/m/n/10.95 [[]\OML/mak/m/it/10.95 ; []\OT1/txr/m/n/10.95 ]$\LGR/mak/m/n/10.95 .
+ []
+
+Missing character: There is no v in font gkb7t!
+Missing character: There is no v in font gkb7t!
+
+
+[55])
 
 [56]
-Overfull \hbox (9.97374pt too wide) in paragraph at lines 254--258
-[][]\T1/mak/b/n/10.95 Padding []\LGR/mak/m/n/10.95 se sta-je-rì []\T1/mak/m/n/10.95 roi_-size $\OT1/txr/m/n/10.95 (\T1/mak/m/n/10.95 96\OML/mak/m/it/10.95 ; \T1/mak/m/n/10.95 96\OML/mak/m/it/10.95 ; \T1/mak/m/n/10.95 64\OT1/txr/m/n/10.95 )$ []\LGR/mak/m/n/10.95 kai e-pi-plèon []\T1/mak/b/n/10.95 di-vis-i-ble padding []\LGR/mak/m/n/10.95 (se $\OT1/txr/m/n/10.95 (\T1/mak/m/n/10.95 32\OML/mak/m/it/10.95 ; \T1/mak/m/n/10.95 32\OML/mak/m/it/10.95 ; \T1/mak/m/n/10.95 16\OT1/txr/m/n/10.95 )$\LGR/mak/m/n/10.95 )
- []
-
-LaTeX Font Info:    Trying to load font information for OT1+mak on input line 285.
-(/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/kerkis/ot1mak.fd)
-LaTeX Font Info:    Font shape `OT1/mak/m/n' will be
-(Font)              scaled to size 9.85492pt on input line 285.
-
-
-[57{/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/enc/dvips/kerkis/kerkis.enc}]
-
-LaTeX Warning: Citation `smith2017cyclical' on page 58 undefined on input line 319.
-
-)
-
-[58]
 \openout2 = `body_matter/chap7.aux'.
 
  (./body_matter/chap7.tex
@@ -1910,14 +1909,14 @@ LaTeX Font Info:    Font shape `T1/mak/b/n' will be
 (Font)              scaled to size 8.99994pt on input line 50.
 )
 
-[59
+[57
 
 
 
 
 ]
 
-[60]
+[58]
 \openout2 = `body_matter/chap8.aux'.
 
  (./body_matter/chap8.tex
@@ -1946,113 +1945,113 @@ Overfull \hbox (2.0pt too wide) in paragraph at lines 33--33
 
 )
 
-[61
+[59
 
+
+
+
+]
+
+[60]
+
+[61
 
 
 
 ]
 
 [62]
-
-[63
-
-
-
-]
-
-[64]
 \openout2 = `body_matter/chap9.aux'.
 
  (./body_matter/chap9.tex
 \textKappa \textepsilon \textphi \acctonos \textalpha \textlambda \textalpha \textiota \textomicron  9.
 )
 
-[65
+[63
 
 
 ]
 
-[66
+[64
 
 
 
 ]
 
-[67]
+[65]
 
-[68]
+[66]
 \openout2 = `back_matter/appA.aux'.
 
  (./back_matter/appA.tex
 \textPi \textalpha \textrho \acctonos \textalpha \textrho \texttau \texteta \textmu \textalpha  {\greekscript \textAlpha \textnumeralsigngreek }.
 )
 
-[69
+[67
 
 
 ]
 
-[70]
+[68]
 \openout2 = `back_matter/appB.aux'.
 
  (./back_matter/appB.tex
 \textPi \textalpha \textrho \acctonos \textalpha \textrho \texttau \texteta \textmu \textalpha  {\greekscript \textBeta \textnumeralsigngreek }.
-<figures/2.png, id=815, 187.70125pt x 119.44624pt>
+<figures/2.png, id=782, 187.70125pt x 119.44624pt>
 File: figures/2.png Graphic file (type png)
 <use figures/2.png>
 Package pdftex.def Info: figures/2.png  used on input line 25.
 (pdftex.def)             Requested size: 187.70079pt x 119.44594pt.
 
 
-[71
+[69
 
 
 
 
  <./figures/2.png>])
 
-[72]
+[70]
 \openout2 = `back_matter/appC.aux'.
 
  (./back_matter/appC.tex
 \textPi \textalpha \textrho \acctonos \textalpha \textrho \texttau \texteta \textmu \textalpha  {\greekscript \textGamma \textnumeralsigngreek }.
 
-LaTeX Warning: Citation `goossens93' on page 73 undefined on input line 8.
+LaTeX Warning: Citation `goossens93' on page 71 undefined on input line 8.
 
 
-LaTeX Warning: Citation `greekbook' on page 73 undefined on input line 10.
+LaTeX Warning: Citation `greekbook' on page 71 undefined on input line 10.
 
 
-LaTeX Warning: Citation `LiArTs13' on page 73 undefined on input line 12.
+LaTeX Warning: Citation `LiArTs13' on page 71 undefined on input line 12.
 
 
-LaTeX Warning: Citation `dcis2011' on page 73 undefined on input line 14.
+LaTeX Warning: Citation `dcis2011' on page 71 undefined on input line 14.
 
 
-LaTeX Warning: Citation `LaTeXProject' on page 73 undefined on input line 16.
+LaTeX Warning: Citation `LaTeXProject' on page 71 undefined on input line 16.
 
 
-LaTeX Warning: Citation `zoi04' on page 73 undefined on input line 18.
+LaTeX Warning: Citation `zoi04' on page 71 undefined on input line 18.
 
 
-LaTeX Warning: Citation `elli05' on page 73 undefined on input line 20.
+LaTeX Warning: Citation `elli05' on page 71 undefined on input line 20.
 
 
-LaTeX Warning: Citation `master04' on page 73 undefined on input line 22.
+LaTeX Warning: Citation `master04' on page 71 undefined on input line 22.
 
 
-LaTeX Warning: Citation `phd045' on page 73 undefined on input line 24.
+LaTeX Warning: Citation `phd045' on page 71 undefined on input line 24.
 
 
-LaTeX Warning: Citation `viswanathan2014convenient' on page 73 undefined on input line 26.
+LaTeX Warning: Citation `viswanathan2014convenient' on page 71 undefined on input line 26.
 
 
-LaTeX Warning: Citation `MSU-CSE-05-29' on page 73 undefined on input line 28.
+LaTeX Warning: Citation `MSU-CSE-05-29' on page 71 undefined on input line 28.
 
 )
 
-[73
+[71
 
 
 
@@ -2062,7 +2061,7 @@ LaTeX Warning: Citation `MSU-CSE-05-29' on page 73 undefined on input line 28.
 
  (./back_matter/appD.tex
 
-[74
+[72
 
 
 
@@ -2071,19 +2070,19 @@ LaTeX Warning: Citation `MSU-CSE-05-29' on page 73 undefined on input line 28.
 \textPi \textalpha \textrho \acctonos \textalpha \textrho \texttau \texteta \textmu \textalpha  {\greekscript \textDelta \textnumeralsigngreek }.
 )
 
-[75]
+[73]
 \openout2 = `back_matter/appE.aux'.
 
  (./back_matter/appE.tex
 
-[76
+[74
 
 
 
 
 ]
 \textPi \textalpha \textrho \acctonos \textalpha \textrho \texttau \texteta \textmu \textalpha  {\greekscript \textEpsilon \textnumeralsigngreek }.
-<figures/frog.jpg, id=843, 748.7975pt x 741.77126pt>
+<figures/frog.jpg, id=811, 748.7975pt x 741.77126pt>
 File: figures/frog.jpg Graphic file (type jpg)
 <use figures/frog.jpg>
 Package pdftex.def Info: figures/frog.jpg  used on input line 6.
@@ -2091,9 +2090,9 @@ Package pdftex.def Info: figures/frog.jpg  used on input line 6.
 Package hyperref Info: bookmark level for unknown illustration defaults to 0 on input line 7.
 )
 
-[77 <./figures/frog.jpg>]
+[75 <./figures/frog.jpg>]
 
-[78
+[76
 
 
 
@@ -2101,35 +2100,35 @@ Package hyperref Info: bookmark level for unknown illustration defaults to 0 on 
 Missing character: There is no v in font gk7t!
 
 
-[79
+[77
 
 ]
 
-[80]
+[78]
+
+[79]
+
+[80])
 
 [81]
 
-[82])
+[82
+
+] (./back_matter/abbreviations.tex)
 
 [83]
 
 [84
 
-] (./back_matter/abbreviations.tex)
-
-[85]
-
-[86
-
 ] (./back_matter/glossary.tex)
 
-[87] LaTeX Warning: (ntua_thesis.cls): The "plain" option has been selected. CD label generation has been disabled.
+[85] LaTeX Warning: (ntua_thesis.cls): The "plain" option has been selected. CD label generation has been disabled.
  
 LaTeX Warning: (ntua_thesis.cls): The "plain" option has been selected. CD cover generation has been disabled.
  
 
 
-[88
+[86
 
 ] (./main.aux (./front_matter/abstract.aux) (./front_matter/acknowledgements.aux) (./front_matter/preface.aux) (./body_matter/intro.aux) (./body_matter/chap2.aux) (./body_matter/chap3.aux) (./body_matter/chap4.aux) (./body_matter/chap5.aux) (./body_matter/chap6.aux) (./body_matter/chap7.aux) (./body_matter/chap8.aux) (./body_matter/chap9.aux) (./back_matter/appA.aux) (./back_matter/appB.aux) (./back_matter/appC.aux) (./back_matter/appD.aux) (./back_matter/appE.aux))
  ***********
@@ -2145,21 +2144,24 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 32261 strings out of 473190
- 590127 string characters out of 5704335
- 1124694 words of memory out of 5000000
- 54483 multiletter control sequences out of 15000+600000
- 645263 words of font info for 214 fonts, out of 8000000 for 9000
+ 32222 strings out of 473190
+ 589402 string characters out of 5704335
+ 1124208 words of memory out of 5000000
+ 54445 multiletter control sequences out of 15000+600000
+ 645780 words of font info for 214 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,13n,107p,1561b,1545s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist, replaced by a fixed one
+
 
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
 
 </opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/kerkis/Kerkis-Bold.pfb></opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/kerkis/Kerkis-Italic.pfb></opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/kerkis/Kerkis-SmallCaps.pfb></opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/kerkis/Kerkis.pfb></opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb></opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/txfonts/txex.pfb></opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb></opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on main.pdf (94 pages, 1230008 bytes).
+Output written on main.pdf (92 pages, 1222637 bytes).
 PDF statistics:
- 1315 PDF objects out of 1440 (max. 8388607)
- 1165 compressed objects within 12 object streams
- 283 named destinations out of 1000 (max. 500000)
- 805 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1298 PDF objects out of 1440 (max. 8388607)
+ 1151 compressed objects within 12 object streams
+ 286 named destinations out of 1000 (max. 500000)
+ 853 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -24,7 +24,6 @@ Warning--I'm ignoring Isensee_2020's extra "author" field
 --line 42 of file references.bib
 Warning--entry type for "lr_schedulers" isn't style-file defined
 --line 574 of file references.bib
-Warning--I didn't find a database entry for "morgese2024imbalance"
 Warning--I didn't find a database entry for "smith2017cyclical"
 Warning--I didn't find a database entry for "goossens93"
 Warning--I didn't find a database entry for "greekbook"
@@ -49,7 +48,7 @@ Warning--empty journal in wang2020linformer
 Warning--empty journal in choromanski2021performer
 You've used 53 entries,
             3122 wiz_defined-function locations,
-            874 strings with 15756 characters,
+            873 strings with 15736 characters,
 and the built_in function-call counts, 14764 in all, are:
 = -- 1028
 > -- 809
@@ -88,4 +87,4 @@ warning$ -- 9
 while$ -- 98
 width$ -- 55
 write$ -- 566
-(There were 24 warnings)
+(There were 23 warnings)
