@@ -139,12 +139,23 @@
 \label{sec:swinunetr}
 Το \en{SwinUNETR} βασίζεται σε \en{Swin Transformer encoder} με ιεραρχία και \en{window-based attention} 
 \cite{hatamizadeh2022swinunetr,liu2021swin}. 
-Αντί για πλήρη \en{attention} σε όλα τα \en{tokens}, η προσοχή υπολογίζεται σε τοπικά παράθυρα, τα οποία μετατοπίζονται (\en{shifted windows}) ώστε να επιτυγχάνεται ανταλλαγή πληροφορίας μεταξύ γειτονικών παραθύρων.
 
+Αντί για πλήρη \en{attention} σε όλα τα \en{tokens}, η προσοχή υπολογίζεται μέσα σε τοπικά παράθυρα. 
+Τα παράθυρα μετατοπίζονται (\en{shifted windows}) μεταξύ διαδοχικών \en{blocks}, επιτρέποντας ανταλλαγή πληροφορίας μεταξύ γειτονικών περιοχών.
+
+\paragraph{Ιεραρχία έναντι \en{ViT}.}
+Σε ένα κλασικό \en{ViT} ο αριθμός και η διάταξη των \en{tokens} παραμένουν σταθερά σε όλο τον \en{encoder} (μονο-κλίμακη αναπαράσταση). 
+Ο \en{Swin} χωρίζεται σε διακριτά \en{stages} και εφαρμόζει \en{patch merging}, 
+μειώνοντας προοδευτικά τη χωρική ανάλυση και δημιουργώντας πυραμίδα χαρακτηριστικών πολλαπλών κλιμάκων (\ref{figure4.3}).
+\begin{figure}[!ht] \centering
+\includegraphics[width=0.4\linewidth]{./figures/swin vs vit.png}
+ \caption{Αριστερά: \en{Swin} με ιεραρχικά \en{stages} (πολλαπλές κλίμακες μέσω \en{patch merging}).\\
+ Δεξιά: \en{ViT} χωρίς ιεραρχία, με σταθερή ανάλυση \en{tokens} σε όλο τον \en{encoder}.}
+\label{figure4.3}
+\end{figure}
 \paragraph{Γιατί ταιριάζει σε \en{3D}.}
-Η ιεραρχία μειώνει προοδευτικά το πλήθος \en{tokens} (\en{patch-merging}), 
-βελτιώνοντας την κλιμάκωση. Παράλληλα, οι \en{skip connections} προς έναν 
-\en{U-shaped decoder} διατηρούν την χωρική ακρίβεια.
+Η τοπική προσοχή μειώνει το υπολογιστικό κόστος σε μεγάλους όγκους, ενώ η ιεραρχία (μέσω \en{patch merging}) μειώνει προοδευτικά το πλήθος \en{tokens}. 
+Τα ενδιάμεσα επίπεδα πολλαπλών κλιμάκων τροφοδοτούν έναν \en{U-shaped decoder} με \en{skip connections}, διατηρώντας λεπτομέρεια και χωρική ακρίβεια.
 
 \section{\en{SegMamba}: \en{Mamba/SSM blocks} σε \en{U-shape} σχεδίαση}
 \label{sec:segmamba}

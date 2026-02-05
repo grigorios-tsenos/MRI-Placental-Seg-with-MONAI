@@ -84,6 +84,7 @@
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Αριστερά: \foreignlanguage {english}{Swin} με ιεραρχικά \foreignlanguage {english}{stages} (πολλαπλές κλίμακες μέσω \foreignlanguage {english}{patch merging}). Δεξιά: \foreignlanguage {english}{ViT} χωρίς ιεραρχία, με σταθερή ανάλυση \foreignlanguage {english}{tokens} σε όλο τον \foreignlanguage {english}{encoder}.}}{44}{figure.caption.13}%
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
@@ -118,13 +119,23 @@
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
-\contentsline {figure}{\numberline {6.1}{\ignorespaces \relax }}{59}{figure.caption.15}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Καμπύλες εκπαίδευσης: \foreignlanguage {english}{Validation Dice} (πάνω) και \foreignlanguage {english}{training/validation loss} (κάτω) για \foreignlanguage {english}{Attention U-Net}, \foreignlanguage {english}{DynUNet} και \foreignlanguage {english}{SwinUNETR}. Το αστέρι και η κατακόρυφη διακεκομμένη γραμμή δείχνουν το \foreignlanguage {english}{epoch} του καλύτερου \foreignlanguage {english}{Dice}.}}{59}{figure.caption.16}%
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
-\contentsline {figure}{\numberline {6.2}{\ignorespaces \relax }}{60}{figure.caption.16}%
-\contentsline {figure}{\numberline {6.3}{\ignorespaces \relax }}{60}{figure.caption.17}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Καμπύλες εκπαίδευσης: \foreignlanguage {english}{Validation Dice} (πάνω) και \foreignlanguage {english}{training/validation loss} (κάτω) για \foreignlanguage {english}{SegResNet 2}, \foreignlanguage {english}{SegResNet 1} και \foreignlanguage {english}{U-Net}. Το αστέρι και η κατακόρυφη διακεκομμένη γραμμή δείχνουν το \foreignlanguage {english}{epoch} του καλύτερου \foreignlanguage {english}{Dice}.}}{60}{figure.caption.17}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Καμπύλες εκπαίδευσης: \foreignlanguage {english}{Validation Dice} (πάνω) και \foreignlanguage {english}{training/validation loss} (κάτω) για \foreignlanguage {english}{UNETR}, \foreignlanguage {english}{SegMamba 1} και \foreignlanguage {english}{SegMamba 2}. Το αστέρι και η κατακόρυφη διακεκομμένη γραμμή δείχνουν το \foreignlanguage {english}{epoch} του καλύτερου \foreignlanguage {english}{Dice}.}}{60}{figure.caption.18}%
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
@@ -168,7 +179,7 @@
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {{\greekscript \textBeta \textnumeralsigngreek }.1}{\ignorespaces Προσομοίωση Πύλης \foreignlanguage {english}{NOR}}}{77}{figure.caption.31}%
+\contentsline {figure}{\numberline {{\greekscript \textBeta \textnumeralsigngreek }.1}{\ignorespaces Προσομοίωση Πύλης \foreignlanguage {english}{NOR}}}{79}{figure.caption.32}%
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
