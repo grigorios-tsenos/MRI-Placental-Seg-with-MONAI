@@ -1,170 +1,240 @@
-\chapter{Πειραματικό Πρωτόκολλο και Υλοποίηση}
-\label{ch:protocol}
+\chapter{Αποτελέσματα Πειραματικής Αξιολόγησης}
+\label{ch:results}
 
-Το κεφάλαιο αυτό περιγράφει αναλυτικά το πειραματικό πρωτόκολλο που
-ακολουθήθηκε για την εκπαίδευση και αξιολόγηση των μοντέλων τμηματοποίησης.
-Στόχος είναι η τεκμηρίωση ενός ενιαίου και αναπαραγώγιμου πλαισίου
-(προεπεξεργασία, δειγματοληψία, εκπαίδευση, επικύρωση), ώστε οι διαφορές
-στα αποτελέσματα του Κεφαλαίου~\ref{ch:experiments} να αποδίδονται κατά το δυνατόν στην αρχιτεκτονική και όχι σε ασυνεπείς ρυθμίσεις.
+Στο κεφάλαιο αυτό παρουσιάζονται τα αποτελέσματα της συγκριτικής αξιολόγησης των αρχιτεκτονικών 
+τμηματοποίησης που περιγράφηκαν στο Κεφάλαιο \ref{ch:experiments}. 
+Όλα τα μοντέλα εκπαιδεύτηκαν και αξιολογήθηκαν με ενιαίο πειραματικό πρωτόκολλο 
+(προεπεξεργασία, δειγματοληψία, βελτιστοποίηση, επικύρωση), ώστε οι διαφορές στο τέλος να αποδίδονται όσο το δυνατόν περισσότερο στην αρχιτεκτονική και όχι σε ασυνεπείς ρυθμίσεις ή διαδικασίες.
 
-\section{Υπολογιστικό περιβάλλον και εκτέλεση πειραμάτων}
-\label{sec:proto_env}
-Τα πειράματα υλοποιήθηκαν σε \en{Python/PyTorch} με τη βιβλιοθήκη
-\en{MONAI} \cite{cardoso2022monai}. Η εκπαίδευση εκτελέστηκε σε περιβάλλον
-\en{cloud} μέσω της πλατφόρμας \en{Kaggle Notebooks} (με επαλήθευση μέσω
-τηλεφώνου), αξιοποιώντας \en{GPU} επιτάχυνση (π.χ. \en{NVIDIA T4} σε διαθέσιμη
-διαμόρφωση) εντός του εβδομαδιαίου ορίου χρήσης που παρέχεται από την
-πλατφόρμα.\footnote{Οι ακριβείς διαθέσιμοι πόροι και τα όρια χρήσης μπορεί να
-μεταβάλλονται με τον χρόνο και εξαρτώνται από την πολιτική της πλατφόρμας.}
+Πρώτα, παρατίθενται τα ποσοτικά αποτελέσματα  στα δεδομένα αξιολόγησης μέσω μετρικών επικάλυψης 
+(\en{Dice, IoU}) και της τιμής της απώλειας επικύρωσης (\en{validation loss}). 
+Δεύτερον, συμπληρώνονται με ποιοτική αξιολόγηση μέσω οπτικών προβλέψεων έναντι \en{ground truth}, 
+ώς αξιολόγηση των αριθμητικών δείκτων για το εάν αντιπροσωπεύουν την πραγματικότητα.
 
-Οι εκτελέσεις πραγματοποιήθηκαν ως \emph{non-interactive runs} (\en{batch-style}
-εκπαίδευση με καταγραφή \en{logs}/μετρικών), ώστε να διατηρείται σταθερή
-η διαδικασία μεταξύ μοντέλων και να αποφεύγονται χειροκίνητες παρεμβάσεις.
-Για αναπαραγωγιμότητα χρησιμοποιήθηκαν σταθερά \en{seeds} σε \en{Python},
-\en{NumPy} και \en{PyTorch}, καθώς και κοινή δομή κώδικα για όλα τα μοντέλα
-(με διαφοροποίηση κυρίως στην αρχικοποίηση της αρχιτεκτονικής).
+Στις επόμενες ενότητες παρουσιάζεται αρχικά η συνοπτική κατάταξη των μοντέλων
+με βάση τη μέση επίδοση, και στη συνέχεια αναλύονται πιο λεπτομερώς οι τάσεις
+ανά αρχιτεκτονική, με αναφορές τόσο στις καμπύλες εκπαίδευσης/επικύρωσης όσο
+και στα οπτικά αποτελέσματα.
 
-\section{Οργάνωση δεδομένων και ροή φόρτωσης}
-\label{sec:proto_dataflow}
-
-Κάθε περιστατικό περιλαμβάνει έναν \en{3D MRI} όγκο και την αντίστοιχη
-δυαδική μάσκα πλακούντα σε μορφή \en{NIfTI} (\en{\texttt{.nii.gz}}). Τα
-δεδομένα μετατρέπονται σε λίστα από \en{dictionaries} (\en{paths} για
-\en{\texttt{image}} και \en{\texttt{label}}), η οποία τροφοδοτείται σε
-\en{Dataset} του \en{MONAI}.
-
-Για επιτάχυνση, το αιτιοκρατικό τμήμα της προεπεξεργασίας προϋπολογίζεται και
-αποθηκεύεται με \en{PersistentDataset (cache)}, ενώ οι στοχαστικοί
-μετασχηματισμοί (η οποία εφαρμόζεται μονο στα δεδομένα εκπαίδευσης) επαύξησης εφαρμόζονται \en{on-the-fly} κατά τη φόρτωση μέσω
-\en{DataLoader}. Η επιλογή αυτή μειώνει το συνολικό κόστος \en{I/O} και
-εξασφαλίζει συνεπή επεξεργασία σε όλα τα \en{runs}.
-
-\section{Ανάλυση στοίβας προεπεξεργασίας}
-\label{sec:proto_preproc}
-
-Η προεπεξεργασία σχεδιάστηκε με γνώμονα δύο βασικά χαρακτηριστικά του
-προβλήματος: (α) την υψηλή ανισορροπία \en{background/foreground}
-(ο πλακούντας καταλαμβάνει μικρό μέρος του όγκου) και (β) την ανάγκη
-γεωμετρικής συνέπειας μεταξύ περιστατικών. Οι μετασχηματισμοί επιλέχθηκαν
-από το \en{MONAI} \cite{monaitransforms}.
-
-\subsection{Γεωμετρική εναρμόνιση και σταθεροποίηση εισόδου}
-Το πρώτο στάδιο εξασφαλίζει ότι όλα τα δεδομένα «βλέπονται» από το μοντέλο
-σε κοινό γεωμετρικό πλαίσιο:
+\section{Παρουσίαση αποτελεσμάτων}
+\label{sec:exp_results}
+Τα αποτελέσματα παρουσιάζονται σε δύο επίπεδα:
 \begin{itemize}
-  \item \textbf{Φόρτωση και τυποποίηση:} ανάγνωση \en{NIfTI}, μεταφορά σε
-        \en{tensor} και εξασφάλιση σωστού καναλιού (\en{channel-first}),
-        ώστε οι επόμενοι μετασχηματισμοί να εφαρμόζονται ομοιόμορφα.
-  \item \textbf{Επαναπροσανατολισμός (\en{Orientation}):} μετατροπή σε κοινό
-        σύστημα αξόνων (\en{RAS}), ώστε να αποφεύγονται ασυνέπειες σε
-        left/right, anterior/posterior κ.λπ.
-  \item \textbf{Αναδειγματοληψία (\en{Spacing}):} μετασχηματισμός σε κοινό
-        \en{voxel spacing} (π.χ. $(2,2,2)$\,mm), ώστε η μάθηση να μην
-        επηρεάζεται από διαφορετικές φυσικές κλίμακες και ανομοιογενές
-        \en{resolution} μεταξύ εξετάσεων.
+  \item \textbf{Ποσοτικά:} μετρικές \en{Dice/IoU} και απώλειες (\en{train/val loss}), με σύγκριση μεταξύ μοντέλων.
+  \item \textbf{Ποιοτικά:} ενδεικτικές οπτικοποιήσεις προβλέψεων/σφαλμάτων
+        σε αντιπροσωπευτικά περιστατικά.
 \end{itemize}
+Ο Πίνακας~\ref{tab:main_results} συνοψίζει τη \textbf{καλύτερη} επίδοση κάθε μοντέλου στο 
+\en{validation set}, όπως προέκυψε σε επίπεδο \en{3D} όγκου σε 120 \en{epochs}. 
+Οι τιμές \en{Dice} χρησιμοποιούνται ως σημείο αναφοράς για την αναλυτικότερη ποιοτική και συγκριτική συζήτηση που ακολουθεί. (μέγιστη τιμή του \en{mean Dice} άνα \en{epoch})
 
-\subsection{Κανονικοποίηση εντάσεων}
-Οι \en{MRI} εντάσεις δεν είναι άμεσα συγκρίσιμες όπως σε \en{CT}, συνεπώς
-εφαρμόζεται κανονικοποίηση με \en{percentiles} (π.χ. 2--99.9) και
-χαρτογράφηση στο $[0,1]$. Η πρακτική αυτή (α) περιορίζει την επίδραση
-outliers/θορύβου και (β) διευκολύνει τη σταθερότητα του optimization.
+\begin{table}[!htbp]
+\centering
+\caption{Αποτελέσματα ανά αρχιτεκτονική στο \en{validation set}.}
+\label{tab:main_results}
+\begin{tabular}{lccc}
+\hline
+\textbf{Μοντέλο} & \en{\textbf{Dice}} & \en{\textbf{IoU}} & \en{\textbf{Val Loss}} \\
+\hline
+\en{U-Net}            & $0.829$  & $0.7109$  & $0.3739$ \\
+\en{Attention U-Net}  & $0.846$  & $0.735$  & $0.2004$  \\
+\en{DynUNet}          & $0.846$ & $0.7342$  & $0.1897$ \\
+\en{UNETR}            & $0.772$  & $0.6345$ & $0.2842$  \\
+\en{SwinUNETR}        & $0.849$ & $0.7401$ & $0.1838$ \\
+\en{SegResNet 1}        & $0.8601$  & $0.7558$ & $0.1678$ \\
+\en{SegResNet 2}        & $0.859$  & $0.7544$ & $0.1806$ \\
+\en{SegMamba 1}         & $0.8606$ & $0.7566$ & $0.1685$ \\
+\en{SegMamba 2}         & $0.8581$ & $0.7526$ & $0.1697$ \\
+\hline
+\end{tabular}
+\end{table}
 
-\subsection{Περιορισμός πεδίου (ROI) με \en{foreground cropping}}
-Δεδομένης της μεγάλης έκτασης \en{background}, εφαρμόστηκε \en{CropForegroundd}
-με \en{source\_key=label} και μικρό περιθώριο (\en{margin}) ώστε να
-περιορίζεται το \en{FOV} γύρω από την περιοχή ενδιαφέροντος. Με τον τρόπο
-αυτό μειώνεται δραστικά η σπατάλη υπολογισμού σε κενές περιοχές, αυξάνοντας
-την πιθανότητα τα \en{patches} να περιέχουν χρήσιμη πληροφορία.
+Σημείωνεται ότι οι μετρικές επικάλυψης αποτυπώνουν κυρίως τη συμφωνία ως προς το εμβαδό/όγκο της πρόβλεψης 
+και δεν εγγυώνται πάντα οπτικά σωστά όρια σε όλες τις περιπτώσεις. 
+Για τον λόγο αυτό, τα ποσοτικά αποτελέσματα του Πίνακα \ref{tab:main_results} 
+ερμηνεύονται σε συνδυασμό με τις καμπύλες εκπαίδευσης/επικύρωσης και την ποιοτική επιθεώρηση προβλέψεων έναντι 
+\en{ground truth} στις επόμενες ενότητες.
 
-\subsection{Σταθεροποίηση διαστάσεων για συμβατότητα μοντέλων}
-Τέλος, εφαρμόζεται:
-\begin{itemize}
-  \item \textbf{Padding σε σταθερό \en{roi\_size}} (π.χ. $(96,96,64)$), για
-        ομοιόμορφη εκπαίδευση με \en{patch-based} στρατηγική.
-  \item \textbf{\en{Divisible padding}} ώστε οι τελικές διαστάσεις να είναι
-        πολλαπλάσια συγκεκριμένων παραγόντων (π.χ. $(32,32,16)$), κάτι που
-        διευκολύνει αρχιτεκτονικές με downsampling/patch merging.
-\end{itemize}
+\section{Συνοπτική κατάταξη και κύρια ευρήματα}
+\label{sec:results_ranking}
+Ξεκινώντας από τον Πίνακα \ref{tab:main_results}, η κατάταξη των μοντέλων 
+με βάση τη μέγιστη μέση τιμή του \en{Dice} δείχνει ότι η καλύτερη επίδοση επιτυγχάνεται από το 
+\en{SegMamba 1} 
+(\en{Dice}$=0.8606$) και έπειτα τα \en{SegResNet 2} (\en{Dice}$=0.859$) και 
+\en{SegMamba 2} (\en{Dice}$=0.8581$). 
+Οι διαφορές μέσα στα προαναφερθέντα είναι της τάξης του $\approx 0.002$--$0.003$ 
+σε \en{Dice}.
 
-\section{Δειγματοληψία \en{patches} και επαύξηση δεδομένων}
-\label{sec:proto_patches_aug}
+Η εικόνα αυτή επιβεβαιώνεται και από τη συμπληρωματική μετρική \en{IoU}:
+τα υψηλότερα \en{IoU} παρατηρούνται επίσης στα \en{SegMamba 1} ($0.7566$) και
+\en{SegResNet 1} ($0.7558$), με τα υπόλοιπα μοντέλα της κορυφής να ακολουθούν
+πολύ κοντά. Παράλληλα, οι τιμές \en{validation loss} είναι χαμηλότερες για τα
+μοντέλα με καλύτερο \en{Dice} (π.χ. \en{SegResNet 1}: $0.1678$,
+\en{SegMamba 1}: $0.1685$), γεγονός που είναι συμβατό με καλύτερη συνολική
+βελτιστοποίηση. 
+Ωστόσο, επειδή το \en{loss} αποτελεί σύνθετο κριτήριο και δεν
+αντιστοιχεί μονοσήμαντα σε μια \en{overlap} μετρική, η τελική κατάταξη
+στηρίζεται πρωτίστως στο \en{Dice} (και υποστηρίζεται από \en{IoU}).
 
-Λόγω του μεγέθους των \en{3D} όγκων και περιορισμών μνήμης, η εκπαίδευση
-πραγματοποιείται σε \en{patches} σταθερού μεγέθους (\en{roi\_size}).
-Για την αντιμετώπιση της έντονης ανισορροπίας \en{background/foreground}
-χρησιμοποιήθηκε \en{RandCropByPosNegLabeld}, ώστε να ελέγχεται η πιθανότητα
-επιλογής \en{patches} που περιέχουν \en{foreground}.
+Σε επίπεδο οικογενειών αρχιτεκτονικών, παρατηρείται ότι οι αποδοτικές
+\en{CNN-based} προσεγγίσεις (\en{SegResNet}) και τα \en{state space-based}
+μοντέλα (\en{SegMamba}) υπερέχουν συνολικά των \en{Transformer-based}
+αρχιτεκτονικών στο συγκεκριμένο πρόβλημα/σύνολο δεδομένων. Ειδικότερα, το
+\en{UNETR} εμφανίζει τη χαμηλότερη επίδοση (\en{Dice}$=0.772$,
+\en{IoU}$=0.6345$), αποτελώντας σαφή
+\en{outlier}. 
+Αντίθετα, το \en{SwinUNETR} λειτουργεί ως το καλύτερο
+\en{Transformer-based} μοντέλο (\en{Dice}$=0.849$, \en{IoU}$=0.7401$),
+ωστόσο παραμένει κάτω από την ομάδα κορυφής κατά περίπου $0.01$ σε \en{Dice}.
+Αξίζει να σχολιάσουμε το γεγονός πως το \en{U-Net} παρότι πετυχαίνει αξιοπρεπές \en{Dice}
+($0.829$), εμφανίζει αισθητά υψηλότερο \en{validation loss} ($0.3739$) σε σχέση με τα περισσότερα μοντέλα. 
+Αυτή η ασυμφωνία υποδηλώνει ότι η πρόβλεψη μπορεί να είναι επαρκής ως προς το \en{overlap} μετά το 
+\en{thresholding}, αλλά οι πιθανότητες εξόδου είναι λιγότερο καλά βαθμονομημένες (δηλαδή πιο «αιχμηρές» και \en{overconfident} σε λάθη). 
 
-Επιπλέον εφαρμόστηκε \textbf{στρατηγική \en{curriculum}} στην αναλογία
-\en{pos/neg} κατά τη διάρκεια της εκπαίδευσης, με στόχο αρχικά να
-σταθεροποιηθεί η μάθηση πάνω στο \en{foreground} και στη συνέχεια να
-μειωθούν τα \en{false positives} μέσω σταδιακής εισαγωγής αρνητικών
-δειγμάτων.
+Τέλος, οι παραλλαγές χωρητικότητας (\en{SegResNet 1} έναντι \en{SegResNet 2},
+και \en{SegMamba 1} έναντι \en{SegMamba 2}) δείχνουν ότι η «βαρύτερη» ρύθμιση
+μπορεί να προσφέρει μικρό αλλά μετρήσιμο κέρδος στην επικάλυψη
+(π.χ. \en{SegResNet 1}: $0.8601$ έναντι $0.859$), χωρίς όμως να αλλάζει
+δραστικά την κατάταξη. Στις επόμενες ενότητες διερευνάται αν αυτές οι μικρές
+διαφορές συνοδεύονται από πιο σταθερή σύγκλιση ή/και πιο καθαρό οπτικό
+περίγραμμα στις προβλέψεις.
 
-Για βελτίωση της γενίκευσης, εφαρμόστηκαν στοχαστικές επαυξήσεις
-(\en{random flips}, ήπιες περιστροφές/αφινικοί μετασχηματισμοί, \en{Gaussian}
-θόρυβος/εξομάλυνση), οι οποίες προσομοιώνουν ρεαλιστική μεταβλητότητα χωρίς
-να αλλοιώνουν τη σημασιολογία της μάσκας.
+\section{Καμπύλες εκπαίδευσης και σταθερότητα σύγκλισης}
+\label{sec:results_curves}
+Στα σχήματα \ref{fig:graphs1}, \ref{fig:graphs2} και \ref{fig:graphs3} παρουσιάζονται οι καμπύλες 
+εκπαίδευσης για κάθε αρχιτεκτονική. Πρώτη καμπύλη αποτελεί τη μετρική \en{Dice} και η δεύτερη τα \en{training} και \en{validation losses} κατά τη διάρκεια των \en{epochs}.
 
-\section{Συνάρτηση κόστους και βελτιστοποίηση}
-\label{sec:proto_optim}
+\paragraph{Γενική εικόνα σύγκλισης.}
+Σε όλες σχεδόν τις \en{CNN}-βασισμένες αρχιτεκτονικές παρατηρείται \textbf{ταχεία αρχική βελτίωση} του \en{validation Dice} στα πρώτα 5-15 \en{epochs},
+συγκλίνοντας σχετικά νωρίς (σταδιακή, μικρή βελτίωση) μέχρι το τέλος της εκπαίδευσης. 
+Αυτό υποδηλώνει ότι το μοντέλο μαθαίνει γρήγορα τη χονδρική μορφολογία του πλακούντα, ενω οι επιπλέον εποχές συμβάλλουν κυρίως σε λεπτότερη προσαρμογή (όρια, μικρές ασυνέχειες, μείωση \en{false positives}).
 
-\subsection{Κριτήριο εκπαίδευσης}
-Ως βασικό κριτήριο χρησιμοποιήθηκε η \en{DiceCELoss} (\en{Dice + Cross-Entropy}),
-με \en{sigmoid} έξοδο και \en{include\_background=False}. Ο συνδυασμός
-\en{Dice} και \en{CE} είναι πρακτικός σε έντονα ανισόρροπες τμηματοποιήσεις,
-καθώς ο \en{Dice} στοχεύει άμεσα στην επικάλυψη, ενώ το \en{CE} συνεισφέρει
-σταθερότητα και καλύτερη συμπεριφορά gradients σε πρώιμα στάδια σύγκλισης.
+\begin{figure}
+  \centering
+  \begin{subfigure}[b]{0.45\linewidth}
+    \centering
+    \includegraphics[width=\linewidth]{figures/history_attentionUnet.png}
+    \caption{\en{Attention U-Net}}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[b]{0.45\linewidth}
+    \centering
+    \includegraphics[width=\linewidth]{figures/history_dynunet.png}
+    \caption{\en{DynUNet}}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[b]{0.45\linewidth}
+    \centering
+    \includegraphics[width=\linewidth]{figures/history_SwinUNETR.png}
+    \caption{\en{SwinUNETR}}
+  \end{subfigure}
+  \caption{}
+  \label{fig:graphs1}
+\end{figure}  
 
-\subsection{Optimizer}
-Χρησιμοποιήθηκε \en{AdamW} \cite{loshchilov2019adamw}, λόγω καλής πρακτικής
-συμπεριφοράς σε \en{deep} δίκτυα και πιο ορθού χειρισμού του \en{weight decay}
-σε σχέση με το κλασικό \en{Adam}. Οι υπερπαράμετροι (\en{learning rate, weight
-decay}) διατηρήθηκαν κοινές μεταξύ μοντέλων όπου ήταν εφικτό, για δίκαιη
-σύγκριση.
+\begin{figure}
+  \centering
+  \begin{subfigure}[b]{0.45\linewidth}
+    \centering\includegraphics[width=\linewidth]{figures/history_segresLight.png}
+    \caption{\en{SegResNet 2 (No of Filters = 32)}}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[b]{0.45\linewidth}
+    \centering\includegraphics[width=\linewidth]{figures/history_segresHeavy.png}
+    \caption{\en{SegResNet 1 (No of Filters = 64)}}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[b]{0.45\textwidth}
+    \centering\includegraphics[width=\linewidth]{figures/history_UNET.png}
+    \caption{\en{U-Net}}
+  \end{subfigure}
+  \caption{}
+  \label{fig:graphs2}
+\end{figure}  
+
+  
+\begin{figure}
+  \centering
+  \begin{subfigure}[b]{0.45\textwidth}
+    \centering\includegraphics[width=\textwidth]{figures/history_UNETR.png}
+    \caption{\en{UNETR}}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[b]{0.45\textwidth}
+    \centering\includegraphics[width=\textwidth]{figures/history_segmambaheavy.png}
+    \caption{\en{SegMamba 1 (5 layers)}}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[b]{0.45\textwidth}
+    \centering\includegraphics[width=\textwidth]{figures/history_segmamba.png}
+    \caption{\en{SegMamba 2 (4 layers)}}
+  \end{subfigure}
+  \caption{}
+  \label{fig:graphs3}
+\end{figure}  
 
 
 
-\subsection{Scheduler}
-Ο ρυθμός μάθησης μεταβαλλόταν με \en{CyclicLR (triangular2)}
-\cite{smith2017cyclical}, εντός ενός εύρους $[\texttt{\en{base\_lr}}, \texttt{\en{max\_lr}}]$.
-Η κυκλική μεταβολή λειτουργεί ως μηχανισμός εξερεύνησης του \en{optimization
-landscape}, μειώνοντας την ευαισθησία σε μία «μοναδική» επιλογή \en{learning rate}
-και συχνά οδηγεί σε πιο σταθερή βελτίωση σε μεσαία/όψιμα στάδια.
+%______________________ VISUAL PROVLEPSEIS KATW
 
-\section{Επικύρωση και διαδικασία \en{inference}}
-\label{sec:proto_validation}
+\section{Ποιοτική αξιολόγηση προβλέψεων}
+\label{sec:results_qual}
 
-\subsection{\en{Sliding Window Inference (SWI)}}
-Η επικύρωση σε πλήρεις \en{3D} όγκους είναι συχνά αδύνατη σε μνήμη, ειδικά για
-βαριά μοντέλα. Για τον λόγο αυτό εφαρμόστηκε \en{sliding-window inference}
-με επικάλυψη (\en{overlap}) και \en{gaussian blending}, ώστε να συντίθεται
-τελική πρόβλεψη σε όλο τον όγκο χωρίς να θυσιάζεται η ποιότητα στα όρια των
-\en{patches}.
+\begin{Illustration}[!h]
+  \centering
+  \includegraphics[width=0.68\linewidth]{figures/segmentation_masks_AttentionUnet.png}
+  \caption{\en{Attention U-Net}}
+\end{Illustration}
 
-\subsection{EMA (Exponential Moving Average)}
-Παράλληλα, χρησιμοποιήθηκε \en{EMA} των βαρών, δηλαδή εκθετικός κινητός μέσος
-των παραμέτρων του μοντέλου. Η αξιολόγηση με \en{EMA} τείνει να είναι πιο
-σταθερή από το στιγμιαίο \en{checkpoint}, ειδικά σε σχήματα με κυμαινόμενο
-\en{learning rate}.
+\begin{Illustration}[!h]
+  \centering
+  \includegraphics[width=0.68\linewidth]{figures/segmentation_masks_DynUNet.png}
+  \caption{\en{DynUNet}}
+\end{Illustration}
 
-\subsection{Καταγραφή μετρικών και επιλογή \en{checkpoint}}
-Η αξιολόγηση καταγράφει \en{Dice} (κύρια μετρική) και \en{IoU} σε επίπεδο
-\en{3D} περιστατικού. Το καλύτερο checkpoint επιλέγεται βάσει της επίδοσης
-στο \en{validation set}, ώστε να διατηρείται συνεπές σημείο αναφοράς μεταξύ
-μοντέλων.
+\begin{Illustration}[!h]
+  \centering
+  \includegraphics[width=0.68\linewidth]{figures/segmentation_masks_SwinUNETR.png}
+  \caption{\en{SwinUNETR}}
+\end{Illustration}
 
-\section{Ρυθμίσεις εκπαίδευσης και σταθεροποίηση σύγκλισης}
-\label{sec:proto_training_details}
 
-Η εκπαίδευση πραγματοποιήθηκε για προκαθορισμένο αριθμό \en{epochs} με μικρό
-\en{batch size} λόγω περιορισμών μνήμης. Για να προσεγγιστεί μεγαλύτερο
-αποτελεσματικό \en{batch}, χρησιμοποιήθηκε \en{gradient accumulation}.
-Παράλληλα, εφαρμόστηκε \en{mixed precision} (\en{AMP}) για μείωση της
-κατανάλωσης \en{VRAM} και επιτάχυνση της εκτέλεσης σε \en{GPU}.
+\begin{Illustration}[!h]
+  \centering\includegraphics[width=0.68\linewidth]{figures/segmentation_masks_SegResHeavy.png}
+  \caption{\en{SegResNet 1 (No of Filters = 64)}}
+\end{Illustration}
 
-Για την αποφυγή υπερπροσαρμογής και τη συνεπή επιλογή τελικού μοντέλου,
-αποθηκευόταν το καλύτερο \en{checkpoint} σύμφωνα με τη μετρική \en{Dice}
-στο \en{validation set}, ενώ χρησιμοποιήθηκε \en{early stopping} όταν δεν
-παρατηρούνταν βελτίωση για προκαθορισμένη \en{patience}.
+\begin{Illustration}[!h]
+  \centering\includegraphics[width=0.68\linewidth]{figures/segmentation_masks_SegResLight.png}
+  \caption{\en{SegResNet 2 (No of Filters = 32)}}
+\end{Illustration}
+
+\begin{Illustration}[!h]
+  \centering\includegraphics[width=0.68\linewidth]{figures/segmentation_masks_unet.png}
+  \caption{\en{U-Net}}
+\end{Illustration}
+
+
+
+
+\begin{Illustration}[!h]
+  \centering\includegraphics[width=0.68\linewidth]{figures/segmentation_masks_UNETR.png}
+  \caption{\en{UNETR}}
+\end{Illustration}
+\begin{Illustration}[!h]
+  \centering\includegraphics[width=0.68\linewidth]{figures/segmentation_masks_segmambaHEAVY.png}
+  \caption{\en{SegMamba 1 (5 layers)}}
+\end{Illustration}
+\begin{Illustration}[!h]
+  \centering\includegraphics[width=0.68\linewidth]{figures/segmentation_masks_segmambaLIGHT.png}
+  \caption{\en{SegMamba 2 (4 layers)}}
+\end{Illustration}
+
+
+
+
+
+\section{Συζήτηση και ερμηνεία}
+ 
+\label{sec:results_discussion}
+

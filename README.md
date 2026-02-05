@@ -1,30 +1,42 @@
-# SwinUNETR-Placental-Segmentation
-My Diploma's Thesis  project with the task of training SwinUNETR to segment Placentas in MRI images.
-=======
-# SwinUNETR Placenta Segmentation
+# MRI Placental Segmentation with MONAI
 
-`swin_822.py` trains a 3D SwinUNETR model (MONAI) for placenta segmentation from NIfTI volumes. It is set up for Kaggle-style workflows and includes caching, strong 3D data augmentation, mixed precision, gradient accumulation, EMA, validation threshold sweeps, early stopping, and plotting of training curves.
+This repository contains the working material for my NTUA Diploma Thesis on **placenta segmentation in 3D MRI** using deep learning.
 
-## Data layout
-- Update `CONFIG["images_dir"]` and `CONFIG["labels_dir"]` to point to folders of `.nii`/`.nii.gz` volumes and masks. A mask named `case_mask.nii.gz` pairs with an image named `case.nii.gz`. The best checkpoint is written to `CONFIG["best_model_path"]` (defaults to `/kaggle/working/best_swin_fast.pth`), and a loss/validation plot is saved as `training_plot.png`.
+The project is currently thesis-centric: experiments are kept as notebooks and the main deliverable is the LaTeX thesis document.
 
-## Dependencies
-Tested with Python 3.10+ and PyTorch on GPU. Install the core requirements with:
+## Current Thesis Scope
+
+The thesis compares multiple 3D segmentation families under a common MONAI/PyTorch pipeline:
+
+- U-Net
+- Attention U-Net
+- DynUNet
+- UNETR
+- SwinUNETR
+- SegResNet (two configurations)
+- SegMamba (two configurations)
+
+Quantitative and qualitative comparisons are documented inside the thesis sources.
+
+## Repository Layout
+
+- `Thesis Doc/`: LaTeX source, bibliography, figures, and compiled thesis PDF.
+- `FINAL RUNS/`: final experiment notebooks used for model training/evaluation runs.
+- `UNET Big No of Channels.ipynb`: exploratory notebook from earlier experimentation.
+- `Images and data for diploma/`: supporting assets used during writing.
+
+## Building the Thesis PDF
+
+From the project root:
 
 ```bash
-pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
-pip install monai nibabel einops scikit-learn matplotlib tqdm
+cd "Thesis Doc"
+latexmk -pdf main.tex
 ```
 
-## Running
-1. Set any CONFIG values you want to change near the top of `swin_822.py` (paths, batch size, ROI size, learning rates, TTA, etc.).
-2. Launch training:
-   ```bash
-   python swin_822.py
-   ```
-3. Watch the console for training/validation Dice updates. The best model (optionally EMA-smoothed) is saved automatically.
+If `latexmk` is unavailable, you can use `pdflatex` + `bibtex` manually.
 
-## Notable training features
-- Warmup + cosine LR schedule, Dice+Focal loss, gradient clipping, and accumulation (`accum_steps`).
-- Optional TTA during validation, threshold grid search every `thr_sweep_every` epochs, and early stopping with patience/min-delta.
-- Caches preprocessed volumes in RAM for faster epochs; uses sliding-window inference for full-volume validation.
+## Notes
+
+- This repo no longer uses a single training entry script (such as `swin_822.py`).
+- Training logic is maintained in the notebooks under `FINAL RUNS/` and related thesis folders.

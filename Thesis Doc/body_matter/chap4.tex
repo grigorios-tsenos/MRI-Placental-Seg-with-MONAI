@@ -59,12 +59,18 @@
 \section{\en{UNet} και \en{3D U-Net}}
 \label{sec:unet}
 
-Το \en{U-Net} \cite{ronneberger2015unet} αποτελεί σημείο αναφοράς στην ιατρική τμηματοποίηση. Πρόκειται για συμμετρική αρχιτεκονική \en{encoder-decoder} με \en{skip connections}:
+Το \en{U-Net} \cite{ronneberger2015unet} αποτελεί σημείο αναφοράς στην ιατρική τμηματοποίηση. Πρόκειται για συμμετρική αρχιτεκονική \ref{figure4.1} \en{encoder-decoder} με \en{skip connections}:
 \begin{itemize}
   \item Ο \textbf{κωδικοποιητής} (\en{encoder}) μειώνει την ανάλυση (\en{downsampling}), 
         αυξάνοντας τα κανάλια, ώστε να κωδικοποιεί υψηλού επιπέδου χαρακτηριστικά.
   \item Ο \textbf{αποκωδικοποιητής} (\en{decoder}) ανακτά την ανάλυση (\en{upsampling}) και συνδυάζει πληροφορία υψηλής ανάλυσης απο τον \en{encoder}, ώστε να βελτιώνει την ακρίβεια εντοπισμού ορίων. 
 \end{itemize}
+
+\begin{figure}[!ht] \centering
+\includegraphics[width=0.7\linewidth]{figures/u-net-architecture.png}
+ \caption{Δομή αρχιτεκτονικής \en{U-net}}
+\label{figure4.1}
+\end{figure}
 
 Για ογκομετρικά δεδομένα, η λογική επεκτείνεται σε \en{3D U-Net} με \en{3D} συνελίξεις \cite{cicek20163dunet}. 
 Τα \en{skip connections} είναι κρίσιμα για ακριβή \en{localization}, καθώς μετριάζουν την απώλεια 
@@ -73,7 +79,7 @@
 \paragraph{Σχόλιο.}
 Το \en{UNet} τείνει να αποδίδει πολύ καλά σε τοπικά μορφολογικά μοτίβα και οριακές μεταβολές. Ο κύριος περιορισμός είναι ότι το \en{global context} εισάγεται έμμεσα μέσω βάθους και \en{multi-scaling} συμπίεσης.
 
-\section{\en{DynUNet} και αρχές αυτο-διαμόρφωσης}
+\section{\en{DynUNet}}
 \label{sec:dynunet}
 
 Το \en{DynUNet} (στη \en{MONAI} υλοποίηση) είναι παραλλαγή \en{3D UNet} που επιτρέπει \textbf{δυναμική} προσαρμογή της τοπολογίας (στάδια, \en{strides}, μεγέθη μυρήνων) με βάση τις διαστάσεις/ανά\-λυση εισόδου 
@@ -100,7 +106,7 @@
 \begin{figure}[!ht] \centering
 \includegraphics[width=0.4\linewidth]{../Images and data for diploma/Screenshot 2026-01-26 at 19.02.46.png}
  \caption{Μηχανισμός \en{residual connection} στην αρχιτεκτονική \en{ResNet} \cite{he2016resnet}}
-\label{figure4.1}
+\label{figure4.2}
 \end{figure}
 
 \paragraph{Γιατί υπολείμματα.}
@@ -119,7 +125,7 @@
 \paragraph{Πότε βοηθά.} 
 Η προσοχή είναι ιδιαίτερα χρήσιμη όταν το \en{ROI} είναι μικρό, υπάρχει ισχυρή ανισορροπία κλάσεων ή όταν δομές έχουν παρόμοια ένταση με το υπόβαθρο.
 
-\section{\en{UNETR}: \en{ViT} encoder με \en{U-shaped} decoder}
+\section{\en{UNETR}: \en{ViT encoder} με \en{U-shaped decoder}}
 \label{sec:unetr}
 
 Το \en{UNETR} \cite{hatamizadeh2022unetr} αποτελεί υβριδικό σχήμα, όπου ο \en{encoder} βασίζεται σε \en{Transformer}
@@ -156,7 +162,7 @@
 η αρχιτεκτονική \en{SegMamba} υλοποιείται στην παρούσα εργασία μέσω του
 \textbf{επίσημου αποθετηρίου} των συγγραφέων \cite{segmamba_github}. Η
 ενσωμάτωση γίνεται με τρόπο που να επιτρέπει κοινό πειραματικό πρωτόκολλο
-(προεπεξεργασία, \en{patch sampling}, loss, metrics και inference), ώστε η
+(προεπεξεργασία, \en{patch sampling, loss, metrics} και \en{inference}), ώστε η
 σύγκριση να παραμένει συνεπής.
 
 \paragraph{Αναμενόμενη συμπεριφορά.}
@@ -170,11 +176,11 @@
 \section{Συζήτηση: αναμενόμενοι συμβιβασμοί}
 \label{sec:tradeoffs}
 
-Συνοψίζοντας, οι οικογένειες μοντέλων διαφέρουν ως προς το \textbf{πώς} συλλέγουν συμφραζόμενο:
+Συνοψίζοντας, οι οικογένειες μοντέλων διαφέρουν ως προς το \textbf{πώς} συλλέγουν συμφραζό\-μενο:
 \begin{itemize}
   \item \textbf{\en{CNN-based}}: ισχυρά σε όρια/υφές και αποδοτικά, αλλά το \en{global context} εισάγεται έμμεσα.
   \item \textbf{\en{Transformer-based}}: ισχυρό \en{global context}, αλλά αυξημένες απαιτήσεις μνήμης/χρόνου.
-  \item \textbf{\en{SSM/Mamba-based}}: στόχος η μακρινής εμβέλειας μοντελοποίηση με καλύτερη κλιμάκωση, κάτι ιδιαίτερα ελκυστικό σε \en{3D} τμηματοποίηση.
+  \item \textbf{\en{SSM/Mamba-based}}: στόχος η μακρινής εμβέλειας μοντελοποίηση με καλύτερη κλιμά\-κωση, κάτι ιδιαίτερα ελκυστικό σε \en{3D} τμηματοποίηση.
 \end{itemize}
 
 Στο πειραματικό μέρος παρουσιάζεται το κοινό πρωτόκολλο εκπαίδευσης/αξιολόγησης που επιτρέπει να αποτιμηθούν εμπειρικά 

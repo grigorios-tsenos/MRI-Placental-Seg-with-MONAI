@@ -267,4 +267,8 @@
 \newblock {{\latintext \url{https://monai-dev.readthedocs.io/en/new-doc-theme/transforms.html#dictionary-transforms}}}, 2024.
 \newblock Accessed: 2024-06-10.
 
+\bibitem{smith2017cyclical}
+{{\latintext Leslie N.{ }Smith}}.
+\newblock {{\latintext {\color{\colouredtextcolor} {\em Cyclical Learning Rates for Training Neural Networks}}}}, 2017.
+
 \end{thebibliography}
