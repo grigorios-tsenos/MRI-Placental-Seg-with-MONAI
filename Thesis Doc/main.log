@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Homebrew) (preloaded format=pdflatex 2025.11.7)  5 FEB 2026 19:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Homebrew) (preloaded format=pdflatex 2025.11.7)  6 FEB 2026 17:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1908,9 +1908,6 @@ LaTeX Font Warning: Font shape `OT1/fvm/m/n' undefined
 
 
 [57]
-Underfull \vbox (badness 1478) has occurred while \output is active []
-
-
 
 [58]
 <figures/history_attentionUnet.png, id=774, 924.5742pt x 568.0422pt>
@@ -1967,32 +1964,30 @@ Package pdftex.def Info: figures/history_segmamba.png  used on input line 169.
 [59 <./figures/history_attentionUnet.png> <./figures/history_dynunet.png> <./figures/history_SwinUNETR.png>]
 
 [60 <./figures/history_segresLight.png> <./figures/history_segresHeavy.png> <./figures/history_UNET.png> <./figures/history_UNETR.png> <./figures/history_segmambaheavy.png> <./figures/history_segmamba.png>]
-Overfull \hbox (9.96559pt too wide) in paragraph at lines 194--198
-[] []\T1/mak/b/n/10.95 SSM/Mam-ba--ba-sed \LGR/mak/b/n/10.95 su-mpe-ri-fo-rˆ kai qw-rh-ti-kìth-ta.[] \LGR/mak/m/n/10.95 Oi pa-ral-la-gèc []\T1/mak/m/n/10.95 Seg-Mamba []\LGR/mak/m/n/10.95 sugklÐ-
- []
-
-
 
 [61]
 <figures/segmentation_masks_AttentionUnet.png, id=810, 821.27628pt x 504.15552pt>
 File: figures/segmentation_masks_AttentionUnet.png Graphic file (type png)
 <use figures/segmentation_masks_AttentionUnet.png>
-Package pdftex.def Info: figures/segmentation_masks_AttentionUnet.png  used on input line 284.
+Package pdftex.def Info: figures/segmentation_masks_AttentionUnet.png  used on input line 285.
 (pdftex.def)             Requested size: 290.21498pt x 178.15718pt.
-Package hyperref Info: bookmark level for unknown illustration defaults to 0 on input line 285.
+Package hyperref Info: bookmark level for unknown illustration defaults to 0 on input line 286.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 <figures/segmentation_masks_DynUNet.png, id=811, 818.38548pt x 500.68655pt>
 File: figures/segmentation_masks_DynUNet.png Graphic file (type png)
 <use figures/segmentation_masks_DynUNet.png>
-Package pdftex.def Info: figures/segmentation_masks_DynUNet.png  used on input line 290.
+Package pdftex.def Info: figures/segmentation_masks_DynUNet.png  used on input line 291.
 (pdftex.def)             Requested size: 290.21498pt x 177.55014pt.
-
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 <figures/segmentation_masks_SwinUNETR.png, id=812, 825.61247pt x 505.31184pt>
 File: figures/segmentation_masks_SwinUNETR.png Graphic file (type png)
 <use figures/segmentation_masks_SwinUNETR.png>
-Package pdftex.def Info: figures/segmentation_masks_SwinUNETR.png  used on input line 296.
+Package pdftex.def Info: figures/segmentation_masks_SwinUNETR.png  used on input line 297.
 (pdftex.def)             Requested size: 290.21498pt x 177.62512pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -2000,7 +1995,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <figures/segmentation_masks_SegResHeavy.png, id=813, 829.37051pt x 502.9992pt>
 File: figures/segmentation_masks_SegResHeavy.png Graphic file (type png)
 <use figures/segmentation_masks_SegResHeavy.png>
-Package pdftex.def Info: figures/segmentation_masks_SegResHeavy.png  used on input line 302.
+Package pdftex.def Info: figures/segmentation_masks_SegResHeavy.png  used on input line 303.
 (pdftex.def)             Requested size: 290.21498pt x 176.01398pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -2008,7 +2003,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <figures/segmentation_masks_SegResLight.png, id=814, 825.03432pt x 506.17908pt>
 File: figures/segmentation_masks_SegResLight.png Graphic file (type png)
 <use figures/segmentation_masks_SegResLight.png>
-Package pdftex.def Info: figures/segmentation_masks_SegResLight.png  used on input line 307.
+Package pdftex.def Info: figures/segmentation_masks_SegResLight.png  used on input line 308.
 (pdftex.def)             Requested size: 290.21498pt x 178.05354pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -2016,7 +2011,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <figures/segmentation_masks_unet.png, id=815, 825.03432pt x 506.46815pt>
 File: figures/segmentation_masks_unet.png Graphic file (type png)
 <use figures/segmentation_masks_unet.png>
-Package pdftex.def Info: figures/segmentation_masks_unet.png  used on input line 312.
+Package pdftex.def Info: figures/segmentation_masks_unet.png  used on input line 313.
 (pdftex.def)             Requested size: 290.21498pt x 178.15523pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -2024,7 +2019,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <figures/segmentation_masks_UNETR.png, id=816, 818.96364pt x 511.38252pt>
 File: figures/segmentation_masks_UNETR.png Graphic file (type png)
 <use figures/segmentation_masks_UNETR.png>
-Package pdftex.def Info: figures/segmentation_masks_UNETR.png  used on input line 320.
+Package pdftex.def Info: figures/segmentation_masks_UNETR.png  used on input line 321.
 (pdftex.def)             Requested size: 290.21498pt x 181.21823pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -2032,7 +2027,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <figures/segmentation_masks_segmambaHEAVY.png, id=817, 824.16708pt x 497.79576pt>
 File: figures/segmentation_masks_segmambaHEAVY.png Graphic file (type png)
 <use figures/segmentation_masks_segmambaHEAVY.png>
-Package pdftex.def Info: figures/segmentation_masks_segmambaHEAVY.png  used on input line 324.
+Package pdftex.def Info: figures/segmentation_masks_segmambaHEAVY.png  used on input line 325.
 (pdftex.def)             Requested size: 290.21498pt x 175.28693pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -2040,27 +2035,36 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <figures/segmentation_masks_segmambaLIGHT.png, id=818, 825.03432pt x 498.663pt>
 File: figures/segmentation_masks_segmambaLIGHT.png Graphic file (type png)
 <use figures/segmentation_masks_segmambaLIGHT.png>
-Package pdftex.def Info: figures/segmentation_masks_segmambaLIGHT.png  used on input line 328.
+Package pdftex.def Info: figures/segmentation_masks_segmambaLIGHT.png  used on input line 329.
 (pdftex.def)             Requested size: 290.21498pt x 175.40968pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 
-[62 <./figures/segmentation_masks_AttentionUnet.png>]
+[62]
 
-[63 <./figures/segmentation_masks_DynUNet.png> <./figures/segmentation_masks_SwinUNETR.png> <./figures/segmentation_masks_SegResHeavy.png>]
+[63 <./figures/segmentation_masks_AttentionUnet.png> <./figures/segmentation_masks_DynUNet.png> <./figures/segmentation_masks_SwinUNETR.png>]
 
-[64 <./figures/segmentation_masks_SegResLight.png> <./figures/segmentation_masks_unet.png> <./figures/segmentation_masks_UNETR.png>]
+[64 <./figures/segmentation_masks_SegResHeavy.png> <./figures/segmentation_masks_SegResLight.png> <./figures/segmentation_masks_unet.png>]
 
-[65 <./figures/segmentation_masks_segmambaHEAVY.png> <./figures/segmentation_masks_segmambaLIGHT.png>])
+[65 <./figures/segmentation_masks_UNETR.png> <./figures/segmentation_masks_segmambaHEAVY.png> <./figures/segmentation_masks_segmambaLIGHT.png>]
 
 [66
 
-]
+])
+
+[67]
 \openout2 = `body_matter/chap7.aux'.
 
  (./body_matter/chap7.tex
+
+[68
+
+
+
+
+]
 \textKappa \textepsilon \textphi \acctonos \textalpha \textlambda \textalpha \textiota \textomicron  7.
 LaTeX Font Info:    Font shape `OML/mak/m/it' will be
 (Font)              scaled to size 8.99994pt on input line 48.
@@ -2076,14 +2080,9 @@ LaTeX Font Info:    Font shape `T1/mak/b/n' will be
 (Font)              scaled to size 8.99994pt on input line 50.
 )
 
-[67
+[69]
 
-
-
-
-]
-
-[68]
+[70]
 \openout2 = `body_matter/chap8.aux'.
 
  (./body_matter/chap8.tex
@@ -2112,113 +2111,113 @@ Overfull \hbox (2.0pt too wide) in paragraph at lines 33--33
 
 )
 
-[69
-
-
-
-
-]
-
-[70]
-
 [71
+
 
 
 
 ]
 
 [72]
+
+[73
+
+
+
+]
+
+[74]
 \openout2 = `body_matter/chap9.aux'.
 
  (./body_matter/chap9.tex
 \textKappa \textepsilon \textphi \acctonos \textalpha \textlambda \textalpha \textiota \textomicron  9.
 )
 
-[73
+[75
 
 
 ]
 
-[74
+[76
 
 
 
 ]
 
-[75]
+[77]
 
-[76]
+[78]
 \openout2 = `back_matter/appA.aux'.
 
  (./back_matter/appA.tex
 \textPi \textalpha \textrho \acctonos \textalpha \textrho \texttau \texteta \textmu \textalpha  {\greekscript \textAlpha \textnumeralsigngreek }.
 )
 
-[77
+[79
 
 
 ]
 
-[78]
+[80]
 \openout2 = `back_matter/appB.aux'.
 
  (./back_matter/appB.tex
 \textPi \textalpha \textrho \acctonos \textalpha \textrho \texttau \texteta \textmu \textalpha  {\greekscript \textBeta \textnumeralsigngreek }.
-<figures/2.png, id=921, 187.70125pt x 119.44624pt>
+<figures/2.png, id=932, 187.70125pt x 119.44624pt>
 File: figures/2.png Graphic file (type png)
 <use figures/2.png>
 Package pdftex.def Info: figures/2.png  used on input line 25.
 (pdftex.def)             Requested size: 187.70079pt x 119.44594pt.
 
 
-[79
+[81
 
 
 
 
  <./figures/2.png>])
 
-[80]
+[82]
 \openout2 = `back_matter/appC.aux'.
 
  (./back_matter/appC.tex
 \textPi \textalpha \textrho \acctonos \textalpha \textrho \texttau \texteta \textmu \textalpha  {\greekscript \textGamma \textnumeralsigngreek }.
 
-LaTeX Warning: Citation `goossens93' on page 81 undefined on input line 8.
+LaTeX Warning: Citation `goossens93' on page 83 undefined on input line 8.
 
 
-LaTeX Warning: Citation `greekbook' on page 81 undefined on input line 10.
+LaTeX Warning: Citation `greekbook' on page 83 undefined on input line 10.
 
 
-LaTeX Warning: Citation `LiArTs13' on page 81 undefined on input line 12.
+LaTeX Warning: Citation `LiArTs13' on page 83 undefined on input line 12.
 
 
-LaTeX Warning: Citation `dcis2011' on page 81 undefined on input line 14.
+LaTeX Warning: Citation `dcis2011' on page 83 undefined on input line 14.
 
 
-LaTeX Warning: Citation `LaTeXProject' on page 81 undefined on input line 16.
+LaTeX Warning: Citation `LaTeXProject' on page 83 undefined on input line 16.
 
 
-LaTeX Warning: Citation `zoi04' on page 81 undefined on input line 18.
+LaTeX Warning: Citation `zoi04' on page 83 undefined on input line 18.
 
 
-LaTeX Warning: Citation `elli05' on page 81 undefined on input line 20.
+LaTeX Warning: Citation `elli05' on page 83 undefined on input line 20.
 
 
-LaTeX Warning: Citation `master04' on page 81 undefined on input line 22.
+LaTeX Warning: Citation `master04' on page 83 undefined on input line 22.
 
 
-LaTeX Warning: Citation `phd045' on page 81 undefined on input line 24.
+LaTeX Warning: Citation `phd045' on page 83 undefined on input line 24.
 
 
-LaTeX Warning: Citation `viswanathan2014convenient' on page 81 undefined on input line 26.
+LaTeX Warning: Citation `viswanathan2014convenient' on page 83 undefined on input line 26.
 
 
-LaTeX Warning: Citation `MSU-CSE-05-29' on page 81 undefined on input line 28.
+LaTeX Warning: Citation `MSU-CSE-05-29' on page 83 undefined on input line 28.
 
 )
 
-[81
+[83
 
 
 
@@ -2228,7 +2227,7 @@ LaTeX Warning: Citation `MSU-CSE-05-29' on page 81 undefined on input line 28.
 
  (./back_matter/appD.tex
 
-[82
+[84
 
 
 
@@ -2237,12 +2236,12 @@ LaTeX Warning: Citation `MSU-CSE-05-29' on page 81 undefined on input line 28.
 \textPi \textalpha \textrho \acctonos \textalpha \textrho \texttau \texteta \textmu \textalpha  {\greekscript \textDelta \textnumeralsigngreek }.
 )
 
-[83]
+[85]
 \openout2 = `back_matter/appE.aux'.
 
  (./back_matter/appE.tex
 
-[84
+[86
 
 
 
@@ -2251,9 +2250,9 @@ LaTeX Warning: Citation `MSU-CSE-05-29' on page 81 undefined on input line 28.
 \textPi \textalpha \textrho \acctonos \textalpha \textrho \texttau \texteta \textmu \textalpha  {\greekscript \textEpsilon \textnumeralsigngreek }.
 )
 
-[85]
+[87]
 
-[86
+[88
 
 
 
@@ -2261,35 +2260,35 @@ LaTeX Warning: Citation `MSU-CSE-05-29' on page 81 undefined on input line 28.
 Missing character: There is no v in font gk7t!
 
 
-[87
+[89
 
 ]
 
-[88]
-
-[89]
-
-[90])
+[90]
 
 [91]
 
-[92
-
-] (./back_matter/abbreviations.tex)
+[92])
 
 [93]
 
 [94
 
+] (./back_matter/abbreviations.tex)
+
+[95]
+
+[96
+
 ] (./back_matter/glossary.tex)
 
-[95] LaTeX Warning: (ntua_thesis.cls): The "plain" option has been selected. CD label generation has been disabled.
+[97] LaTeX Warning: (ntua_thesis.cls): The "plain" option has been selected. CD label generation has been disabled.
  
 LaTeX Warning: (ntua_thesis.cls): The "plain" option has been selected. CD cover generation has been disabled.
  
 
 
-[96
+[98
 
 ] (./main.aux (./front_matter/abstract.aux) (./front_matter/acknowledgements.aux) (./front_matter/preface.aux) (./body_matter/intro.aux) (./body_matter/chap2.aux) (./body_matter/chap3.aux) (./body_matter/chap4.aux) (./body_matter/chap5.aux) (./body_matter/chap6.aux) (./body_matter/chap7.aux) (./body_matter/chap8.aux) (./body_matter/chap9.aux) (./back_matter/appA.aux) (./back_matter/appB.aux) (./back_matter/appC.aux) (./back_matter/appD.aux) (./back_matter/appE.aux))
  ***********
@@ -2308,9 +2307,9 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 32553 strings out of 473190
- 598808 string characters out of 5704335
- 1131502 words of memory out of 5000000
+ 32555 strings out of 473190
+ 598822 string characters out of 5704335
+ 1131497 words of memory out of 5000000
  54743 multiletter control sequences out of 15000+600000
  646205 words of font info for 215 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2322,10 +2321,10 @@ pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist,
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
 
 </opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/kerkis/Kerkis-Bold.pfb></opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/kerkis/Kerkis-Italic.pfb></opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/kerkis/Kerkis-SmallCaps.pfb></opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/kerkis/Kerkis.pfb></opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb></opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/cbfonts/grmn1095.pfb></opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/txfonts/txex.pfb></opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb></opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on main.pdf (102 pages, 3586836 bytes).
+Output written on main.pdf (104 pages, 3592572 bytes).
 PDF statistics:
- 1462 PDF objects out of 1728 (max. 8388607)
- 1262 compressed objects within 13 object streams
- 314 named destinations out of 1000 (max. 500000)
+ 1473 PDF objects out of 1728 (max. 8388607)
+ 1271 compressed objects within 13 object streams
+ 316 named destinations out of 1000 (max. 500000)
  980 words of extra memory for PDF output out of 10000 (max. 10000000)
 
