@@ -1,0 +1,5 @@
+PWD /Users/gregtsen/Desktop/notes/MRI-Placental-Seg-with-MONAI
+INPUT /opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/web2c/texmf.cnf
+INPUT /opt/homebrew/Cellar/texlive/20250308_2/share/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT Thesis Doc/main.tex
+OUTPUT main.log

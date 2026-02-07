@@ -1,0 +1,12 @@
+# Fdb version 4
+["pdflatex"] 1770396053.29028 "Thesis Doc/main.tex" "main.pdf" "main" 1770396053.38264 2
+  "/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/web2c/texmf.cnf" 1741388039 42151 79f67285bdd95beca4d137b380b4b9e5 ""
+  "/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-var/web2c/pdftex/pdflatex.fmt" 1741388039 3346125 851abcc596872d7f7285a006ccee0040 ""
+  "Thesis Doc/main.tex" 1769963925.9658 14362 2983df02b8c896da9adb571126cb2217 ""
+  "main.aux" 1770396053.28995 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "ntua-thesis.cls" 0 -1 0 ""
+  (generated)
+  "main.aux"
+  "main.log"
+  "main.pdf"
+  (rewritten before read)
