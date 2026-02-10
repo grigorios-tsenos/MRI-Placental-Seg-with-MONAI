@@ -40,7 +40,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
-\documentclass[modern,hyperref,watermark,histinit,noindex,plain,newlogo]{ntua-thesis}
+\documentclass[modern,hyperref,histinit,noindex,plain,newlogo]{ntua-thesis}
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -146,7 +146,7 @@
 %% ΤΟΠΟΣ/ΜΗΝΑΣ/ΕΤΟΣ ΣΥΓΓΡΑΦΗΣ (Εμφανίζεται στη σελίδα των ευχαριστιών,
 %% αν υπάρχει).
 %
-	\ackPlaceDate{Αθήνα, Δεκέμβριος 2025}
+	\ackPlaceDate{Αθήνα, Φεβρουάριος 2026}
 %
 %% -------------------------------------------------------------------
 %% ΗΜΕΡΟΜΗΝΙΑ ΕΞΕΤΑΣΗΣ
@@ -155,7 +155,7 @@
 %% ------------------------------------------------------------------
 %% ΗΜΕΡΟΜΗΝΙΑ ΔΗΛΩΣΗΣ ΠΕΡΙ ΜΗ ΛΟΓΟΚΛΟΠΗΣ
 %
-	\declarationDate{22 Σεπτεμβρίου 2020}
+	\declarationDate{22 Φεβρουαρίου 2026}
 %
 %% -------------------------------------------------------------------
 %% ΕΤΟΣ COPYRIGHT
@@ -178,9 +178,6 @@
 	\secondExaminer{Γεώργιος Γεωργίου}
 %
 %% -------------------------------------------------------------------
-%% ΤΙΤΛΟΣ 2ου ΕΞΕΤΑΣΤΗ
-%
-	\secondExaminerTitle{Επιστ. Συνεργάτης}
 %%
 %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -234,7 +231,7 @@
 %%              };
 %%          }
 %%
-     \coverpageimage{0.8}{figures/rdf.png}
+%     \coverpageimage{0.8}{figures/rdf.png}
 \frenchspacing
 %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -290,18 +287,20 @@
 	\part{Επίλογος}
 	\include{body_matter/chap7}
 % Παραρτήματα
-	\appendices
-	\include{back_matter/appA}
-	\include{back_matter/appB}
-    \include{back_matter/appC}
-    \include{back_matter/appD}
-    \include{back_matter/appE}
+% Τα παρακάτω template appendices έχουν απενεργοποιηθεί ώστε το τελικό κείμενο
+% να περιλαμβάνει μόνο σχετικό περιεχόμενο της παρούσας εργασίας.
+%	\appendices
+%	\include{back_matter/appA}
+%	\include{back_matter/appB}
+%  \include{back_matter/appC}
+%  \include{back_matter/appD}
+%  \include{back_matter/appE}
 % Βιβλιογραφία - Αναφορές
 	\bibliography{references}
 % Συντομογραφίες - Αρκτικόλεξα - Ακρωνύμια
-	\includeabbreviations{back_matter/abbreviations}
+%	\includeabbreviations{back_matter/abbreviations}
 % Γλωσσάριο
-	\includeglossary{back_matter/glossary}
+%	\includeglossary{back_matter/glossary}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Ευρετήριο Όρων
 	\printindices
@@ -310,15 +309,10 @@
 %%%%%%%%%%%%%%%%%%
 
 %% Δημιουργία ετικετών CD:
-
-	\definecdlabeloffsets{0}{-0.65}{0}{0.55} % upper label x offset [cm] (default=0) /  upper label y offset [cm] (default=0) /  lower label x offset [cm] (default=0) /  lower  label y offset [cm] (default=0) -- For Q-Connect KF01579 labels use the following offset values: {0}{-0.65}{0}{0.55}
-
-	\createcdlabel{Πρότυπο Σύστημα Ομότιμων \\ Κόμβων Βασισμένο σε Σχήματα \en{RDF}}{Κωνσταντίνος Δ. Δημητρίου}{ΟΚΤΩΒΡΙΟΣ}{2020}{8} % τίτλος διπλωματικής / όνομα συγγραφέα / μήνας / έτος / εύρος περιοχής τίτλου σε cm (προτεινόμενη τιμή: 8)
-
-%%σ
-%% Δημιουργία εξωφύλλου θήκης CD:
-
-	\createcdcover{Πρότυπο Σύστημα Ομότιμων \\ Κόμβων Βασισμένο σε Σχήματα \en{RDF}}{Νικόλαος Ματσαμπλόκος}{ΟΚΤΩΒΡΙΟΣ}{2020}{10} % τίτλος πτυχιακής / όνομα συγγραφέα / μήνας / έτος / εύρος περιοχής τίτλου σε cm (προτεινόμενη τιμή: 10)
+% Οι template ρυθμίσεις CD label/cover έχουν απενεργοποιηθεί.
+%	\definecdlabeloffsets{0}{-0.65}{0}{0.55}
+%	\createcdlabel{...}{...}{...}{...}{...}
+%	\createcdcover{...}{...}{...}{...}{...}
 
 %%
 %

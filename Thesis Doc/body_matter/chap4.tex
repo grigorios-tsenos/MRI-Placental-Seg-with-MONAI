@@ -104,7 +104,7 @@
 
 
 \begin{figure}[!ht] \centering
-\includegraphics[width=0.4\linewidth]{../Images and data for diploma/Screenshot 2026-01-26 at 19.02.46.png}
+\includegraphics[width=0.4\linewidth]{./figures/Res connection.png}
  \caption{Μηχανισμός \en{residual connection} στην αρχιτεκτονική \en{ResNet} \cite{he2016resnet}}
 \label{figure4.2}
 \end{figure}
@@ -118,9 +118,15 @@
 \section{\en{AttentionUnet}: προσοχή στις \en{skip connections}}
 \label{sec:attentionunet}
 
-Η \en{Attention U-Net} εισάγει \en{attention gates} στις \en{skip connections}, ώστε το δίκτυο 
+Η \en{Attention U-Net} εισάγει \en{attention gates} \ref{figure4.3} στις \en{skip connections}, ώστε το δίκτυο 
 να ενισχύει περιοχές σχετικές με το \en{ROI} και να καταστέλλει άσχετο υπόβαθρο \cite{oktay2018attentionunet}. Το \en{gate} συνδυάζει πληροφορία απο ρηχότερα επίπεδα (λεπτομέρεια) και βαθύτερα επίπεδα (συμφραζόμενο), 
 υπολογίζοντας βάρη εστίασης.
+
+\begin{figure}[!ht] \centering
+\includegraphics[width=0.6\linewidth]{./figures/AttUNET attention gate.png}
+ \caption{Προτεινόμενος σχεδιασμός του \en{attention gate}}
+\label{figure4.3}
+\end{figure}
 
 \paragraph{Πότε βοηθά.} 
 Η προσοχή είναι ιδιαίτερα χρήσιμη όταν το \en{ROI} είναι μικρό, υπάρχει ισχυρή ανισορροπία κλάσεων ή όταν δομές έχουν παρόμοια ένταση με το υπόβαθρο.
@@ -146,12 +152,12 @@
 \paragraph{Ιεραρχία έναντι \en{ViT}.}
 Σε ένα κλασικό \en{ViT} ο αριθμός και η διάταξη των \en{tokens} παραμένουν σταθερά σε όλο τον \en{encoder} (μονο-κλίμακη αναπαράσταση). 
 Ο \en{Swin} χωρίζεται σε διακριτά \en{stages} και εφαρμόζει \en{patch merging}, 
-μειώνοντας προοδευτικά τη χωρική ανάλυση και δημιουργώντας πυραμίδα χαρακτηριστικών πολλαπλών κλιμάκων (\ref{figure4.3}).
+μειώνοντας προοδευτικά τη χωρική ανάλυση και δημιουργώντας πυραμίδα χαρακτηριστικών πολλαπλών κλιμάκων (\ref{figure4.4}).
 \begin{figure}[!ht] \centering
 \includegraphics[width=0.4\linewidth]{./figures/swin vs vit.png}
  \caption{Αριστερά: \en{Swin} με ιεραρχικά \en{stages} (πολλαπλές κλίμακες μέσω \en{patch merging}).\\
  Δεξιά: \en{ViT} χωρίς ιεραρχία, με σταθερή ανάλυση \en{tokens} σε όλο τον \en{encoder}.}
-\label{figure4.3}
+\label{figure4.4}
 \end{figure}
 \paragraph{Γιατί ταιριάζει σε \en{3D}.}
 Η τοπική προσοχή μειώνει το υπολογιστικό κόστος σε μεγάλους όγκους, ενώ η ιεραρχία (μέσω \en{patch merging}) μειώνει προοδευτικά το πλήθος \en{tokens}. 

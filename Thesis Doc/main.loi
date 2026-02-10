@@ -4,18 +4,14 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {illustration}{\numberline {6.1}{\ignorespaces \foreignlanguage {english}{Attention U-Net}}}{63}{illustration.caption.19}%
-\contentsline {illustration}{\numberline {6.2}{\ignorespaces \foreignlanguage {english}{DynUNet}}}{63}{illustration.caption.20}%
-\contentsline {illustration}{\numberline {6.3}{\ignorespaces \foreignlanguage {english}{SwinUNETR}}}{63}{illustration.caption.21}%
-\contentsline {illustration}{\numberline {6.4}{\ignorespaces \foreignlanguage {english}{SegResNet 1 (No of Filters = 64)}}}{64}{illustration.caption.22}%
-\contentsline {illustration}{\numberline {6.5}{\ignorespaces \foreignlanguage {english}{SegResNet 2 (No of Filters = 32)}}}{64}{illustration.caption.23}%
-\contentsline {illustration}{\numberline {6.6}{\ignorespaces \foreignlanguage {english}{U-Net}}}{64}{illustration.caption.24}%
-\contentsline {illustration}{\numberline {6.7}{\ignorespaces \foreignlanguage {english}{UNETR}}}{65}{illustration.caption.25}%
-\contentsline {illustration}{\numberline {6.8}{\ignorespaces \foreignlanguage {english}{SegMamba 1 (5 layers)}}}{65}{illustration.caption.26}%
-\contentsline {illustration}{\numberline {6.9}{\ignorespaces \foreignlanguage {english}{SegMamba 2 (4 layers)}}}{65}{illustration.caption.27}%
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\addvspace {10\p@ }
+\contentsline {illustration}{\numberline {6.1}{\ignorespaces \foreignlanguage {english}{Attention U-Net}}}{62}{illustration.caption.20}%
+\contentsline {illustration}{\numberline {6.2}{\ignorespaces \foreignlanguage {english}{DynUNet}}}{63}{illustration.caption.21}%
+\contentsline {illustration}{\numberline {6.3}{\ignorespaces \foreignlanguage {english}{SwinUNETR Heavier}}}{63}{illustration.caption.22}%
+\contentsline {illustration}{\numberline {6.4}{\ignorespaces \foreignlanguage {english}{SwinUNETR Lighter}}}{63}{illustration.caption.23}%
+\contentsline {illustration}{\numberline {6.5}{\ignorespaces \foreignlanguage {english}{SegResNet Heavier (No of Filters = 64)}}}{64}{illustration.caption.24}%
+\contentsline {illustration}{\numberline {6.6}{\ignorespaces \foreignlanguage {english}{SegResNet Lighter (No of Filters = 32)}}}{64}{illustration.caption.25}%
+\contentsline {illustration}{\numberline {6.7}{\ignorespaces \foreignlanguage {english}{U-Net}}}{64}{illustration.caption.26}%
+\contentsline {illustration}{\numberline {6.8}{\ignorespaces \foreignlanguage {english}{UNETR}}}{65}{illustration.caption.27}%
+\contentsline {illustration}{\numberline {6.9}{\ignorespaces \foreignlanguage {english}{SegMamba Heavier (5 layers)}}}{65}{illustration.caption.28}%
+\contentsline {illustration}{\numberline {6.10}{\ignorespaces \foreignlanguage {english}{SegMamba Lighter (4 layers)}}}{65}{illustration.caption.29}%
 \addvspace {10\p@ }

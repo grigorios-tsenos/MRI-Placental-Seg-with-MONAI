@@ -279,8 +279,8 @@ def build_presentation() -> None:
             "layout": "text",
             "title": "Κύρια Ποσοτικά Αποτελέσματα (Validation)",
             "bullets": [
-                "SegMamba 1: Dice=0.8606 | IoU=0.7566 | ValLoss=0.1685",
-                "SegResNet 1: Dice=0.8601 | IoU=0.7558 | ValLoss=0.1678",
+                "SegMamba Heavier: Dice=0.8606 | IoU=0.7566 | ValLoss=0.1685",
+                "SegResNet Heavier: Dice=0.8601 | IoU=0.7558 | ValLoss=0.1678",
                 "SwinUNETR: Dice=0.8490 | IoU=0.7401 | ValLoss=0.1838",
                 "UNETR: Dice=0.7720 | IoU=0.6345 | ValLoss=0.2842",
                 "Διαφορές κορυφής μικρές (~0.002-0.003 Dice)",
@@ -302,7 +302,7 @@ def build_presentation() -> None:
             "image_left": "Thesis Doc/figures/history_attentionUnet.png",
             "image_right": "Thesis Doc/figures/history_segresHeavy.png",
             "caption_left": "Attention U-Net",
-            "caption_right": "SegResNet 1",
+            "caption_right": "SegResNet Heavier",
         },
         {
             "layout": "split",
@@ -310,7 +310,7 @@ def build_presentation() -> None:
             "image_left": "Thesis Doc/figures/history_UNETR.png",
             "image_right": "Thesis Doc/figures/history_segmambaheavy.png",
             "caption_left": "UNETR",
-            "caption_right": "SegMamba 1",
+            "caption_right": "SegMamba Heavier",
         },
         {
             "layout": "image",
@@ -324,7 +324,7 @@ def build_presentation() -> None:
             "image_left": "Thesis Doc/figures/segmentation_masks_UNETR.png",
             "image_right": "Thesis Doc/figures/segmentation_masks_segmambaHEAVY.png",
             "caption_left": "UNETR",
-            "caption_right": "SegMamba 1",
+            "caption_right": "SegMamba Heavier",
         },
         {
             "layout": "text",

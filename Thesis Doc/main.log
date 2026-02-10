@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Homebrew) (preloaded format=pdflatex 2025.11.7)  7 FEB 2026 17:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Homebrew) (preloaded format=pdflatex 2025.11.7)  10 FEB 2026 20:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1200,8 +1200,8 @@ Package caption Info: New subtype `subillustration' on input line 238.
 ) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/placeins/placeins.sty
 Package: placeins 2005/04/18  v 2.2
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 249.
-Package hyperref Info: Option `unicode' set `true' on input line 249.
+Package hyperref Info: Option `colorlinks' set `true' on input line 246.
+Package hyperref Info: Option `unicode' set `true' on input line 246.
  (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/generic/stringenc/se-pdfdoc.def
 File: se-pdfdoc.def 2019/11/29 v1.12 stringenc: PDFDocEncoding
 ) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/hypcap/hypcap.sty
@@ -1209,58 +1209,54 @@ Package: hypcap 2024-07-26 v1.13 Adjusting the anchors of captions (HO)
  (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 ))
-LaTeX Font Info:    Trying to load font information for LGR+mak on input line 249.
+LaTeX Font Info:    Trying to load font information for LGR+mak on input line 246.
  (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/kerkis/lgrmak.fd)
 LaTeX Font Info:    Font shape `LGR/mak/m/n' will be
-(Font)              scaled to size 9.85492pt on input line 249.
+(Font)              scaled to size 9.85492pt on input line 246.
  (./main.aux
 LaTeX Font Info:    Trying to load font information for T1+mak on input line 9.
  (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/kerkis/t1mak.fd)
 LaTeX Font Info:    Font shape `T1/mak/m/n' will be
 (Font)              scaled to size 9.85492pt on input line 9.
- (./front_matter/abstract.aux) (./front_matter/acknowledgements.aux) (./front_matter/preface.aux) (./body_matter/intro.aux) (./body_matter/chap2.aux) (./body_matter/chap3.aux) (./body_matter/chap4.aux) (./body_matter/chap5.aux
-
-LaTeX Warning: Label `sec:proto_optim' multiply defined.
-
-) (./body_matter/chap6.aux) (./body_matter/chap7.aux) (./back_matter/appA.aux) (./back_matter/appB.aux) (./back_matter/appC.aux) (./back_matter/appD.aux) (./back_matter/appE.aux))
+ (./front_matter/abstract.aux) (./front_matter/acknowledgements.aux) (./front_matter/preface.aux) (./body_matter/intro.aux) (./body_matter/chap2.aux) (./body_matter/chap3.aux) (./body_matter/chap4.aux) (./body_matter/chap5.aux) (./body_matter/chap6.aux) (./body_matter/chap7.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 249.
-LaTeX Font Info:    Trying to load font information for OML+txmi on input line 249.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 246.
+LaTeX Font Info:    Trying to load font information for OML+txmi on input line 246.
  (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 249.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 249.
-LaTeX Font Info:    Trying to load font information for OMS+txsy on input line 249.
+LaTeX Font Info:    ... okay on input line 246.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 246.
+LaTeX Font Info:    Trying to load font information for OMS+txsy on input line 246.
  (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 249.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 249.
-LaTeX Font Info:    ... okay on input line 249.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 249.
-LaTeX Font Info:    ... okay on input line 249.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 249.
-LaTeX Font Info:    ... okay on input line 249.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 249.
-LaTeX Font Info:    Trying to load font information for OMX+txex on input line 249.
+LaTeX Font Info:    ... okay on input line 246.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 246.
+LaTeX Font Info:    ... okay on input line 246.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 246.
+LaTeX Font Info:    ... okay on input line 246.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 246.
+LaTeX Font Info:    ... okay on input line 246.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 246.
+LaTeX Font Info:    Trying to load font information for OMX+txex on input line 246.
  (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/txfonts/omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 249.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 249.
-LaTeX Font Info:    Trying to load font information for U+txexa on input line 249.
+LaTeX Font Info:    ... okay on input line 246.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 246.
+LaTeX Font Info:    Trying to load font information for U+txexa on input line 246.
  (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/txfonts/utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 249.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 249.
-LaTeX Font Info:    ... okay on input line 249.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 249.
-LaTeX Font Info:    ... okay on input line 249.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 249.
-LaTeX Font Info:    ... okay on input line 249.
+LaTeX Font Info:    ... okay on input line 246.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 246.
+LaTeX Font Info:    ... okay on input line 246.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 246.
+LaTeX Font Info:    ... okay on input line 246.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 246.
+LaTeX Font Info:    ... okay on input line 246.
  (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count368
@@ -1276,44 +1272,44 @@ LaTeX Font Info:    ... okay on input line 249.
 \everyMPtoPDFconversion=\toks55
 )
 Package newfloat Info: `float' package detected.
-Package hyperref Info: Link coloring ON on input line 249.
+Package hyperref Info: Link coloring ON on input line 246.
 \c@lstlisting=\count374
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hypcap package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Trying to load font information for OT1+txr on input line 252.
+LaTeX Font Info:    Trying to load font information for OT1+txr on input line 249.
  (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for OML+mak on input line 252.
+LaTeX Font Info:    Trying to load font information for OML+mak on input line 249.
  (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/kerkis/omlmak.fd)
 LaTeX Font Info:    Font shape `OML/mak/m/it' will be
-(Font)              scaled to size 9.85492pt on input line 252.
+(Font)              scaled to size 9.85492pt on input line 249.
 LaTeX Font Info:    Font shape `OML/mak/m/it' will be
-(Font)              scaled to size 7.19995pt on input line 252.
+(Font)              scaled to size 7.19995pt on input line 249.
 LaTeX Font Info:    Font shape `OML/mak/m/it' will be
-(Font)              scaled to size 5.39996pt on input line 252.
-LaTeX Font Info:    Trying to load font information for U+txsya on input line 252.
+(Font)              scaled to size 5.39996pt on input line 249.
+LaTeX Font Info:    Trying to load font information for U+txsya on input line 249.
  (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txsyb on input line 252.
+LaTeX Font Info:    Trying to load font information for U+txsyb on input line 249.
  (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txmia on input line 252.
+LaTeX Font Info:    Trying to load font information for U+txmia on input line 249.
  (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txsyc on input line 252.
+LaTeX Font Info:    Trying to load font information for U+txsyc on input line 249.
  (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `T1/mak/m/n' will be
-(Font)              scaled to size 7.19995pt on input line 252.
+(Font)              scaled to size 7.19995pt on input line 249.
 LaTeX Font Info:    Font shape `T1/mak/m/n' will be
-(Font)              scaled to size 5.39996pt on input line 252.
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 252.
+(Font)              scaled to size 5.39996pt on input line 249.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 249.
  (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
@@ -1324,61 +1320,56 @@ Package epstopdf Info: Source file: <logo/pyrforos.eps>
 (epstopdf)                    date: 2025-12-16 19:35:37
 (epstopdf)                    size: 58500 bytes
 (epstopdf)             Command: <repstopdf --outfile=logo/pyrforos-eps-converted-to.pdf logo/pyrforos.eps>
-(epstopdf)             \includegraphics on input line 252.
+(epstopdf)             \includegraphics on input line 249.
 Package epstopdf Info: Output file is already uptodate.
 <logo/pyrforos-eps-converted-to.pdf, id=7, 557.08125pt x 557.08125pt>
 File: logo/pyrforos-eps-converted-to.pdf Graphic file (type pdf)
 <use logo/pyrforos-eps-converted-to.pdf>
-Package pdftex.def Info: logo/pyrforos-eps-converted-to.pdf  used on input line 252.
+Package pdftex.def Info: logo/pyrforos-eps-converted-to.pdf  used on input line 249.
 (pdftex.def)             Requested size: 71.13188pt x 71.13104pt.
 LaTeX Font Info:    Font shape `LGR/mak/m/n' will be
-(Font)              scaled to size 10.79993pt on input line 252.
+(Font)              scaled to size 10.79993pt on input line 249.
 LaTeX Font Info:    Font shape `LGR/mak/m/sc' will be
-(Font)              scaled to size 10.79993pt on input line 252.
+(Font)              scaled to size 10.79993pt on input line 249.
 LaTeX Font Info:    Font shape `LGR/mak/m/n' will be
-(Font)              scaled to size 8.99994pt on input line 252.
+(Font)              scaled to size 8.99994pt on input line 249.
 LaTeX Font Info:    Font shape `LGR/mak/m/sc' will be
-(Font)              scaled to size 8.99994pt on input line 252.
+(Font)              scaled to size 8.99994pt on input line 249.
 
-Overfull \hbox (95.13191pt too wide) in paragraph at lines 252--252
+Overfull \hbox (95.13191pt too wide) in paragraph at lines 249--249
  [][] 
  []
 
 LaTeX Font Info:    Font shape `LGR/mak/m/n' will be
-(Font)              scaled to size 18.66588pt on input line 252.
+(Font)              scaled to size 18.66588pt on input line 249.
 LaTeX Font Info:    Font shape `LGR/mak/m/n' will be
-(Font)              scaled to size 17.35912pt on input line 252.
+(Font)              scaled to size 17.35912pt on input line 249.
 LaTeX Font Info:    Font shape `LGR/mak/b/n' will be
-(Font)              scaled to size 17.35912pt on input line 252.
+(Font)              scaled to size 17.35912pt on input line 249.
 LaTeX Font Info:    Font shape `T1/mak/b/n' will be
-(Font)              scaled to size 17.35912pt on input line 252.
+(Font)              scaled to size 17.35912pt on input line 249.
 LaTeX Font Info:    Font shape `LGR/mak/m/n' will be
-(Font)              scaled to size 12.9599pt on input line 252.
+(Font)              scaled to size 12.9599pt on input line 249.
 LaTeX Font Info:    Font shape `LGR/mak/m/it' will be
-(Font)              scaled to size 12.9599pt on input line 252.
+(Font)              scaled to size 12.9599pt on input line 249.
 LaTeX Font Info:    Font shape `LGR/mak/m/sc' will be
-(Font)              scaled to size 18.66588pt on input line 252.
+(Font)              scaled to size 18.66588pt on input line 249.
 LaTeX Font Info:    Font shape `LGR/mak/m/sc' will be
-(Font)              scaled to size 17.35912pt on input line 252.
+(Font)              scaled to size 17.35912pt on input line 249.
 LaTeX Font Info:    Font shape `LGR/mak/m/n' will be
-(Font)              scaled to size 12.0526pt on input line 252.
+(Font)              scaled to size 12.0526pt on input line 249.
 LaTeX Font Info:    Font shape `LGR/mak/b/n' will be
-(Font)              scaled to size 12.0526pt on input line 252.
-<figures/rdf.png, id=8, 109.40875pt x 119.44624pt>
-File: figures/rdf.png Graphic file (type png)
-<use figures/rdf.png>
-Package pdftex.def Info: figures/rdf.png  used on input line 252.
-(pdftex.def)             Requested size: 87.5271pt x 95.55711pt.
+(Font)              scaled to size 12.0526pt on input line 249.
 LaTeX Font Info:    Font shape `LGR/mak/b/n' will be
-(Font)              scaled to size 10.79993pt on input line 252.
+(Font)              scaled to size 10.79993pt on input line 249.
 
 
 [1
 
 
-{/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}{/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/enc/dvips/kerkis/gpkerkis.enc}{/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/enc/dvips/kerkis/kerkisec.enc} <./logo/pyrforos-eps-converted-to.pdf> <./figures/rdf.png>]
+{/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}{/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/enc/dvips/kerkis/gpkerkis.enc}{/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/enc/dvips/kerkis/kerkisec.enc} <./logo/pyrforos-eps-converted-to.pdf>]
 LaTeX Font Info:    Font shape `LGR/mak/m/n' will be
-(Font)              scaled to size 5.39996pt on input line 252.
+(Font)              scaled to size 5.39996pt on input line 249.
 
 
 [2
@@ -1391,24 +1382,24 @@ Package epstopdf Info: Source file: <logo/pyrforos.eps>
 (epstopdf)                    date: 2025-12-16 19:35:37
 (epstopdf)                    size: 58500 bytes
 (epstopdf)             Command: <repstopdf --outfile=logo/pyrforos-eps-converted-to.pdf logo/pyrforos.eps>
-(epstopdf)             \includegraphics on input line 252.
+(epstopdf)             \includegraphics on input line 249.
 Package epstopdf Info: Output file is already uptodate.
 File: logo/pyrforos-eps-converted-to.pdf Graphic file (type pdf)
 <use logo/pyrforos-eps-converted-to.pdf>
-Package pdftex.def Info: logo/pyrforos-eps-converted-to.pdf  used on input line 252.
+Package pdftex.def Info: logo/pyrforos-eps-converted-to.pdf  used on input line 249.
 (pdftex.def)             Requested size: 45.52458pt x 45.51944pt.
 LaTeX Font Info:    Font shape `LGR/mak/m/sc' will be
-(Font)              scaled to size 9.85492pt on input line 252.
+(Font)              scaled to size 9.85492pt on input line 249.
 LaTeX Font Info:    Font shape `LGR/mak/m/n' will be
-(Font)              scaled to size 15.55188pt on input line 252.
+(Font)              scaled to size 15.55188pt on input line 249.
 LaTeX Font Info:    Font shape `LGR/mak/b/n' will be
-(Font)              scaled to size 15.55188pt on input line 252.
+(Font)              scaled to size 15.55188pt on input line 249.
 LaTeX Font Info:    Font shape `T1/mak/b/n' will be
-(Font)              scaled to size 15.55188pt on input line 252.
+(Font)              scaled to size 15.55188pt on input line 249.
 LaTeX Font Info:    Font shape `LGR/mak/b/n' will be
-(Font)              scaled to size 12.9599pt on input line 252.
+(Font)              scaled to size 12.9599pt on input line 249.
 LaTeX Font Info:    Font shape `LGR/mak/m/it' will be
-(Font)              scaled to size 9.85492pt on input line 252.
+(Font)              scaled to size 9.85492pt on input line 249.
 
 
 [3]
@@ -1421,22 +1412,22 @@ Package epstopdf Info: Source file: <logo/pyrforos.eps>
 (epstopdf)                    date: 2025-12-16 19:35:37
 (epstopdf)                    size: 58500 bytes
 (epstopdf)             Command: <repstopdf --outfile=logo/pyrforos-eps-converted-to.pdf logo/pyrforos.eps>
-(epstopdf)             \includegraphics on input line 252.
+(epstopdf)             \includegraphics on input line 249.
 Package epstopdf Info: Output file is already uptodate.
 File: logo/pyrforos-eps-converted-to.pdf Graphic file (type pdf)
 <use logo/pyrforos-eps-converted-to.pdf>
-Package pdftex.def Info: logo/pyrforos-eps-converted-to.pdf  used on input line 252.
+Package pdftex.def Info: logo/pyrforos-eps-converted-to.pdf  used on input line 249.
 (pdftex.def)             Requested size: 45.52458pt x 45.51944pt.
-LaTeX Font Info:    Trying to load font information for TS1+mak on input line 252.
-LaTeX Font Info:    No file TS1mak.fd. on input line 252.
+LaTeX Font Info:    Trying to load font information for TS1+mak on input line 249.
+LaTeX Font Info:    No file TS1mak.fd. on input line 249.
 
 
 LaTeX Font Warning: Font shape `TS1/mak/m/n' undefined
 (Font)              using `TS1/cmr/m/n' instead
-(Font)              for symbol `textcopyright' on input line 252.
+(Font)              for symbol `textcopyright' on input line 249.
 
 LaTeX Font Info:    Font shape `LGR/mak/b/n' will be
-(Font)              scaled to size 9.85492pt on input line 252.
+(Font)              scaled to size 9.85492pt on input line 249.
 
 
 [5
@@ -1452,12 +1443,17 @@ LaTeX Font Info:    Font shape `LGR/mak/b/n' will be
 LaTeX Font Info:    Font shape `LGR/mak/b/n' will be
 (Font)              scaled to size 18.66588pt on input line 1.
 
+Overfull \hbox (15.67438pt too wide) in paragraph at lines 17--24
+\T1/mak/m/n/10.95 Mamba Heav-ier []\LGR/mak/m/n/10.95 ([]\T1/mak/m/n/10.95 Dice[]\LGR/mak/m/n/10.95 =0.8606, []\T1/mak/m/n/10.95 IoU[]\LGR/mak/m/n/10.95 =0.7566), po-l‘ ko-ntà sto []\T1/mak/m/n/10.95 Seg-Res-Net Heav-ier []\LGR/mak/m/n/10.95 ([]\T1/mak/m/n/10.95 Dice[]\LGR/mak/m/n/10.95 =0.8601).
+ []
+
+
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.32 \end{abstract}
+l.36 \end{abstract}
                     [1
 
 
@@ -1467,37 +1463,37 @@ l.32 \end{abstract}
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.36 \begin{abstracteng}
+l.38 \begin{abstracteng}
                          [2
 
 ]
 LaTeX Font Info:    Font shape `T1/mak/b/n' will be
-(Font)              scaled to size 12.9599pt on input line 59.
+(Font)              scaled to size 12.9599pt on input line 67.
 )
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.255 	\include{front_matter/abstract}
+l.252 	\include{front_matter/abstract}
                                        [3]
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.257 ...ŒøœÖ Œ∫Œ±Œπ œÉœÑŒ∑ŒΩ ŒúŒ∑œÑŒ≠œÅŒ± ŒºŒøœÖ}
+l.254 ...ŒøœÖ Œ∫Œ±Œπ œÉœÑŒ∑ŒΩ ŒúŒ∑œÑŒ≠œÅŒ± ŒºŒøœÖ}
                                                    [4
 
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 257--257
+Underfull \hbox (badness 10000) in paragraph at lines 254--254
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 257--257
+Underfull \hbox (badness 10000) in paragraph at lines 254--254
 
  []
 
@@ -1507,7 +1503,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 257--257
 pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.259 	\include
+l.256 	\include
                {front_matter/acknowledgements} [5]
 \openout2 = `front_matter/acknowledgements.aux'.
 
@@ -1531,11 +1527,11 @@ l.8 \begin{acknowledgements}
 
 ] (./main.toc
 LaTeX Font Info:    Font shape `T1/mak/b/n' will be
-(Font)              scaled to size 9.85492pt on input line 7.
+(Font)              scaled to size 9.85492pt on input line 5.
 LaTeX Font Info:    Font shape `T1/mak/b/n' will be
-(Font)              scaled to size 10.79993pt on input line 41.
+(Font)              scaled to size 10.79993pt on input line 15.
 
-Overfull \hbox (5.39873pt too wide) in paragraph at lines 77--77
+Overfull \hbox (5.39873pt too wide) in paragraph at lines 37--37
  [][] [][][]\LGR/mak/m/n/10.95 ArqitektonikËc pu-kn†c prÏble-yhc: []\T1/mak/m/n/10.95 FCN[]\LGR/mak/m/n/10.95 , []\T1/mak/m/n/10.95 encoder--decoder []\LGR/mak/m/n/10.95 kai []\T1/mak/m/n/10.95 U-shaped 
  []
 
@@ -1544,9 +1540,9 @@ Overfull \hbox (5.39873pt too wide) in paragraph at lines 77--77
 [9]
 
 LaTeX Font Info:    Font shape `LGR/mak/m/n' will be
-(Font)              scaled to size 8.09995pt on input line 177.
+(Font)              scaled to size 8.09995pt on input line 103.
 LaTeX Font Info:    Font shape `T1/mak/m/n' will be
-(Font)              scaled to size 8.09995pt on input line 177.
+(Font)              scaled to size 8.09995pt on input line 103.
 [10])
 \tf@toc=\write4
 \openout4 = `main.toc'.
@@ -1634,9 +1630,9 @@ Overfull \hbox (0.5372pt too wide) in paragraph at lines 71--73
 
 ]
 LaTeX Font Info:    Font shape `T1/mak/b/n' will be
-(Font)              scaled to size 22.39185pt on input line 278.
+(Font)              scaled to size 22.39185pt on input line 275.
 LaTeX Font Info:    Font shape `LGR/mak/b/n' will be
-(Font)              scaled to size 20.82425pt on input line 278.
+(Font)              scaled to size 20.82425pt on input line 275.
 
 
 [25]
@@ -1663,17 +1659,17 @@ Overfull \hbox (2.48936pt too wide) in paragraph at lines 31--35
 
 
 [28{/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/enc/dvips/kerkis/kmath.enc}{/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/enc/dvips/base/8r.enc}]
-<figures/First Slice along segmentation and 3D view.png, id=469, 1187.43625pt x 431.6125pt>
+<figures/First Slice along segmentation and 3D view.png, id=447, 1187.43625pt x 431.6125pt>
 File: figures/First Slice along segmentation and 3D view.png Graphic file (type png)
 <use figures/First Slice along segmentation and 3D view.png>
 Package pdftex.def Info: figures/First Slice along segmentation and 3D view.png  used on input line 88.
 (pdftex.def)             Requested size: 341.43436pt x 124.10408pt.
-<figures/Second Slice along segmentation and 3D view.png, id=470, 1187.43625pt x 431.6125pt>
+<figures/Second Slice along segmentation and 3D view.png, id=449, 1187.43625pt x 431.6125pt>
 File: figures/Second Slice along segmentation and 3D view.png Graphic file (type png)
 <use figures/Second Slice along segmentation and 3D view.png>
 Package pdftex.def Info: figures/Second Slice along segmentation and 3D view.png  used on input line 89.
 (pdftex.def)             Requested size: 341.43436pt x 124.10408pt.
-<figures/Third Slice along segmentation and 3D view.png, id=471, 1187.43625pt x 431.6125pt>
+<figures/Third Slice along segmentation and 3D view.png, id=450, 1187.43625pt x 431.6125pt>
 File: figures/Third Slice along segmentation and 3D view.png Graphic file (type png)
 <use figures/Third Slice along segmentation and 3D view.png>
 Package pdftex.def Info: figures/Third Slice along segmentation and 3D view.png  used on input line 90.
@@ -1752,9 +1748,9 @@ Underfull \vbox (badness 3219) has occurred while \output is active []
 
 
 
-[37])
+[37]
 
-[38]
+[38])
 
 [39]
 \openout2 = `body_matter/chap4.aux'.
@@ -1775,7 +1771,7 @@ Package lettrine.sty Info: Targeted height = 21.27205pt
 
 
 [41]
-<figures/u-net-architecture.png, id=630, 1560.83125pt x 1039.885pt>
+<figures/u-net-architecture.png, id=610, 1560.83125pt x 1039.885pt>
 File: figures/u-net-architecture.png Graphic file (type png)
 <use figures/u-net-architecture.png>
 Package pdftex.def Info: figures/u-net-architecture.png  used on input line 70.
@@ -1783,38 +1779,43 @@ Package pdftex.def Info: figures/u-net-architecture.png  used on input line 70.
 
 
 [42 <./figures/u-net-architecture.png>]
-<../Images and data for diploma/Screenshot 2026-01-26 at 19.02.46.png, id=640, 221.82875pt x 139.52126pt>
-File: ../Images and data for diploma/Screenshot 2026-01-26 at 19.02.46.png Graphic file (type png)
-<use ../Images and data for diploma/Screenshot 2026-01-26 at 19.02.46.png>
-Package pdftex.def Info: ../Images and data for diploma/Screenshot 2026-01-26 at 19.02.46.png  used on input line 107.
+<./figures/Res connection.png, id=620, 221.82875pt x 139.52126pt>
+File: ./figures/Res connection.png Graphic file (type png)
+<use ./figures/Res connection.png>
+Package pdftex.def Info: ./figures/Res connection.png  used on input line 107.
 (pdftex.def)             Requested size: 170.71393pt x 107.37207pt.
+<./figures/AttUNET attention gate.png, id=627, 871.255pt x 254.9525pt>
+File: ./figures/AttUNET attention gate.png Graphic file (type png)
+<use ./figures/AttUNET attention gate.png>
+Package pdftex.def Info: ./figures/AttUNET attention gate.png  used on input line 126.
+(pdftex.def)             Requested size: 256.0774pt x 74.93411pt.
 
 
-[43 <../Images and data for diploma/Screenshot 2026-01-26 at 19.02.46.png>]
-<./figures/swin vs vit.png, id=658, 702.625pt x 367.3725pt>
+[43 <./figures/Res connection.png>]
+<./figures/swin vs vit.png, id=640, 702.625pt x 367.3725pt>
 File: ./figures/swin vs vit.png Graphic file (type png)
 <use ./figures/swin vs vit.png>
-Package pdftex.def Info: ./figures/swin vs vit.png  used on input line 151.
+Package pdftex.def Info: ./figures/swin vs vit.png  used on input line 157.
 (pdftex.def)             Requested size: 170.71393pt x 89.25868pt.
 
-Overfull \hbox (5.02042pt too wide) in paragraph at lines 163--170
+
+[44 <./figures/AttUNET attention gate.png> <./figures/swin vs vit.png>]
+Overfull \hbox (5.02042pt too wide) in paragraph at lines 169--176
 []\LGR/mak/m/n/10.95 To []\T1/mak/m/n/10.95 Seg-Mamba []\LGR/mak/m/n/10.95 pro-te-–nei mia []\T1/mak/m/n/10.95 3D []\LGR/mak/m/n/10.95 ar-qi-te-kto-ni-k† tmh-ma-to-po-–h-shc pou en-sw-ma-t∏nei []\T1/mak/m/n/10.95 Mamba[]\LGR/mak/m/n/10.95 -
  []
 
 
-
-[44 <./figures/swin vs vit.png>]
-Overfull \hbox (5.82741pt too wide) in paragraph at lines 172--178
+Overfull \hbox (5.82741pt too wide) in paragraph at lines 178--184
 [] []\LGR/mak/b/n/10.95 Sh-me-–w-sh u-lo-po-–h-shc.[] \LGR/mak/m/n/10.95 Se a-nt–je-sh me ta u-pÏloi-pa mo-ntËla pou pro-Ër-qo-ntai a-pÏ []\T1/mak/m/n/10.95 MONAI[]\LGR/mak/m/n/10.95 ,
  []
 
 
-Overfull \hbox (12.78792pt too wide) in paragraph at lines 193--194
+Overfull \hbox (12.78792pt too wide) in paragraph at lines 199--200
 [][]\T1/mak/b/n/10.95 Transformer-based[]\LGR/mak/m/n/10.95 : i-squ-rÏ []\T1/mak/m/n/10.95 global con-text[]\LGR/mak/m/n/10.95 , al-là au-xh-mËnec a-pai-t†seic mn†mh-c/qrÏnou. 
  []
 
 
-Overfull \hbox (0.61713pt too wide) in paragraph at lines 194--195
+Overfull \hbox (0.61713pt too wide) in paragraph at lines 200--201
 [][]\T1/mak/b/n/10.95 SSM/Mamba-based[]\LGR/mak/m/n/10.95 : stÏqoc h ma-kri-n†c em-bËleiac mo-nte-lo-po-–h-sh me ka-l‘te-rh klimà-
  []
 
@@ -1836,7 +1837,7 @@ Overfull \hbox (0.61713pt too wide) in paragraph at lines 194--195
  (./body_matter/chap5.tex
 \textKappa \textepsilon \textphi \acctonos \textalpha \textlambda \textalpha \textiota \textomicron  5.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 3428) has occurred while \output is active []
 
 
 
@@ -1844,51 +1845,45 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
-LaTeX Font Info:    Trying to load font information for T1+fvm on input line 65.
- (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/bera/t1fvm.fd
+Overfull \hbox (5.32686pt too wide) in paragraph at lines 55--61
+[]\LGR/mak/m/n/10.95 Oi e-kte-lËseic prag-ma-to-poi-†jh-kan wc []\T1/mak/m/it/10.95 non-interactive runs []\LGR/mak/m/n/10.95 (me ka-ta-gra-f† []\T1/mak/m/n/10.95 logs[]\LGR/mak/m/n/10.95 /metrik∏n),
+ []
+
+LaTeX Font Info:    Trying to load font information for T1+fvm on input line 66.
+(/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/bera/t1fvm.fd
 File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
 )
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 8.2125pt on input line 65.
+(Font)              scaled to size 8.2125pt on input line 66.
 
 
 [50]
+Overfull \hbox (5.8143pt too wide) in paragraph at lines 113--117
+[]\LGR/mak/b/n/10.95 Anadeigmatolhy–a ([]\T1/mak/b/n/10.95 Spac-ing[]\LGR/mak/b/n/10.95 ): \LGR/mak/m/n/10.95 me-ta-sqh-ma-ti-smÏc se koi-nÏ []\T1/mak/m/n/10.95 voxel spac-ing ($\OT1/txr/m/n/10.95 (\T1/mak/m/n/10.95 2\OML/mak/m/it/10.95 :\T1/mak/m/n/10.95 0\OML/mak/m/it/10.95 ; \T1/mak/m/n/10.95 2\OML/mak/m/it/10.95 :\T1/mak/m/n/10.95 0\OML/mak/m/it/10.95 ; \T1/mak/m/n/10.95 2\OML/mak/m/it/10.95 :\T1/mak/m/n/10.95 0\OT1/txr/m/n/10.95 )$
+ []
+
+
+Overfull \hbox (0.82108pt too wide) in paragraph at lines 120--123
+[]\LGR/mak/m/n/10.95 EfarmÏzetai ka-no-ni-ko-po-–h-sh me []\T1/mak/m/n/10.95 per-centiles []\LGR/mak/m/n/10.95 (p.q. 2.0-99.9) kai qar-to-gràfh-sh sto $\OT1/txr/m/n/10.95 [\T1/mak/m/n/10.95 0\OML/mak/m/it/10.95 ; \T1/mak/m/n/10.95 1\OT1/txr/m/n/10.95 ]$\LGR/mak/m/n/10.95 .
+ []
+
+
 
 [51]
-Overfull \hbox (24.99486pt too wide) in paragraph at lines 208--212
-[]\LGR/mak/b/n/10.95 Anadeigmatolhy–a ([]\T1/mak/b/n/10.95 Spac-ing[]\LGR/mak/b/n/10.95 ): \LGR/mak/m/n/10.95 me-ta-sqh-ma-ti-smÏc se koi-nÏ []\T1/mak/m/n/10.95 voxel spac-ing []\LGR/mak/m/n/10.95 (p.q. $\OT1/txr/m/n/10.95 (\T1/mak/m/n/10.95 2\OML/mak/m/it/10.95 ; \T1/mak/m/n/10.95 2\OML/mak/m/it/10.95 ; \T1/mak/m/n/10.95 2\OT1/txr/m/n/10.95 )$[]\T1/mak/m/n/10.95 mm[]\LGR/mak/m/n/10.95 ),
- []
-
-
 
 [52]
-Overfull \hbox (8.0085pt too wide) in paragraph at lines 221--226
-[]\LGR/mak/m/n/10.95 DedomËnhc thc me-gàlhc Ëkta-shc []\T1/mak/m/n/10.95 back-ground[]\LGR/mak/m/n/10.95 , e-far-mÏsth-ke []\T1/mak/m/n/10.95 Crop-Fore-groundd []\LGR/mak/m/n/10.95 me []\T1/mak/m/n/10.95 source_-
+Overfull \hbox (15.05pt too wide) in paragraph at lines 225--227
+[]\T1/mak/m/n/10.95 SegResNet Heav-ier[]\LGR/mak/m/n/10.95 : []\T1/mak/m/n/10.95 init_-filters$\OT1/txr/m/n/10.95 = \T1/mak/m/n/10.95 64$[]\LGR/mak/m/n/10.95 , []\T1/mak/m/n/10.95 blocks_-down$\OT1/txr/m/n/10.95 = [\T1/mak/m/n/10.95 1\OML/mak/m/it/10.95 ; \T1/mak/m/n/10.95 2\OML/mak/m/it/10.95 ; \T1/mak/m/n/10.95 2\OML/mak/m/it/10.95 ; \T1/mak/m/n/10.95 4\OT1/txr/m/n/10.95 ]$[]\LGR/mak/m/n/10.95 , []\T1/mak/m/n/10.95 blocks_-up$\OT1/txr/m/n/10.95 = [\T1/mak/m/n/10.95 1\OML/mak/m/it/10.95 ; \T1/mak/m/n/10.95 1\OML/mak/m/it/10.95 ; \T1/mak/m/n/10.95 1\OT1/txr/m/n/10.95 ]$[]\LGR/mak/m/n/10.95 . 
  []
 
 
-Overfull \hbox (1.62119pt too wide) in paragraph at lines 253--257
-\LGR/mak/m/n/10.95 pro-so-moi-∏noun re-a-li-sti-k† me-ta-blh-tÏth-ta qw-r–c na al-loi-∏noun th sh-ma-sio-lo-g–a thc màskac. 
+Overfull \hbox (12.68481pt too wide) in paragraph at lines 227--229
+[]\T1/mak/m/n/10.95 SegResNet Lighter[]\LGR/mak/m/n/10.95 : []\T1/mak/m/n/10.95 init_-filters$\OT1/txr/m/n/10.95 = \T1/mak/m/n/10.95 32$[]\LGR/mak/m/n/10.95 , []\T1/mak/m/n/10.95 blocks_-down$\OT1/txr/m/n/10.95 = [\T1/mak/m/n/10.95 1\OML/mak/m/it/10.95 ; \T1/mak/m/n/10.95 2\OML/mak/m/it/10.95 ; \T1/mak/m/n/10.95 2\OML/mak/m/it/10.95 ; \T1/mak/m/n/10.95 4\OT1/txr/m/n/10.95 ]$[]\LGR/mak/m/n/10.95 , []\T1/mak/m/n/10.95 blocks_-up$\OT1/txr/m/n/10.95 = [\T1/mak/m/n/10.95 1\OML/mak/m/it/10.95 ; \T1/mak/m/n/10.95 1\OML/mak/m/it/10.95 ; \T1/mak/m/n/10.95 1\OT1/txr/m/n/10.95 ]$[]\LGR/mak/m/n/10.95 . 
  []
 
 
 
 [53]
-LaTeX Font Info:    Trying to load font information for LGR+fvm on input line 301.
-LaTeX Font Info:    No file LGRfvm.fd. on input line 301.
-
-
-LaTeX Font Warning: Font shape `LGR/fvm/m/n' undefined
-(Font)              using `LGR/cmr/m/n' instead on input line 301.
-
-LaTeX Font Info:    Trying to load font information for OT1+fvm on input line 301.
-LaTeX Font Info:    No file OT1fvm.fd. on input line 301.
-
-LaTeX Font Warning: Font shape `OT1/fvm/m/n' undefined
-(Font)              using `OT1/cmr/m/n' instead
-(Font)              for symbol `textunderscore' on input line 301.
-
-
 
 [54]
 
@@ -1910,181 +1905,188 @@ LaTeX Font Warning: Font shape `OT1/fvm/m/n' undefined
 [57]
 
 [58]
-<figures/history_attentionUnet.png, id=761, 924.5742pt x 568.0422pt>
-File: figures/history_attentionUnet.png Graphic file (type png)
-<use figures/history_attentionUnet.png>
-Package pdftex.def Info: figures/history_attentionUnet.png  used on input line 116.
-(pdftex.def)             Requested size: 192.0548pt x 117.99223pt.
+<figures/history_attUnet.png, id=744, 938.5464pt x 569.2467pt>
+File: figures/history_attUnet.png Graphic file (type png)
+<use figures/history_attUnet.png>
+Package pdftex.def Info: figures/history_attUnet.png  used on input line 117.
+(pdftex.def)             Requested size: 192.0548pt x 116.47917pt.
 LaTeX Font Info:    Font shape `LGR/mak/m/it' will be
-(Font)              scaled to size 8.99994pt on input line 117.
+(Font)              scaled to size 8.99994pt on input line 118.
 LaTeX Font Info:    Font shape `T1/mak/m/it' will be
-(Font)              scaled to size 8.99994pt on input line 117.
-<figures/history_dynunet.png, id=762, 948.6642pt x 569.4876pt>
+(Font)              scaled to size 8.99994pt on input line 118.
+<figures/history_dynunet.png, id=745, 948.6642pt x 569.4876pt>
 File: figures/history_dynunet.png Graphic file (type png)
 <use figures/history_dynunet.png>
-Package pdftex.def Info: figures/history_dynunet.png  used on input line 122.
+Package pdftex.def Info: figures/history_dynunet.png  used on input line 123.
 (pdftex.def)             Requested size: 192.0548pt x 115.28584pt.
-<figures/history_SwinUNETR.png, id=763, 941.919pt x 568.0422pt>
-File: figures/history_SwinUNETR.png Graphic file (type png)
-<use figures/history_SwinUNETR.png>
-Package pdftex.def Info: figures/history_SwinUNETR.png  used on input line 128.
+<figures/history_SwinUNETR_HEAVIER.png, id=746, 941.919pt x 568.0422pt>
+File: figures/history_SwinUNETR_HEAVIER.png Graphic file (type png)
+<use figures/history_SwinUNETR_HEAVIER.png>
+Package pdftex.def Info: figures/history_SwinUNETR_HEAVIER.png  used on input line 129.
 (pdftex.def)             Requested size: 192.0548pt x 115.81667pt.
-<figures/history_segresLight.png, id=764, 938.5464pt x 569.4876pt>
+<figures/history_SwinUNETR_LIGHTER.png, id=747, 978.5358pt x 571.4148pt>
+File: figures/history_SwinUNETR_LIGHTER.png Graphic file (type png)
+<use figures/history_SwinUNETR_LIGHTER.png>
+Package pdftex.def Info: figures/history_SwinUNETR_LIGHTER.png  used on input line 135.
+(pdftex.def)             Requested size: 192.0548pt x 112.14476pt.
+<figures/history_segresLight.png, id=748, 938.5464pt x 569.4876pt>
 File: figures/history_segresLight.png Graphic file (type png)
 <use figures/history_segresLight.png>
-Package pdftex.def Info: figures/history_segresLight.png  used on input line 138.
+Package pdftex.def Info: figures/history_segresLight.png  used on input line 145.
 (pdftex.def)             Requested size: 192.0548pt x 116.52847pt.
-<figures/history_segresHeavy.png, id=765, 939.51pt x 570.933pt>
+<figures/history_segresHeavy.png, id=749, 939.51pt x 570.933pt>
 File: figures/history_segresHeavy.png Graphic file (type png)
 <use figures/history_segresHeavy.png>
-Package pdftex.def Info: figures/history_segresHeavy.png  used on input line 143.
+Package pdftex.def Info: figures/history_segresHeavy.png  used on input line 150.
 (pdftex.def)             Requested size: 192.0548pt x 116.71097pt.
-<figures/history_UNET.png, id=766, 939.0282pt x 570.933pt>
+<figures/history_UNET.png, id=750, 1005.0348pt x 575.9919pt>
 File: figures/history_UNET.png Graphic file (type png)
 <use figures/history_UNET.png>
-Package pdftex.def Info: figures/history_UNET.png  used on input line 148.
-(pdftex.def)             Requested size: 192.0548pt x 116.76324pt.
-<figures/history_UNETR.png, id=767, 933.7284pt x 567.0786pt>
+Package pdftex.def Info: figures/history_UNET.png  used on input line 155.
+(pdftex.def)             Requested size: 192.0548pt x 110.0636pt.
+<figures/history_UNETR.png, id=751, 933.7284pt x 567.0786pt>
 File: figures/history_UNETR.png Graphic file (type png)
 <use figures/history_UNETR.png>
-Package pdftex.def Info: figures/history_UNETR.png  used on input line 159.
+Package pdftex.def Info: figures/history_UNETR.png  used on input line 166.
 (pdftex.def)             Requested size: 192.0548pt x 116.63258pt.
-<figures/history_segmambaheavy.png, id=768, 938.0646pt x 572.6193pt>
+<figures/history_segmambaheavy.png, id=752, 938.0646pt x 572.6193pt>
 File: figures/history_segmambaheavy.png Graphic file (type png)
 <use figures/history_segmambaheavy.png>
-Package pdftex.def Info: figures/history_segmambaheavy.png  used on input line 164.
+Package pdftex.def Info: figures/history_segmambaheavy.png  used on input line 171.
 (pdftex.def)             Requested size: 192.0548pt x 117.23044pt.
-<figures/history_segmamba.png, id=769, 943.3644pt x 570.933pt>
+<figures/history_segmamba.png, id=753, 943.3644pt x 570.933pt>
 File: figures/history_segmamba.png Graphic file (type png)
 <use figures/history_segmamba.png>
-Package pdftex.def Info: figures/history_segmamba.png  used on input line 169.
+Package pdftex.def Info: figures/history_segmamba.png  used on input line 176.
 (pdftex.def)             Requested size: 192.0548pt x 116.23183pt.
 
 
-[59 <./figures/history_attentionUnet.png> <./figures/history_dynunet.png> <./figures/history_SwinUNETR.png>]
+[59 <./figures/history_attUnet.png> <./figures/history_dynunet.png> <./figures/history_SwinUNETR_HEAVIER.png> <./figures/history_SwinUNETR_LIGHTER.png>]
 
 [60 <./figures/history_segresLight.png> <./figures/history_segresHeavy.png> <./figures/history_UNET.png> <./figures/history_UNETR.png> <./figures/history_segmambaheavy.png> <./figures/history_segmamba.png>]
 
 [61]
-<figures/segmentation_masks_AttentionUnet.png, id=797, 821.27628pt x 504.15552pt>
+<figures/segmentation_masks_AttentionUnet.png, id=784, 831.68317pt x 502.42104pt>
 File: figures/segmentation_masks_AttentionUnet.png Graphic file (type png)
 <use figures/segmentation_masks_AttentionUnet.png>
-Package pdftex.def Info: figures/segmentation_masks_AttentionUnet.png  used on input line 286.
-(pdftex.def)             Requested size: 290.21498pt x 178.15718pt.
-Package hyperref Info: bookmark level for unknown illustration defaults to 0 on input line 287.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<figures/segmentation_masks_DynUNet.png, id=798, 818.38548pt x 500.68655pt>
+Package pdftex.def Info: figures/segmentation_masks_AttentionUnet.png  used on input line 290.
+(pdftex.def)             Requested size: 290.21498pt x 175.32101pt.
+Package hyperref Info: bookmark level for unknown illustration defaults to 0 on input line 291.
+<figures/segmentation_masks_DynUNet.png, id=785, 818.38548pt x 500.68655pt>
 File: figures/segmentation_masks_DynUNet.png Graphic file (type png)
 <use figures/segmentation_masks_DynUNet.png>
-Package pdftex.def Info: figures/segmentation_masks_DynUNet.png  used on input line 292.
+Package pdftex.def Info: figures/segmentation_masks_DynUNet.png  used on input line 297.
 (pdftex.def)             Requested size: 290.21498pt x 177.55014pt.
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/segmentation_masks_SwinUNETR.png, id=799, 825.61247pt x 505.31184pt>
-File: figures/segmentation_masks_SwinUNETR.png Graphic file (type png)
-<use figures/segmentation_masks_SwinUNETR.png>
-Package pdftex.def Info: figures/segmentation_masks_SwinUNETR.png  used on input line 298.
+[62 <./figures/segmentation_masks_AttentionUnet.png>]
+<figures/segmentation_masks_SwinUNETR_HEAVIER.png, id=791, 825.61247pt x 505.31184pt>
+File: figures/segmentation_masks_SwinUNETR_HEAVIER.png Graphic file (type png)
+<use figures/segmentation_masks_SwinUNETR_HEAVIER.png>
+Package pdftex.def Info: figures/segmentation_masks_SwinUNETR_HEAVIER.png  used on input line 304.
 (pdftex.def)             Requested size: 290.21498pt x 177.62512pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<figures/segmentation_masks_SegResHeavy.png, id=800, 829.37051pt x 502.9992pt>
+<figures/segmentation_masks_SwinUNETRlighter.png, id=792, 831.68317pt x 507.04633pt>
+File: figures/segmentation_masks_SwinUNETRlighter.png Graphic file (type png)
+<use figures/segmentation_masks_SwinUNETRlighter.png>
+Package pdftex.def Info: figures/segmentation_masks_SwinUNETRlighter.png  used on input line 311.
+(pdftex.def)             Requested size: 290.21498pt x 176.93501pt.
+<figures/segmentation_masks_SegResHeavy.png, id=793, 829.37051pt x 502.9992pt>
 File: figures/segmentation_masks_SegResHeavy.png Graphic file (type png)
 <use figures/segmentation_masks_SegResHeavy.png>
-Package pdftex.def Info: figures/segmentation_masks_SegResHeavy.png  used on input line 304.
+Package pdftex.def Info: figures/segmentation_masks_SegResHeavy.png  used on input line 318.
 (pdftex.def)             Requested size: 290.21498pt x 176.01398pt.
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/segmentation_masks_SegResLight.png, id=801, 825.03432pt x 506.17908pt>
+<figures/segmentation_masks_SegResLight.png, id=794, 825.03432pt x 506.17908pt>
 File: figures/segmentation_masks_SegResLight.png Graphic file (type png)
 <use figures/segmentation_masks_SegResLight.png>
-Package pdftex.def Info: figures/segmentation_masks_SegResLight.png  used on input line 309.
+Package pdftex.def Info: figures/segmentation_masks_SegResLight.png  used on input line 324.
 (pdftex.def)             Requested size: 290.21498pt x 178.05354pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/segmentation_masks_unet.png, id=802, 825.03432pt x 506.46815pt>
+<figures/segmentation_masks_unet.png, id=795, 828.50328pt x 505.02277pt>
 File: figures/segmentation_masks_unet.png Graphic file (type png)
 <use figures/segmentation_masks_unet.png>
-Package pdftex.def Info: figures/segmentation_masks_unet.png  used on input line 314.
-(pdftex.def)             Requested size: 290.21498pt x 178.15523pt.
+Package pdftex.def Info: figures/segmentation_masks_unet.png  used on input line 330.
+(pdftex.def)             Requested size: 290.21498pt x 176.89932pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/segmentation_masks_UNETR.png, id=803, 818.96364pt x 511.38252pt>
+<figures/segmentation_masks_UNETR.png, id=796, 818.96364pt x 511.38252pt>
 File: figures/segmentation_masks_UNETR.png Graphic file (type png)
 <use figures/segmentation_masks_UNETR.png>
-Package pdftex.def Info: figures/segmentation_masks_UNETR.png  used on input line 322.
+Package pdftex.def Info: figures/segmentation_masks_UNETR.png  used on input line 339.
 (pdftex.def)             Requested size: 290.21498pt x 181.21823pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/segmentation_masks_segmambaHEAVY.png, id=804, 824.16708pt x 497.79576pt>
+<figures/segmentation_masks_segmambaHEAVY.png, id=797, 824.16708pt x 497.79576pt>
 File: figures/segmentation_masks_segmambaHEAVY.png Graphic file (type png)
 <use figures/segmentation_masks_segmambaHEAVY.png>
-Package pdftex.def Info: figures/segmentation_masks_segmambaHEAVY.png  used on input line 326.
+Package pdftex.def Info: figures/segmentation_masks_segmambaHEAVY.png  used on input line 344.
 (pdftex.def)             Requested size: 290.21498pt x 175.28693pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/segmentation_masks_segmambaLIGHT.png, id=805, 825.03432pt x 498.663pt>
+<figures/segmentation_masks_segmambaLIGHT.png, id=798, 825.03432pt x 498.663pt>
 File: figures/segmentation_masks_segmambaLIGHT.png Graphic file (type png)
 <use figures/segmentation_masks_segmambaLIGHT.png>
-Package pdftex.def Info: figures/segmentation_masks_segmambaLIGHT.png  used on input line 330.
+Package pdftex.def Info: figures/segmentation_masks_segmambaLIGHT.png  used on input line 349.
 (pdftex.def)             Requested size: 290.21498pt x 175.40968pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 
-[62]
-
-[63 <./figures/segmentation_masks_AttentionUnet.png> <./figures/segmentation_masks_DynUNet.png> <./figures/segmentation_masks_SwinUNETR.png>]
+[63 <./figures/segmentation_masks_DynUNet.png> <./figures/segmentation_masks_SwinUNETR_HEAVIER.png> <./figures/segmentation_masks_SwinUNETRlighter.png>]
 
 [64 <./figures/segmentation_masks_SegResHeavy.png> <./figures/segmentation_masks_SegResLight.png> <./figures/segmentation_masks_unet.png>]
 
 [65 <./figures/segmentation_masks_UNETR.png> <./figures/segmentation_masks_segmambaHEAVY.png> <./figures/segmentation_masks_segmambaLIGHT.png>]
 LaTeX Font Info:    Font shape `LGR/mak/b/n' will be
-(Font)              scaled to size 7.19995pt on input line 357.
+(Font)              scaled to size 7.19995pt on input line 377.
 LaTeX Font Info:    Font shape `T1/mak/b/n' will be
-(Font)              scaled to size 7.19995pt on input line 357.
+(Font)              scaled to size 7.19995pt on input line 377.
 
-Underfull \hbox (badness 1442) in paragraph at lines 369--370
+Underfull \hbox (badness 1442) in paragraph at lines 389--390
 []|\LGR/mak/m/n/8 Mhtrik† koi-lÏth-ta: []\T1/mak/m/n/8 DSC[]\LGR/mak/m/n/8 =0.92
  []
 
 
-Underfull \hbox (badness 1442) in paragraph at lines 382--383
+Underfull \hbox (badness 1442) in paragraph at lines 402--403
 []|\LGR/mak/m/n/8 Mhtrik† koi-lÏth-ta: []\T1/mak/m/n/8 DSC[]\LGR/mak/m/n/8 =0.87
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 385--386
+Underfull \hbox (badness 10000) in paragraph at lines 405--406
 []|\T1/mak/m/n/8 MRF--MAS vs
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 391--392
+Underfull \hbox (badness 10000) in paragraph at lines 411--412
 []|\T1/mak/m/n/8 PlaNet-S
  []
 
 
-Underfull \hbox (badness 1242) in paragraph at lines 392--393
+Underfull \hbox (badness 1242) in paragraph at lines 412--413
 []|\LGR/mak/m/n/8 1090 []\T1/mak/m/n/8 to-tal[]\LGR/mak/m/n/8 , 875 []\T1/mak/m/n/8 train[]\LGR/mak/m/n/8 -215
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 394--395
+Underfull \hbox (badness 10000) in paragraph at lines 414--415
 []|\T1/mak/m/n/8 U-Net IoU[]\LGR/mak/m/n/8 =0.73$\OMS/txsy/m/n/8 ^^F$\LGR/mak/m/n/8 0.13, []\T1/mak/m/n/8 DS-
  []
 
 
-Overfull \hbox (67.67911pt too wide) in paragraph at lines 355--412
+Underfull \hbox (badness 10000) in paragraph at lines 424--425
+[]|\T1/mak/m/n/8 SegMamba
+ []
+
+
+Overfull \hbox (67.67911pt too wide) in paragraph at lines 375--432
  [][] 
  []
 
@@ -2093,156 +2095,53 @@ Overfull \hbox (67.67911pt too wide) in paragraph at lines 355--412
 [66
 
 ]
+Overfull \hbox (25.5745pt too wide) in paragraph at lines 509--523
+\LGR/mak/m/n/10.95 kàlu-yh. Au-tÏ pra-kti-kà sh-ma-–nei Ïti, se pe-ri-bàl-lo-nta me pe-rio-ri-smËnouc pÏrouc ([]\T1/mak/m/n/10.95 VRAM[]\LGR/mak/m/n/10.95 /qrÏnoc),
+ []
+
+
 
 [67])
 
 [68]
 
-[69
+[69]
+
+[70
 
 
 
 ]
 
-[70]
+[71]
+
+[72]
 \openout2 = `body_matter/chap7.aux'.
 
  (./body_matter/chap7.tex
 \textKappa \textepsilon \textphi \acctonos \textalpha \textlambda \textalpha \textiota \textomicron  7.
-)
-
-[71
 
 
-]
-
-[72
-
+[73
 
 
 ]
-
-[73]
-
-[74]
-\openout2 = `back_matter/appA.aux'.
-
- (./back_matter/appA.tex
-\textPi \textalpha \textrho \acctonos \textalpha \textrho \texttau \texteta \textmu \textalpha  {\greekscript \textAlpha \textnumeralsigngreek }.
-LaTeX Font Info:    Font shape `OML/mak/m/it' will be
-(Font)              scaled to size 8.99994pt on input line 48.
-LaTeX Font Info:    Font shape `OML/mak/m/it' will be
-(Font)              scaled to size 6.29996pt on input line 48.
-LaTeX Font Info:    Font shape `T1/mak/m/n' will be
-(Font)              scaled to size 8.99994pt on input line 48.
-LaTeX Font Info:    Font shape `T1/mak/m/n' will be
-(Font)              scaled to size 6.29996pt on input line 48.
-LaTeX Font Info:    Font shape `LGR/mak/b/n' will be
-(Font)              scaled to size 8.99994pt on input line 50.
-LaTeX Font Info:    Font shape `T1/mak/b/n' will be
-(Font)              scaled to size 8.99994pt on input line 50.
-)
-
-[75
-
-
-]
-
-[76]
-\openout2 = `back_matter/appB.aux'.
-
- (./back_matter/appB.tex
-\textPi \textalpha \textrho \acctonos \textalpha \textrho \texttau \texteta \textmu \textalpha  {\greekscript \textBeta \textnumeralsigngreek }.
-<figures/2.png, id=897, 187.70125pt x 119.44624pt>
-File: figures/2.png Graphic file (type png)
-<use figures/2.png>
-Package pdftex.def Info: figures/2.png  used on input line 25.
-(pdftex.def)             Requested size: 187.70079pt x 119.44594pt.
-
-
-[77
+Overfull \hbox (32.16866pt too wide) in paragraph at lines 88--91
+[] []\LGR/mak/b/n/10.95 A-po-do-ti-kÏth-ta kai e-pi-qei-rh-sia-k† a-xio-lÏgh-sh.[] \LGR/mak/m/n/10.95 H ka-ta-gra-f† qrÏnou ek-pa-–deu-sh-c/[]\T1/mak/m/n/10.95 inference[]\LGR/mak/m/n/10.95 ,
+ []
 
 
 
-
- <./figures/2.png>])
-
-[78]
-\openout2 = `back_matter/appC.aux'.
-
- (./back_matter/appC.tex
-\textPi \textalpha \textrho \acctonos \textalpha \textrho \texttau \texteta \textmu \textalpha  {\greekscript \textGamma \textnumeralsigngreek }.
-
-LaTeX Warning: Citation `goossens93' on page 79 undefined on input line 8.
-
-
-LaTeX Warning: Citation `greekbook' on page 79 undefined on input line 10.
-
-
-LaTeX Warning: Citation `LiArTs13' on page 79 undefined on input line 12.
-
-
-LaTeX Warning: Citation `dcis2011' on page 79 undefined on input line 14.
-
-
-LaTeX Warning: Citation `LaTeXProject' on page 79 undefined on input line 16.
-
-
-LaTeX Warning: Citation `zoi04' on page 79 undefined on input line 18.
-
-
-LaTeX Warning: Citation `elli05' on page 79 undefined on input line 20.
-
-
-LaTeX Warning: Citation `master04' on page 79 undefined on input line 22.
-
-
-LaTeX Warning: Citation `phd045' on page 79 undefined on input line 24.
-
-
-LaTeX Warning: Citation `viswanathan2014convenient' on page 79 undefined on input line 26.
-
-
-LaTeX Warning: Citation `MSU-CSE-05-29' on page 79 undefined on input line 28.
-
-)
-
-[79
+[74])
+Overfull \hbox (0.74231pt too wide) in paragraph at lines 97--288
+[] []\LGR/mak/b/n/10.95 Po-lu-tro-pi-k† kai po-lu--er-ga-sia-k† mo-nte-lo-po-–h-sh.[] \LGR/mak/m/n/10.95 Pi-ja-nËc e-pe-ktàseic pe-ri-lam-bànoun
+ []
 
 
 
+[75]
 
-]
-\openout2 = `back_matter/appD.aux'.
-
- (./back_matter/appD.tex
-
-[80
-
-
-
-
-]
-\textPi \textalpha \textrho \acctonos \textalpha \textrho \texttau \texteta \textmu \textalpha  {\greekscript \textDelta \textnumeralsigngreek }.
-)
-
-[81]
-\openout2 = `back_matter/appE.aux'.
-
- (./back_matter/appE.tex
-
-[82
-
-
-
-
-]
-\textPi \textalpha \textrho \acctonos \textalpha \textrho \texttau \texteta \textmu \textalpha  {\greekscript \textEpsilon \textnumeralsigngreek }.
-)
-
-[83]
-
-[84
+[76
 
 
 
@@ -2250,37 +2149,17 @@ LaTeX Warning: Citation `MSU-CSE-05-29' on page 79 undefined on input line 28.
 Missing character: There is no v in font gk7t!
 
 
-[85
+[77
 
 ]
 
-[86]
+[78]
 
-[87]
+[79]
 
-[88])
+[80])
 
-[89]
-
-[90
-
-] (./back_matter/abbreviations.tex)
-
-[91]
-
-[92
-
-] (./back_matter/glossary.tex)
-
-[93] LaTeX Warning: (ntua_thesis.cls): The "plain" option has been selected. CD label generation has been disabled.
- 
-LaTeX Warning: (ntua_thesis.cls): The "plain" option has been selected. CD cover generation has been disabled.
- 
-
-
-[94
-
-] (./main.aux (./front_matter/abstract.aux) (./front_matter/acknowledgements.aux) (./front_matter/preface.aux) (./body_matter/intro.aux) (./body_matter/chap2.aux) (./body_matter/chap3.aux) (./body_matter/chap4.aux) (./body_matter/chap5.aux) (./body_matter/chap6.aux) (./body_matter/chap7.aux) (./back_matter/appA.aux) (./back_matter/appB.aux) (./back_matter/appC.aux) (./back_matter/appD.aux) (./back_matter/appE.aux))
+[81] (./main.aux (./front_matter/abstract.aux) (./front_matter/acknowledgements.aux) (./front_matter/preface.aux) (./body_matter/intro.aux) (./body_matter/chap2.aux) (./body_matter/chap3.aux) (./body_matter/chap4.aux) (./body_matter/chap5.aux) (./body_matter/chap6.aux) (./body_matter/chap7.aux))
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -2289,32 +2168,26 @@ L3 programming layer <2025-01-18>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
  ) 
 Here is how much of TeX's memory you used:
- 32090 strings out of 473190
- 593069 string characters out of 5704335
- 954075 words of memory out of 5000000
- 54324 multiletter control sequences out of 15000+600000
- 648164 words of font info for 219 fonts, out of 8000000 for 9000
+ 31881 strings out of 473190
+ 588326 string characters out of 5704335
+ 950328 words of memory out of 5000000
+ 54181 multiletter control sequences out of 15000+600000
+ 635090 words of font info for 188 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,13n,107p,1561b,1022s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,13n,107p,1561b,956s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist, replaced by a fixed one
 
 
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
 
-</opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/kerkis/Kerkis-Bold.pfb></opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/kerkis/Kerkis-Italic.pfb></opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/kerkis/Kerkis-SmallCaps.pfb></opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/kerkis/Kerkis.pfb></opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb></opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/cbfonts/grmn1095.pfb></opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/txfonts/txex.pfb></opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb></opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on main.pdf (100 pages, 3589287 bytes).
+</opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/kerkis/Kerkis-Bold.pfb></opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/kerkis/Kerkis-Italic.pfb></opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/kerkis/Kerkis-SmallCaps.pfb></opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/kerkis/Kerkis.pfb></opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb></opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/txfonts/txex.pfb></opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb></opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
+Output written on main.pdf (87 pages, 4216388 bytes).
 PDF statistics:
- 1411 PDF objects out of 1440 (max. 8388607)
- 1213 compressed objects within 13 object streams
- 287 named destinations out of 1000 (max. 500000)
- 924 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1304 PDF objects out of 1440 (max. 8388607)
+ 1122 compressed objects within 12 object streams
+ 264 named destinations out of 1000 (max. 500000)
+ 841 words of extra memory for PDF output out of 10000 (max. 10000000)
 

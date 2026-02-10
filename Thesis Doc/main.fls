@@ -381,21 +381,6 @@ INPUT body_matter/chap6.aux
 INPUT ./body_matter/chap7.aux
 INPUT ./body_matter/chap7.aux
 INPUT body_matter/chap7.aux
-INPUT ./back_matter/appA.aux
-INPUT ./back_matter/appA.aux
-INPUT back_matter/appA.aux
-INPUT ./back_matter/appB.aux
-INPUT ./back_matter/appB.aux
-INPUT back_matter/appB.aux
-INPUT ./back_matter/appC.aux
-INPUT ./back_matter/appC.aux
-INPUT back_matter/appC.aux
-INPUT ./back_matter/appD.aux
-INPUT ./back_matter/appD.aux
-INPUT back_matter/appD.aux
-INPUT ./back_matter/appE.aux
-INPUT ./back_matter/appE.aux
-INPUT back_matter/appE.aux
 OUTPUT main.aux
 INPUT /opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/txfonts/omltxmi.fd
 INPUT /opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/txfonts/omltxmi.fd
@@ -494,11 +479,6 @@ INPUT /opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/tfm/public/
 INPUT /opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/tfm/public/kerkis/gksc7t.tfm
 INPUT /opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/tfm/public/kerkis/gk7t.tfm
 INPUT /opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/tfm/public/kerkis/gkb7t.tfm
-INPUT ./figures/rdf.png
-INPUT ./figures/rdf.png
-INPUT ./figures/rdf.png
-INPUT ./figures/rdf.png
-INPUT ./figures/rdf.png
 INPUT /opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/tfm/public/kerkis/gkb7t.tfm
 INPUT /opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/vf/public/kerkis/gksc7t.vf
 INPUT /opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/tfm/public/kerkis/gksc7a.tfm
@@ -728,11 +708,16 @@ INPUT ./figures/u-net-architecture.png
 INPUT ./figures/u-net-architecture.png
 INPUT ./figures/u-net-architecture.png
 INPUT ./figures/u-net-architecture.png
-INPUT ../Images and data for diploma/Screenshot 2026-01-26 at 19.02.46.png
-INPUT ../Images and data for diploma/Screenshot 2026-01-26 at 19.02.46.png
-INPUT ../Images and data for diploma/Screenshot 2026-01-26 at 19.02.46.png
-INPUT ../Images and data for diploma/Screenshot 2026-01-26 at 19.02.46.png
-INPUT ../Images and data for diploma/Screenshot 2026-01-26 at 19.02.46.png
+INPUT ./figures/Res connection.png
+INPUT ./figures/Res connection.png
+INPUT ./figures/Res connection.png
+INPUT ./figures/Res connection.png
+INPUT ./figures/Res connection.png
+INPUT ./figures/AttUNET attention gate.png
+INPUT ./figures/AttUNET attention gate.png
+INPUT ./figures/AttUNET attention gate.png
+INPUT ./figures/AttUNET attention gate.png
+INPUT ./figures/AttUNET attention gate.png
 INPUT ./figures/swin vs vit.png
 INPUT ./figures/swin vs vit.png
 INPUT ./figures/swin vs vit.png
@@ -750,19 +735,17 @@ INPUT /opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/bera/t1
 INPUT /opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/tfm/public/bera/fvmr8t.tfm
 INPUT /opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/vf/public/bera/fvmr8t.vf
 INPUT /opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/tfm/public/bera/fvmr8r.tfm
-INPUT /opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/tfm/public/bera/fvmr8t.tfm
-INPUT /opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/tfm/public/bera/fvmr8t.tfm
 INPUT ./body_matter/chap6.tex
 INPUT ./body_matter/chap6.tex
 OUTPUT body_matter/chap6.aux
 INPUT ./body_matter/chap6.tex
 INPUT ./body_matter/chap6.tex
 INPUT body_matter/chap6.tex
-INPUT ./figures/history_attentionUnet.png
-INPUT ./figures/history_attentionUnet.png
-INPUT ./figures/history_attentionUnet.png
-INPUT ./figures/history_attentionUnet.png
-INPUT ./figures/history_attentionUnet.png
+INPUT ./figures/history_attUnet.png
+INPUT ./figures/history_attUnet.png
+INPUT ./figures/history_attUnet.png
+INPUT ./figures/history_attUnet.png
+INPUT ./figures/history_attUnet.png
 INPUT /opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/tfm/public/kerkis/gki7t.tfm
 INPUT /opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/tfm/public/kerkis/eki8a.tfm
 INPUT ./figures/history_dynunet.png
@@ -770,11 +753,16 @@ INPUT ./figures/history_dynunet.png
 INPUT ./figures/history_dynunet.png
 INPUT ./figures/history_dynunet.png
 INPUT ./figures/history_dynunet.png
-INPUT ./figures/history_SwinUNETR.png
-INPUT ./figures/history_SwinUNETR.png
-INPUT ./figures/history_SwinUNETR.png
-INPUT ./figures/history_SwinUNETR.png
-INPUT ./figures/history_SwinUNETR.png
+INPUT ./figures/history_SwinUNETR_HEAVIER.png
+INPUT ./figures/history_SwinUNETR_HEAVIER.png
+INPUT ./figures/history_SwinUNETR_HEAVIER.png
+INPUT ./figures/history_SwinUNETR_HEAVIER.png
+INPUT ./figures/history_SwinUNETR_HEAVIER.png
+INPUT ./figures/history_SwinUNETR_LIGHTER.png
+INPUT ./figures/history_SwinUNETR_LIGHTER.png
+INPUT ./figures/history_SwinUNETR_LIGHTER.png
+INPUT ./figures/history_SwinUNETR_LIGHTER.png
+INPUT ./figures/history_SwinUNETR_LIGHTER.png
 INPUT ./figures/history_segresLight.png
 INPUT ./figures/history_segresLight.png
 INPUT ./figures/history_segresLight.png
@@ -819,11 +807,16 @@ INPUT ./figures/segmentation_masks_DynUNet.png
 INPUT ./figures/segmentation_masks_DynUNet.png
 INPUT ./figures/segmentation_masks_DynUNet.png
 INPUT ./figures/segmentation_masks_DynUNet.png
-INPUT ./figures/segmentation_masks_SwinUNETR.png
-INPUT ./figures/segmentation_masks_SwinUNETR.png
-INPUT ./figures/segmentation_masks_SwinUNETR.png
-INPUT ./figures/segmentation_masks_SwinUNETR.png
-INPUT ./figures/segmentation_masks_SwinUNETR.png
+INPUT ./figures/segmentation_masks_SwinUNETR_HEAVIER.png
+INPUT ./figures/segmentation_masks_SwinUNETR_HEAVIER.png
+INPUT ./figures/segmentation_masks_SwinUNETR_HEAVIER.png
+INPUT ./figures/segmentation_masks_SwinUNETR_HEAVIER.png
+INPUT ./figures/segmentation_masks_SwinUNETR_HEAVIER.png
+INPUT ./figures/segmentation_masks_SwinUNETRlighter.png
+INPUT ./figures/segmentation_masks_SwinUNETRlighter.png
+INPUT ./figures/segmentation_masks_SwinUNETRlighter.png
+INPUT ./figures/segmentation_masks_SwinUNETRlighter.png
+INPUT ./figures/segmentation_masks_SwinUNETRlighter.png
 INPUT ./figures/segmentation_masks_SegResHeavy.png
 INPUT ./figures/segmentation_masks_SegResHeavy.png
 INPUT ./figures/segmentation_masks_SegResHeavy.png
@@ -866,84 +859,9 @@ OUTPUT body_matter/chap7.aux
 INPUT ./body_matter/chap7.tex
 INPUT ./body_matter/chap7.tex
 INPUT body_matter/chap7.tex
-INPUT ./back_matter/appA.tex
-INPUT ./back_matter/appA.tex
-OUTPUT back_matter/appA.aux
-INPUT ./back_matter/appA.tex
-INPUT ./back_matter/appA.tex
-INPUT back_matter/appA.tex
-INPUT /opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/tfm/public/txfonts/txr.tfm
-INPUT /opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/tfm/public/txfonts/txr.tfm
-INPUT /opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/tfm/public/txfonts/t1xr.tfm
-INPUT /opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/tfm/public/txfonts/t1xr.tfm
-INPUT /opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/tfm/public/kerkis/kmath8a.tfm
-INPUT /opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/tfm/public/kerkis/kmath8a.tfm
-INPUT /opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/tfm/public/txfonts/txsy.tfm
-INPUT /opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/tfm/public/txfonts/txsy.tfm
-INPUT /opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/tfm/public/txfonts/txex.tfm
-INPUT /opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/tfm/public/txfonts/txex.tfm
-INPUT /opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/tfm/public/txfonts/txsya.tfm
-INPUT /opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/tfm/public/txfonts/txsya.tfm
-INPUT /opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/tfm/public/txfonts/txsyb.tfm
-INPUT /opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/tfm/public/txfonts/txsyb.tfm
-INPUT /opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/tfm/public/txfonts/txi.tfm
-INPUT /opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/tfm/public/txfonts/txi.tfm
-INPUT /opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/tfm/public/txfonts/txmia.tfm
-INPUT /opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/tfm/public/txfonts/txmia.tfm
-INPUT /opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/tfm/public/txfonts/txsyc.tfm
-INPUT /opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/tfm/public/txfonts/txsyc.tfm
-INPUT /opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/tfm/public/txfonts/txexa.tfm
-INPUT /opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/tfm/public/txfonts/txexa.tfm
-INPUT /opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/tfm/public/kerkis/ek8a.tfm
-INPUT /opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/tfm/public/kerkis/ek8a.tfm
-INPUT /opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/tfm/public/latex-fonts/lasy10.tfm
-INPUT /opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/tfm/public/latex-fonts/lasy7.tfm
-INPUT /opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/tfm/public/kerkis/gkb7t.tfm
-INPUT /opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/tfm/public/kerkis/ekb8a.tfm
-INPUT /opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/vf/public/kerkis/ekb8a.vf
-INPUT /opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/tfm/public/kerkis/ekb8r.tfm
-INPUT ./back_matter/appB.tex
-INPUT ./back_matter/appB.tex
-OUTPUT back_matter/appB.aux
-INPUT ./back_matter/appB.tex
-INPUT ./back_matter/appB.tex
-INPUT back_matter/appB.tex
-INPUT ./figures/2.png
-INPUT ./figures/2.png
-INPUT ./figures/2.png
-INPUT ./figures/2.png
-INPUT ./figures/2.png
-INPUT ./back_matter/appC.tex
-INPUT ./back_matter/appC.tex
-OUTPUT back_matter/appC.aux
-INPUT ./back_matter/appC.tex
-INPUT ./back_matter/appC.tex
-INPUT back_matter/appC.tex
-INPUT ./back_matter/appD.tex
-INPUT ./back_matter/appD.tex
-OUTPUT back_matter/appD.aux
-INPUT ./back_matter/appD.tex
-INPUT ./back_matter/appD.tex
-INPUT back_matter/appD.tex
-INPUT ./back_matter/appE.tex
-INPUT ./back_matter/appE.tex
-OUTPUT back_matter/appE.aux
-INPUT ./back_matter/appE.tex
-INPUT ./back_matter/appE.tex
-INPUT back_matter/appE.tex
 INPUT ./main.bbl
 INPUT ./main.bbl
 INPUT main.bbl
-INPUT ./back_matter/abbreviations.tex
-INPUT ./back_matter/abbreviations.tex
-INPUT ./back_matter/abbreviations.tex
-INPUT ./back_matter/abbreviations.tex
-INPUT back_matter/abbreviations.tex
-INPUT ./back_matter/glossary.tex
-INPUT ./back_matter/glossary.tex
-INPUT ./back_matter/glossary.tex
-INPUT ./back_matter/glossary.tex
-INPUT back_matter/glossary.tex
 INPUT main.aux
 INPUT ./front_matter/abstract.aux
 INPUT ./front_matter/abstract.aux
@@ -975,28 +893,11 @@ INPUT body_matter/chap6.aux
 INPUT ./body_matter/chap7.aux
 INPUT ./body_matter/chap7.aux
 INPUT body_matter/chap7.aux
-INPUT ./back_matter/appA.aux
-INPUT ./back_matter/appA.aux
-INPUT back_matter/appA.aux
-INPUT ./back_matter/appB.aux
-INPUT ./back_matter/appB.aux
-INPUT back_matter/appB.aux
-INPUT ./back_matter/appC.aux
-INPUT ./back_matter/appC.aux
-INPUT back_matter/appC.aux
-INPUT ./back_matter/appD.aux
-INPUT ./back_matter/appD.aux
-INPUT back_matter/appD.aux
-INPUT ./back_matter/appE.aux
-INPUT ./back_matter/appE.aux
-INPUT back_matter/appE.aux
 INPUT /opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/kerkis/Kerkis-Bold.pfb
 INPUT /opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/kerkis/Kerkis-Italic.pfb
 INPUT /opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/kerkis/Kerkis-SmallCaps.pfb
 INPUT /opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/kerkis/Kerkis.pfb
-INPUT /opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT /opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb
-INPUT /opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/cbfonts/grmn1095.pfb
 INPUT /opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb
 INPUT /opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb
 INPUT /opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/txfonts/txex.pfb
