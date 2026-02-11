@@ -741,11 +741,11 @@ OUTPUT body_matter/chap6.aux
 INPUT ./body_matter/chap6.tex
 INPUT ./body_matter/chap6.tex
 INPUT body_matter/chap6.tex
-INPUT ./figures/history_attUnet.png
-INPUT ./figures/history_attUnet.png
-INPUT ./figures/history_attUnet.png
-INPUT ./figures/history_attUnet.png
-INPUT ./figures/history_attUnet.png
+INPUT ./figures/history_attentionUnet.png
+INPUT ./figures/history_attentionUnet.png
+INPUT ./figures/history_attentionUnet.png
+INPUT ./figures/history_attentionUnet.png
+INPUT ./figures/history_attentionUnet.png
 INPUT /opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/tfm/public/kerkis/gki7t.tfm
 INPUT /opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/tfm/public/kerkis/eki8a.tfm
 INPUT ./figures/history_dynunet.png

@@ -37,7 +37,7 @@
 \textbf{Μοντέλο} & \en{\textbf{Dice}} & \en{\textbf{IoU}} & \en{\textbf{Val Loss}} \\
 \hline
 \en{U-Net}            & $0.823$  & $0.7002$  & $0.2177$ \\
-\en{Attention U-Net}  & $0.846$  & $0.735$  & $0.2004$  \\
+\en{Attention U-Net}  & $0.851$  & $0.74$  & $0.2034$  \\
 \en{DynUNet}          & $0.846$ & $0.7342$  & $0.1897$ \\
 \en{UNETR}            & $0.772$  & $0.6345$ & $0.2842$  \\
 \en{SwinUNETR Heavier}        & $0.8497$ & $0.7401$ & $0.1838$ \\
@@ -114,7 +114,7 @@
   \centering
   \begin{subfigure}[b]{0.45\linewidth}
     \centering
-    \includegraphics[width=\linewidth]{figures/history_attUnet.png}
+    \includegraphics[width=\linewidth]{figures/history_attentionUnet.png}
     \caption{\en{Attention U-Net}}
   \end{subfigure}
   \hfill
@@ -252,7 +252,7 @@
 και σε λεπτές περιοχές (ελαφρά υπο- ή υπερ-τμηματοποίηση). Η \en{Attention U-Net}
 και το \en{DynUNet} δείχνουν πιο σταθερή συμπεριφορά από το βασικό \en{U-Net},
 συμβατό με το μικρό αλλά μετρήσιμο κέρδος στις μετρικές
-(\en{Dice}$\approx 0.846$ έναντι $0.829$). Παράλληλα, το \en{U-Net} παρότι
+(\en{Dice}$\approx 0.851$ έναντι $0.823$). Παράλληλα, το \en{U-Net} παρότι
 παρουσιάζει αποδεκτή επικάλυψη, εμφανίζει μεγαλύτερο \en{validation loss}
 (Πίνακας \ref{tab:main_results}), κάτι που είναι ενδεικτικό ότι το \en{loss}
 (\en{Dice + CE}) είναι πιο ευαίσθητο σε αβεβαιότητα/λάθη κοντά στα όρια,
@@ -396,7 +396,7 @@
 & \en{UNet achieved}: ($0.77, 0.76$). \\
 
 \en{Huang et al.} 2023 \cite{huang2023prenatal}
-& \en{CNN--based} 
+& \en{CNN-based} 
 & 241 (\en{axial}), και 101 (\en{sagittal\-}) \en{MRI}
 & \en{DSC}=0.82 (\en{axial}), 0.82 (\en{sagittal})
 & Μητρική κοιλότητα: \en{DSC}=0.87 (\en{axial}), 0.92 (\en{sagittal}). \\
@@ -416,7 +416,7 @@
 \textbf{Παρούσα εργασία} 
 & \en{UNet}
 & 137 περιπτώσεις, \en{train}=109, \en{val}=28
-& \en{Dice}=0.829, \en{IoU}=0.7109 
+& \en{Dice}=0.823, \en{IoU}=0.7002 
 & Ενιαίο πρωτόκολλο σε 10 διαμορφώσεις μοντέλων και αξιολόγηση σε \en{3D} όγκους. 
 \\
 

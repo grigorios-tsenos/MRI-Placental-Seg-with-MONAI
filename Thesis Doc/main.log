@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Homebrew) (preloaded format=pdflatex 2025.11.7)  10 FEB 2026 20:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Homebrew) (preloaded format=pdflatex 2025.11.7)  11 FEB 2026 14:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1443,17 +1443,12 @@ LaTeX Font Info:    Font shape `LGR/mak/b/n' will be
 LaTeX Font Info:    Font shape `LGR/mak/b/n' will be
 (Font)              scaled to size 18.66588pt on input line 1.
 
-Overfull \hbox (15.67438pt too wide) in paragraph at lines 17--24
-\T1/mak/m/n/10.95 Mamba Heav-ier []\LGR/mak/m/n/10.95 ([]\T1/mak/m/n/10.95 Dice[]\LGR/mak/m/n/10.95 =0.8606, []\T1/mak/m/n/10.95 IoU[]\LGR/mak/m/n/10.95 =0.7566), po-lÔ ko-ntˆ sto []\T1/mak/m/n/10.95 Seg-Res-Net Heav-ier []\LGR/mak/m/n/10.95 ([]\T1/mak/m/n/10.95 Dice[]\LGR/mak/m/n/10.95 =0.8601).
- []
-
-
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.36 \end{abstract}
+l.32 \end{abstract}
                     [1
 
 
@@ -1463,12 +1458,12 @@ l.36 \end{abstract}
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.38 \begin{abstracteng}
+l.34 \begin{abstracteng}
                          [2
 
 ]
 LaTeX Font Info:    Font shape `T1/mak/b/n' will be
-(Font)              scaled to size 12.9599pt on input line 67.
+(Font)              scaled to size 12.9599pt on input line 59.
 )
 
 
@@ -1905,30 +1900,30 @@ Overfull \hbox (12.68481pt too wide) in paragraph at lines 227--229
 [57]
 
 [58]
-<figures/history_attUnet.png, id=744, 938.5464pt x 569.2467pt>
-File: figures/history_attUnet.png Graphic file (type png)
-<use figures/history_attUnet.png>
-Package pdftex.def Info: figures/history_attUnet.png  used on input line 117.
-(pdftex.def)             Requested size: 192.0548pt x 116.47917pt.
+<figures/history_attentionUnet.png, id=744, 940.4736pt x 548.5293pt>
+File: figures/history_attentionUnet.png Graphic file (type png)
+<use figures/history_attentionUnet.png>
+Package pdftex.def Info: figures/history_attentionUnet.png  used on input line 117.
+(pdftex.def)             Requested size: 192.0548pt x 112.01399pt.
 LaTeX Font Info:    Font shape `LGR/mak/m/it' will be
 (Font)              scaled to size 8.99994pt on input line 118.
 LaTeX Font Info:    Font shape `T1/mak/m/it' will be
 (Font)              scaled to size 8.99994pt on input line 118.
-<figures/history_dynunet.png, id=745, 948.6642pt x 569.4876pt>
+<figures/history_dynunet.png, id=745, 945.7734pt x 548.2884pt>
 File: figures/history_dynunet.png Graphic file (type png)
 <use figures/history_dynunet.png>
 Package pdftex.def Info: figures/history_dynunet.png  used on input line 123.
-(pdftex.def)             Requested size: 192.0548pt x 115.28584pt.
-<figures/history_SwinUNETR_HEAVIER.png, id=746, 941.919pt x 568.0422pt>
+(pdftex.def)             Requested size: 192.0548pt x 111.33734pt.
+<figures/history_SwinUNETR_HEAVIER.png, id=746, 935.1738pt x 547.3248pt>
 File: figures/history_SwinUNETR_HEAVIER.png Graphic file (type png)
 <use figures/history_SwinUNETR_HEAVIER.png>
 Package pdftex.def Info: figures/history_SwinUNETR_HEAVIER.png  used on input line 129.
-(pdftex.def)             Requested size: 192.0548pt x 115.81667pt.
-<figures/history_SwinUNETR_LIGHTER.png, id=747, 978.5358pt x 571.4148pt>
+(pdftex.def)             Requested size: 192.0548pt x 112.40274pt.
+<figures/history_SwinUNETR_LIGHTER.png, id=747, 947.9415pt x 547.8066pt>
 File: figures/history_SwinUNETR_LIGHTER.png Graphic file (type png)
 <use figures/history_SwinUNETR_LIGHTER.png>
 Package pdftex.def Info: figures/history_SwinUNETR_LIGHTER.png  used on input line 135.
-(pdftex.def)             Requested size: 192.0548pt x 112.14476pt.
+(pdftex.def)             Requested size: 192.0548pt x 110.98038pt.
 <figures/history_segresLight.png, id=748, 938.5464pt x 569.4876pt>
 File: figures/history_segresLight.png Graphic file (type png)
 <use figures/history_segresLight.png>
@@ -1961,16 +1956,16 @@ Package pdftex.def Info: figures/history_segmamba.png  used on input line 176.
 (pdftex.def)             Requested size: 192.0548pt x 116.23183pt.
 
 
-[59 <./figures/history_attUnet.png> <./figures/history_dynunet.png> <./figures/history_SwinUNETR_HEAVIER.png> <./figures/history_SwinUNETR_LIGHTER.png>]
+[59 <./figures/history_attentionUnet.png> <./figures/history_dynunet.png> <./figures/history_SwinUNETR_HEAVIER.png> <./figures/history_SwinUNETR_LIGHTER.png>]
 
 [60 <./figures/history_segresLight.png> <./figures/history_segresHeavy.png> <./figures/history_UNET.png> <./figures/history_UNETR.png> <./figures/history_segmambaheavy.png> <./figures/history_segmamba.png>]
 
 [61]
-<figures/segmentation_masks_AttentionUnet.png, id=784, 831.68317pt x 502.42104pt>
+<figures/segmentation_masks_AttentionUnet.png, id=784, 828.79236pt x 502.13196pt>
 File: figures/segmentation_masks_AttentionUnet.png Graphic file (type png)
 <use figures/segmentation_masks_AttentionUnet.png>
 Package pdftex.def Info: figures/segmentation_masks_AttentionUnet.png  used on input line 290.
-(pdftex.def)             Requested size: 290.21498pt x 175.32101pt.
+(pdftex.def)             Requested size: 290.21498pt x 175.82542pt.
 Package hyperref Info: bookmark level for unknown illustration defaults to 0 on input line 291.
 <figures/segmentation_masks_DynUNet.png, id=785, 818.38548pt x 500.68655pt>
 File: figures/segmentation_masks_DynUNet.png Graphic file (type png)
@@ -2125,41 +2120,31 @@ Overfull \hbox (25.5745pt too wide) in paragraph at lines 509--523
 [73
 
 
-]
-Overfull \hbox (32.16866pt too wide) in paragraph at lines 88--91
-[] []\LGR/mak/b/n/10.95 A-po-do-ti-kìth-ta kai e-pi-qei-rh-sia-k  a-xio-lìgh-sh.[] \LGR/mak/m/n/10.95 H ka-ta-gra-f  qrìnou ek-pa-Ðdeu-sh-c/[]\T1/mak/m/n/10.95 inference[]\LGR/mak/m/n/10.95 ,
- []
-
-
-
-[74])
-Overfull \hbox (0.74231pt too wide) in paragraph at lines 97--288
+])
+Overfull \hbox (0.74231pt too wide) in paragraph at lines 90--288
 [] []\LGR/mak/b/n/10.95 Po-lu-tro-pi-k  kai po-lu--er-ga-sia-k  mo-nte-lo-po-Ðh-sh.[] \LGR/mak/m/n/10.95 Pi-ja-nèc e-pe-ktˆseic pe-ri-lam-bˆnoun
  []
 
 
 
-[75]
-
-[76
-
-
-
-] (./main.bbl
+[74] (./main.bbl
 Missing character: There is no v in font gk7t!
 
 
-[77
+[75
+
+
+
 
 ]
 
-[78]
+[76]
 
-[79]
+[77]
 
-[80])
+[78])
 
-[81] (./main.aux (./front_matter/abstract.aux) (./front_matter/acknowledgements.aux) (./front_matter/preface.aux) (./body_matter/intro.aux) (./body_matter/chap2.aux) (./body_matter/chap3.aux) (./body_matter/chap4.aux) (./body_matter/chap5.aux) (./body_matter/chap6.aux) (./body_matter/chap7.aux))
+[79] (./main.aux (./front_matter/abstract.aux) (./front_matter/acknowledgements.aux) (./front_matter/preface.aux) (./body_matter/intro.aux) (./body_matter/chap2.aux) (./body_matter/chap3.aux) (./body_matter/chap4.aux) (./body_matter/chap5.aux) (./body_matter/chap6.aux) (./body_matter/chap7.aux))
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -2170,8 +2155,8 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 31881 strings out of 473190
- 588326 string characters out of 5704335
+ 31879 strings out of 473190
+ 588354 string characters out of 5704335
  950328 words of memory out of 5000000
  54181 multiletter control sequences out of 15000+600000
  635090 words of font info for 188 fonts, out of 8000000 for 9000
@@ -2184,10 +2169,10 @@ pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist,
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
 
 </opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/kerkis/Kerkis-Bold.pfb></opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/kerkis/Kerkis-Italic.pfb></opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/kerkis/Kerkis-SmallCaps.pfb></opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/kerkis/Kerkis.pfb></opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb></opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/txfonts/txex.pfb></opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb></opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on main.pdf (87 pages, 4216388 bytes).
+Output written on main.pdf (85 pages, 4187443 bytes).
 PDF statistics:
- 1304 PDF objects out of 1440 (max. 8388607)
- 1122 compressed objects within 12 object streams
- 264 named destinations out of 1000 (max. 500000)
+ 1296 PDF objects out of 1440 (max. 8388607)
+ 1116 compressed objects within 12 object streams
+ 262 named destinations out of 1000 (max. 500000)
  841 words of extra memory for PDF output out of 10000 (max. 10000000)
 
