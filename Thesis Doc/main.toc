@@ -157,7 +157,8 @@
 \contentsline {paragraph}{Περιορισμοί εγκυρότητας.}{74}{section.7.1}%
 \contentsline {paragraph}{Τελική αποτίμηση.}{74}{section.7.1}%
 \contentsline {section}{\numberline {7.2}Μελλοντικές επεκτάσεις}{74}{section.7.2}%
-\contentsline {paragraph}{Πολυτροπική και πολυ-εργασιακή μοντελοποίηση.}{74}{section.7.2}%
+\contentsline {paragraph}{Επέκταση με \foreignlanguage {english}{fine-tuning} από υπάρχοντα \foreignlanguage {english}{checkpoints}.}{74}{section.7.2}%
+\contentsline {paragraph}{Πολυτροπική και πολυ-εργασιακή μοντελοποίηση.}{75}{section.7.2}%
 \vspace \bigskipamount 
-\contentsline {chapter}{Βιβλιογραφία}{79}{chapter*.33}%
-\contentsline {subparagraph}{}{79}{chapter*.33}%
+\contentsline {chapter}{Βιβλιογραφία}{81}{chapter*.33}%
+\contentsline {subparagraph}{}{81}{chapter*.33}%
